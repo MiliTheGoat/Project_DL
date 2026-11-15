@@ -1,0 +1,22 @@
+{
+  "name": "x3d_m_exp2",
+  "model": "X3D-M",
+  "input": "3x16x224x224",
+  "parameters": 3007458,
+  "gflops_per_clip": 9.463364608,
+  "epochs_trained": 18,
+  "schedule_epochs": 18,
+  "train_clips": 9200,
+  "total_train_time_s": 11547.187817574002,
+  "mean_epoch_time_s": 641.5104343096668,
+  "time_to_best_epoch_s": 10866.932218127002,
+  "mean_train_clips_per_s": 14.485610578668176,
+  "data_wait_share": 0.36491173884433,
+  "peak_gpu_memory_mb": 3376.42431640625,
+  "best_epoch": 17,
+  "best_val_acc": 0.9747806787490845,
+  "best_val_f1": 0.9748528003692627,
+  "final_train_acc": 0.9997826218605042,
+  "final_val_acc": 0.9747806787490845,
+  "device": "Tesla T4"
+}
