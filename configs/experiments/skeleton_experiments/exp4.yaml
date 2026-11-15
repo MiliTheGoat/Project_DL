@@ -1,0 +1,42 @@
+# configs/experiments/skeleton_experiments/exp1.yaml
+# One experiment = one yaml file. Run it with:   uv run src/rgb_vs_skeleton/train_skeleton.py +exp=exp1
+# Copy this file (exp2.yaml, ...) to try other settings; `name` must be different in every file.
+
+name: ctr_gcn_2d_exp4        # name of the wandb run and of the folder <output_dir>/<name>/
+seed:  21430557
+
+# ---- how far to train (the run always continues from <output_dir>/<name>/last.pt)
+#   test_n_epochs: 5 -> stop after epoch 5 | raise it and run again to continue | 0 -> train all `epochs`
+test_n_epochs: 0
+restart: true            # true = ignore the checkpoint and start again from epoch 1
+
+# ---- learning-rate schedule (defaults = the CTR-GCN paper)
+epochs: 40
+lr: 0.01                   # highest learning rate, reached after the warm-up
+warmup_epochs: 5          # the learning rate grows linearly from lr/5 to lr over these epochs
+schedule: cosine            # step   = multiply the learning rate by lr_decay at the epochs in lr_steps
+                          # cosine = smooth fall from lr to 0 over the remaining epochs
+lr_steps: [25, 35]
+lr_decay: 0.1
+
+# ---- optimisation (SGD)
+momentum: 0.7
+nesterov: true
+weight_decay: 0.0001
+label_smoothing: 0.0
+mixed_precision: true     # half-precision on the GPU: faster and less memory (ignored on CPU)
+
+# ---- model
+dropout: 0.1              # dropout before the last layer (0 in the paper; try 0.3 if it overfits)
+
+# ---- data (the number of frames per clip is skeleton_num_frames in main_config.yaml: it belongs to the cache)
+batch_size: 64
+num_workers: 2            # 0 on Windows if the loader gives errors
+augment: true             # random small rotation and scaling of the training skeletons
+train_fraction: 1.0       # 0.1 = use only 10% of the training clips (quick tests, data-scarcity study)
+
+# ---- saving and logging
+output_dir: models        # on Colab: a folder on Google Drive, so checkpoints survive a disconnect
+log_every_steps: 20       # how often the training loss is sent to wandb inside an epoch (0 = never)
+wandb_project: rgb-vs-skeleton
+wandb_mode: online        # online | offline | disabled
