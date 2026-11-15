@@ -1,0 +1,83 @@
+# All paths are relative to the Project_DL folder - project root folder
+
+raw_zip_RGB_FOLDER: data/raw
+processed_RGB_FOLDER: data/processed/rgb
+
+raw_zip_skeleton_FOLDER: data/raw
+processed_skeleton_FOLDER: data/processed/skeleton
+
+raw_zip_HMDB1_FOLDER: data/external/raw
+processed_HMDB1_FOLDER: data/external/processed
+
+missing_skeleton_file: data/NTU_RGBD_samples_with_missing_skeletons.txt   # no leading slash
+
+reports_visualization_FOLDER: reports/visualization_clips
+reports_class_images_datasets_FOLDER: reports/figures
+
+delete_zip_after_extract: true     # safety: set false to keep the zips, too much data so delete
+dry_run: false                     # true = only print what would be extracted / deleted
+
+classes:
+  - {ntu60: 1,  hmdb: drink}
+  - {ntu60: 2,  hmdb: eat}
+  - {ntu60: 4,  hmdb: brush_hair}
+  - {ntu60: 6,  hmdb: pick}
+  - {ntu60: 7,  hmdb: throw}
+  - {ntu60: 8,  hmdb: sit}
+  - {ntu60: 9,  hmdb: stand}
+  - {ntu60: 10, hmdb: clap}
+  - {ntu60: 23, hmdb: wave}
+  - {ntu60: 24, hmdb: kick_ball}
+  - {ntu60: 27, hmdb: jump}
+  - {ntu60: 43, hmdb: fall_floor}
+  - {ntu60: 50, hmdb: punch}
+  - {ntu60: 51, hmdb: kick}
+  - {ntu60: 55, hmdb: hug}
+  - {ntu60: 58, hmdb: shake_hands}
+
+
+#Loaders param for models
+rgb_num_frames: 13
+rgb_side: 182
+rgb_size: 160
+rgb_batch_size: 8
+
+skeleton_num_frames: 64
+skeleton_batch_size: 32
+
+num_workers: 0
+
+# Skeleton pose estimation configs - pose_estimation.py
+skeleton_format: 2d13
+skeleton_cache_file: data/processed/skeleton_cache_2d13.npz
+skeleton_estimates_HMDB1_FOLDER: data/external/skeleton_estm
+excluded_HMDB1_FOLDER: data/external/excluded
+pose_model: yolo11s-pose.pt
+pose_joint_confidence: 0.3
+pose_min_detect_rate: 0.7
+pose_min_joints: 9
+pose_min_torso_rate: 0.5
+pose_min_clips_per_class: 30
+hmdb_prune: false
+
+# Dataset X-subject split configs for training and testing - loaders.py
+split_file: data/processed/splits.csv
+split_balance: true
+split_seed: 0
+
+
+### FOR COLAB DATA PREPARATION - shrink_data.py
+shrunk_RGB_FOLDER: data/processed/rgb_small     # small .mp4 copies of the videos
+shrunk_RGB_ZIP: data/processed/rgb.zip          # the one file to upload for RGB
+shrink_short_side: 256                          # height of the small videos in pixels
+shrink_workers: 4                               # videos converted at the same time
+
+# Keep Hydra from creating an outputs/<date>/ folder and log files on every run
+defaults:
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+hydra:
+  run:
+    dir: .
+  output_subdir: null

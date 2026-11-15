@@ -1,0 +1,23 @@
+{
+  "name": "ctr_gcn_2d_exp2",
+  "model": "CTR-GCN",
+  "input": "2x64x13x2",
+  "skeleton_format": "2d13",
+  "parameters": 1421184,
+  "gflops_per_clip": 1.871941632,
+  "epochs_trained": 40,
+  "schedule_epochs": 40,
+  "train_clips": 9200,
+  "total_train_time_s": 1735.1672282660015,
+  "mean_epoch_time_s": 43.37918070665004,
+  "time_to_best_epoch_s": 1431.0611367650013,
+  "mean_train_clips_per_s": 210.9857954686554,
+  "data_wait_share": 0.004375201885033145,
+  "peak_gpu_memory_mb": 1984.73388671875,
+  "best_epoch": 33,
+  "best_val_acc": 0.9517543911933899,
+  "best_val_f1": 0.9519500732421875,
+  "final_train_acc": 0.9993444085121155,
+  "final_val_acc": 0.9495614171028137,
+  "device": "Tesla T4"
+}
