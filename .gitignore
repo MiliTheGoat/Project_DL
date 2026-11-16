@@ -16,7 +16,6 @@ wandb/
 hpc_*.out
 hpc_*.err
 models/hpc_runs/**/*.pt
-models/hpc_runs/**/*.csv
 
 # vim
 *.swp
