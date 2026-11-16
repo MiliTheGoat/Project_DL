@@ -55,10 +55,10 @@ excluded_HMDB1_FOLDER: data/external/excluded
 pose_model: yolo11s-pose.pt
 pose_joint_confidence: 0.3
 pose_min_detect_rate: 0.7
-pose_min_joints: 9
+pose_min_joints: 7
 pose_min_torso_rate: 0.5
 pose_min_clips_per_class: 30
-hmdb_prune: false
+hmdb_prune: true
 
 # Dataset X-subject split configs for training and testing - loaders.py
 split_file: data/processed/splits.csv

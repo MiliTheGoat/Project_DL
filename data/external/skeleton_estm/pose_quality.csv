@@ -5,7 +5,7 @@ drink,310ToYuma_drink_h_cm_np1_le_goo_3,1.0,4.2,0.094,0,too few joints (only a h
 drink,310ToYuma_drink_h_nm_np1_fr_goo_2,0.969,2.16,0.0,0,too few joints (only a head or part of the body is visible)
 drink,310ToYuma_drink_u_nm_np1_le_goo_5,1.0,4.86,0.0,0,too few joints (only a head or part of the body is visible)
 drink,50_FIRST_DATES_drink_u_nm_np1_fr_goo_29,1.0,4.67,0.0,0,too few joints (only a head or part of the body is visible)
-drink,AMADEUS_drink_u_nm_np1_fr_goo_11,0.938,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+drink,AMADEUS_drink_u_nm_np1_fr_goo_11,0.938,7.0,0.0,0,shoulders and hips are not visible together
 drink,A_Beautiful_Mind_1_drink_u_cm_np1_fr_goo_4,1.0,6.72,0.0,0,too few joints (only a head or part of the body is visible)
 drink,A_Beautiful_Mind_1_drink_u_nm_np1_ri_goo_6,1.0,3.95,0.0,0,too few joints (only a head or part of the body is visible)
 drink,AboutABoy_drink_u_nm_np1_fr_goo_8,1.0,5.45,0.0,0,too few joints (only a head or part of the body is visible)
@@ -21,12 +21,12 @@ drink,AmericanGangster_drink_h_nm_np1_fr_goo_69,1.0,2.92,0.0,0,too few joints (o
 drink,AmericanGangster_drink_h_nm_np1_fr_med_28,0.797,4.08,0.062,0,too few joints (only a head or part of the body is visible)
 drink,AmericanGangster_drink_h_nm_np1_ri_bad_4,0.891,1.25,0.0,0,too few joints (only a head or part of the body is visible)
 drink,AmericanGangster_drink_h_nm_np1_ri_med_3,0.797,2.53,0.016,0,too few joints (only a head or part of the body is visible)
-drink,AmericanGangster_drink_u_cm_np1_fr_med_36,1.0,8.8,0.812,0,too few joints (only a head or part of the body is visible)
-drink,AmericanGangster_drink_u_cm_np1_fr_med_52,0.875,7.05,0.344,0,too few joints (only a head or part of the body is visible)
+drink,AmericanGangster_drink_u_cm_np1_fr_med_36,1.0,8.8,0.812,1,
+drink,AmericanGangster_drink_u_cm_np1_fr_med_52,0.875,7.05,0.344,0,shoulders and hips are not visible together
 drink,AmericanGangster_drink_u_nm_np1_fr_goo_44,1.0,4.97,0.0,0,too few joints (only a head or part of the body is visible)
-drink,AmericanGangster_drink_u_nm_np1_fr_goo_67,1.0,7.28,0.0,0,too few joints (only a head or part of the body is visible)
-drink,AmericanGangster_drink_u_nm_np1_fr_med_39,1.0,7.17,0.0,0,too few joints (only a head or part of the body is visible)
-drink,AmericanGangster_drink_u_nm_np1_fr_med_40,1.0,8.28,0.438,0,too few joints (only a head or part of the body is visible)
+drink,AmericanGangster_drink_u_nm_np1_fr_goo_67,1.0,7.28,0.0,0,shoulders and hips are not visible together
+drink,AmericanGangster_drink_u_nm_np1_fr_med_39,1.0,7.17,0.0,0,shoulders and hips are not visible together
+drink,AmericanGangster_drink_u_nm_np1_fr_med_40,1.0,8.28,0.438,0,shoulders and hips are not visible together
 drink,AmericanGangster_drink_u_nm_np1_fr_med_47,1.0,6.83,0.266,0,too few joints (only a head or part of the body is visible)
 drink,AmericanGangster_drink_u_nm_np1_le_goo_46,1.0,4.64,0.0,0,too few joints (only a head or part of the body is visible)
 drink,American_History_X_drink_h_nm_np1_fr_goo_46,0.984,2.86,0.047,0,too few joints (only a head or part of the body is visible)
@@ -42,7 +42,7 @@ drink,BLACK_HAWK_DOWN_drink_h_nm_np1_fr_goo_37,1.0,3.36,0.0,0,too few joints (on
 drink,BLACK_HAWK_DOWN_drink_h_nm_np1_fr_goo_39,1.0,4.31,0.0,0,too few joints (only a head or part of the body is visible)
 drink,BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_38,1.0,5.36,0.0,0,too few joints (only a head or part of the body is visible)
 drink,BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_4,1.0,4.72,0.156,0,too few joints (only a head or part of the body is visible)
-drink,BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_5,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+drink,BLACK_HAWK_DOWN_drink_u_nm_np1_fr_goo_5,1.0,7.0,0.0,0,shoulders and hips are not visible together
 drink,BRIDGETOTERABITHIA_drink_h_nm_np1_fr_goo_3,1.0,2.58,0.0,0,too few joints (only a head or part of the body is visible)
 drink,CasinoRoyale_drink_h_nm_np1_fr_goo_6,1.0,3.02,0.0,0,too few joints (only a head or part of the body is visible)
 drink,CastAway1_drink_h_cm_np1_le_goo_17,0.438,2.46,0.0,0,no person found in most frames
@@ -51,9 +51,9 @@ drink,CastAway2_drink_h_cm_np1_ri_goo_6,1.0,4.53,0.0,0,too few joints (only a he
 drink,CastAway2_drink_u_cm_np1_le_goo_8,1.0,6.39,0.094,0,too few joints (only a head or part of the body is visible)
 drink,CharlieAndTheChocolateFactory_drink_h_nm_np1_fr_goo_25,1.0,4.34,0.0,0,too few joints (only a head or part of the body is visible)
 drink,CharlieAndTheChocolateFactory_drink_h_nm_np1_fr_goo_26,1.0,3.5,0.0,0,too few joints (only a head or part of the body is visible)
-drink,ChildrenOfMen_drink_u_cm_np1_fr_goo_2,1.0,7.25,0.172,0,too few joints (only a head or part of the body is visible)
+drink,ChildrenOfMen_drink_u_cm_np1_fr_goo_2,1.0,7.25,0.172,0,shoulders and hips are not visible together
 drink,ChildrenOfMen_drink_u_nm_np1_fr_goo_0,1.0,9.0,1.0,1,
-drink,DONNIE_DARKO_drink_u_nm_np1_fr_goo_4,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+drink,DONNIE_DARKO_drink_u_nm_np1_fr_goo_4,1.0,7.0,0.0,0,shoulders and hips are not visible together
 drink,EVOLUTION_drink_u_cm_np1_fr_goo_11,1.0,4.08,0.0,0,too few joints (only a head or part of the body is visible)
 drink,EasternPromises_drink_u_nm_np1_ri_goo_0,1.0,4.83,0.0,0,too few joints (only a head or part of the body is visible)
 drink,EasternPromises_drink_u_nm_np2_fr_goo_1,1.0,5.16,0.0,0,too few joints (only a head or part of the body is visible)
@@ -68,7 +68,7 @@ drink,Gattaca_drink_h_cm_np1_fr_goo_2,1.0,3.7,0.125,0,too few joints (only a hea
 drink,Gattaca_drink_h_cm_np1_fr_goo_4,1.0,5.56,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Gattaca_drink_h_nm_np1_fr_goo_3,1.0,3.03,0.0,0,too few joints (only a head or part of the body is visible)
 drink,GoneBabyGone_drink_h_cm_np1_fr_goo_1,1.0,4.53,0.141,0,too few joints (only a head or part of the body is visible)
-drink,GoneBabyGone_drink_u_cm_np1_le_med_2,1.0,8.23,0.859,0,too few joints (only a head or part of the body is visible)
+drink,GoneBabyGone_drink_u_cm_np1_le_med_2,1.0,8.23,0.859,1,
 drink,Hitch_Part_1_drink_h_nm_np1_le_goo_5,1.0,3.61,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Hitch_Part_2_drink_h_nm_np1_le_goo_5,1.0,2.16,0.0,0,too few joints (only a head or part of the body is visible)
 drink,IamLegend_drink_h_nm_np1_fr_goo_22,1.0,4.33,0.0,0,too few joints (only a head or part of the body is visible)
@@ -77,12 +77,12 @@ drink,Italian_Job_4_drink_u_nm_np1_fr_goo_0,1.0,4.78,0.0,0,too few joints (only 
 drink,Juno_drink_h_nm_np1_fr_goo_0,1.0,4.12,0.0,0,too few joints (only a head or part of the body is visible)
 drink,KUNG_FU_HUSTLE_drink_h_cm_np1_fr_goo_5,1.0,4.48,0.016,0,too few joints (only a head or part of the body is visible)
 drink,LONGESTYARD_drink_u_cm_np1_fr_goo_1,0.812,5.37,0.0,0,too few joints (only a head or part of the body is visible)
-drink,LONGESTYARD_drink_u_cm_np1_fr_med_20,1.0,8.05,0.422,0,too few joints (only a head or part of the body is visible)
+drink,LONGESTYARD_drink_u_cm_np1_fr_med_20,1.0,8.05,0.422,0,shoulders and hips are not visible together
 drink,LittleChildren_drink_h_nm_np1_fr_goo_5,1.0,4.22,0.0,0,too few joints (only a head or part of the body is visible)
 drink,LittleChildren_drink_h_nm_np1_fr_goo_6,1.0,4.0,0.0,0,too few joints (only a head or part of the body is visible)
 drink,MeettheFockers_drink_u_cm_np1_fr_goo_4,1.0,3.22,0.0,0,too few joints (only a head or part of the body is visible)
 drink,MeettheFockers_drink_u_nm_np1_fr_goo_10,1.0,3.06,0.0,0,too few joints (only a head or part of the body is visible)
-drink,MeettheFockers_drink_u_nm_np1_fr_goo_6,1.0,8.03,0.312,0,too few joints (only a head or part of the body is visible)
+drink,MeettheFockers_drink_u_nm_np1_fr_goo_6,1.0,8.03,0.312,0,shoulders and hips are not visible together
 drink,MeettheParents_drink_u_nm_np1_fr_goo_4,1.0,5.2,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Oceans11_drink_h_nm_np1_fr_goo_3,1.0,5.91,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Oceans11_drink_h_nm_np1_fr_goo_4,1.0,4.3,0.0,0,too few joints (only a head or part of the body is visible)
@@ -93,15 +93,15 @@ drink,Oceans13_drink_h_nm_np1_fr_goo_3,1.0,3.59,0.0,0,too few joints (only a hea
 drink,Oceans13_drink_u_nm_np1_ri_goo_4,0.625,9.95,0.625,0,no person found in most frames
 drink,OldSchool_drink_h_nm_np1_fr_goo_4,1.0,3.27,0.0,0,too few joints (only a head or part of the body is visible)
 drink,OldSchool_drink_u_nm_np1_fr_goo_12,1.0,4.77,0.0,0,too few joints (only a head or part of the body is visible)
-drink,OldSchool_drink_u_nm_np1_ri_goo_25,1.0,7.25,0.625,0,too few joints (only a head or part of the body is visible)
+drink,OldSchool_drink_u_nm_np1_ri_goo_25,1.0,7.25,0.625,1,
 drink,OldSchool_drink_u_nm_np1_ri_goo_5,1.0,5.83,0.047,0,too few joints (only a head or part of the body is visible)
 drink,Pirates_1_drink_u_nm_np1_fr_goo_0,1.0,5.83,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Pirates_5_drink_u_nm_np2_fr_med_7,0.766,5.71,0.0,0,too few joints (only a head or part of the body is visible)
-drink,Prelinger_HabitPat1954_drink_u_nm_np1_fr_goo_15,1.0,8.0,0.109,0,too few joints (only a head or part of the body is visible)
+drink,Prelinger_HabitPat1954_drink_u_nm_np1_fr_goo_15,1.0,8.0,0.109,0,shoulders and hips are not visible together
 drink,RATRACE_drink_h_nm_np1_fr_goo_0,1.0,3.77,0.0,0,too few joints (only a head or part of the body is visible)
 drink,RATRACE_drink_h_nm_np1_fr_goo_11,1.0,3.06,0.0,0,too few joints (only a head or part of the body is visible)
 drink,RATRACE_drink_u_cm_np1_fr_goo_31,1.0,6.2,0.234,0,too few joints (only a head or part of the body is visible)
-drink,RATRACE_drink_u_nm_np1_ri_goo_5,1.0,7.2,0.0,0,too few joints (only a head or part of the body is visible)
+drink,RATRACE_drink_u_nm_np1_ri_goo_5,1.0,7.2,0.0,0,shoulders and hips are not visible together
 drink,RATRACE_drink_u_nm_np1_ri_med_19,1.0,10.08,1.0,1,
 drink,RETURN_OF_THE_KING_drink_f_nm_np1_fr_med_9,1.0,13.0,1.0,1,
 drink,RETURN_OF_THE_KING_drink_h_cm_np1_ri_goo_48,0.719,5.46,0.0,0,too few joints (only a head or part of the body is visible)
@@ -110,12 +110,12 @@ drink,RETURN_OF_THE_KING_drink_h_nm_np1_ri_goo_13,1.0,3.36,0.0,0,too few joints 
 drink,RETURN_OF_THE_KING_drink_h_nm_np1_ri_goo_47,0.531,3.06,0.0,0,no person found in most frames
 drink,RETURN_OF_THE_KING_drink_u_cm_np2_fr_goo_2,1.0,6.44,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Return_of_the_King_13_drink_h_nm_np1_fr_goo_1,1.0,4.25,0.0,0,too few joints (only a head or part of the body is visible)
-drink,Return_of_the_King_13_drink_u_nm_np4_le_med_0,1.0,8.86,0.891,0,too few joints (only a head or part of the body is visible)
+drink,Return_of_the_King_13_drink_u_nm_np4_le_med_0,1.0,8.86,0.891,1,
 drink,Return_of_the_King_2_drink_h_nm_np1_fr_goo_2,0.969,3.16,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Return_of_the_King_2_drink_h_nm_np1_fr_goo_3,1.0,3.55,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Return_of_the_King_2_drink_h_nm_np1_fr_goo_4,1.0,4.39,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Return_of_the_King_2_drink_h_nm_np1_fr_goo_5,0.984,3.92,0.0,0,too few joints (only a head or part of the body is visible)
-drink,Return_of_the_King_2_drink_u_nm_np2_fr_goo_1,1.0,7.05,0.0,0,too few joints (only a head or part of the body is visible)
+drink,Return_of_the_King_2_drink_u_nm_np2_fr_goo_1,1.0,7.05,0.0,0,shoulders and hips are not visible together
 drink,Return_of_the_King_5_drink_h_nm_np1_ri_goo_0,1.0,3.92,0.0,0,too few joints (only a head or part of the body is visible)
 drink,Shadow_of_a_Doubt_drink_h_nm_np1_fr_goo_8,1.0,3.64,0.0,0,too few joints (only a head or part of the body is visible)
 drink,SocialSeminarBunny_drink_h_nm_np1_le_med_0,0.969,3.47,0.031,0,too few joints (only a head or part of the body is visible)
@@ -123,20 +123,20 @@ drink,SocialSeminarChanging_drink_h_cm_np1_fr_med_0,0.656,3.6,0.047,0,no person 
 drink,SocialSeminarTom_drink_h_nm_np1_fr_goo_0,1.0,3.42,0.0,0,too few joints (only a head or part of the body is visible)
 drink,SweeneyTodd_drink_h_nm_np1_fr_bad_3,0.984,4.86,0.312,0,too few joints (only a head or part of the body is visible)
 drink,SweeneyTodd_drink_h_nm_np1_fr_med_4,1.0,3.44,0.0,0,too few joints (only a head or part of the body is visible)
-drink,SweeneyTodd_drink_u_cm_np1_le_med_22,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+drink,SweeneyTodd_drink_u_cm_np1_le_med_22,1.0,7.0,0.0,0,shoulders and hips are not visible together
 drink,SweeneyTodd_drink_u_nm_np1_fr_goo_26,1.0,5.19,0.0,0,too few joints (only a head or part of the body is visible)
 drink,SweeneyTodd_drink_u_nm_np1_le_goo_23,1.0,4.8,0.0,0,too few joints (only a head or part of the body is visible)
 drink,TheBoondockSaints_drink_f_cm_np1_fr_med_114,1.0,10.12,1.0,1,
 drink,TheBoondockSaints_drink_h_nm_np1_ri_med_16,1.0,4.3,0.0,0,too few joints (only a head or part of the body is visible)
 drink,TheBoondockSaints_drink_h_nm_np1_ri_med_79,0.844,5.94,0.016,0,too few joints (only a head or part of the body is visible)
-drink,TheBoondockSaints_drink_u_cm_np1_fr_med_115,1.0,7.67,0.328,0,too few joints (only a head or part of the body is visible)
+drink,TheBoondockSaints_drink_u_cm_np1_fr_med_115,1.0,7.67,0.328,0,shoulders and hips are not visible together
 drink,TheBoondockSaints_drink_u_cm_np1_fr_med_78,0.984,6.46,0.0,0,too few joints (only a head or part of the body is visible)
 drink,TheBoondockSaints_drink_u_nm_np1_fr_med_74,1.0,6.8,0.156,0,too few joints (only a head or part of the body is visible)
 drink,TheBoondockSaints_drink_u_nm_np1_fr_med_75,1.0,9.0,1.0,1,
 drink,TheBoondockSaints_drink_u_nm_np1_fr_med_77,1.0,6.97,0.0,0,too few joints (only a head or part of the body is visible)
-drink,TheBoondockSaints_drink_u_nm_np1_fr_med_80,1.0,8.19,0.188,0,too few joints (only a head or part of the body is visible)
+drink,TheBoondockSaints_drink_u_nm_np1_fr_med_80,1.0,8.19,0.188,0,shoulders and hips are not visible together
 drink,TheBoondockSaints_drink_u_nm_np2_fr_goo_99,1.0,6.94,0.0,0,too few joints (only a head or part of the body is visible)
-drink,TheLastManOnearth_drink_f_cm_np1_ri_med_12,1.0,8.78,1.0,0,too few joints (only a head or part of the body is visible)
+drink,TheLastManOnearth_drink_f_cm_np1_ri_med_12,1.0,8.78,1.0,1,
 drink,TheLastManOnearth_drink_u_nm_np1_fr_goo_6,1.0,3.98,0.0,0,too few joints (only a head or part of the body is visible)
 drink,TheLastManOnearth_drink_u_nm_np1_fr_goo_7,1.0,3.16,0.0,0,too few joints (only a head or part of the body is visible)
 drink,TheLastManOnearth_drink_u_nm_np1_fr_med_34,0.812,10.71,0.812,1,
@@ -162,23 +162,23 @@ drink,WeddingCrashers_drink_h_cm_np1_le_goo_5,0.812,4.81,0.0,0,too few joints (o
 drink,WeddingCrashers_drink_h_nm_np2_fr_goo_15,1.0,4.14,0.0,0,too few joints (only a head or part of the body is visible)
 drink,gangboy256kb_drink_h_nm_np1_ri_goo_0,1.0,5.44,0.0,0,too few joints (only a head or part of the body is visible)
 drink,prideandprejudice1_drink_u_nm_np1_fr_goo_12,1.0,3.06,0.0,0,too few joints (only a head or part of the body is visible)
-drink,prideandprejudice1_drink_u_nm_np1_fr_goo_7,1.0,7.94,0.312,0,too few joints (only a head or part of the body is visible)
+drink,prideandprejudice1_drink_u_nm_np1_fr_goo_7,1.0,7.94,0.312,0,shoulders and hips are not visible together
 eat,20060723sfjffdabaum_eat_h_cm_np1_fr_goo_0,0.906,4.28,0.0,0,too few joints (only a head or part of the body is visible)
 eat,20060723sfjffsomelikeitwarmed_eat_u_cm_np1_fr_med_2,1.0,9.0,1.0,1,
-eat,20060723sfjffsomelikeitwarmed_eat_u_cm_np1_ri_med_3,1.0,8.95,1.0,0,too few joints (only a head or part of the body is visible)
+eat,20060723sfjffsomelikeitwarmed_eat_u_cm_np1_ri_med_3,1.0,8.95,1.0,1,
 eat,310ToYuma_eat_u_nm_np1_fr_med_4,1.0,5.98,0.0,0,too few joints (only a head or part of the body is visible)
 eat,AMADEUS_eat_u_nm_np1_fr_goo_10,0.891,10.33,0.891,1,
 eat,AMADEUS_eat_u_nm_np1_fr_med_5,0.969,9.0,0.969,1,
-eat,AMADEUS_eat_u_nm_np1_fr_med_6,1.0,8.73,0.953,0,too few joints (only a head or part of the body is visible)
+eat,AMADEUS_eat_u_nm_np1_fr_med_6,1.0,8.73,0.953,1,
 eat,APOCALYPTO_eat_u_nm_np1_fr_goo_6,1.0,6.84,0.0,0,too few joints (only a head or part of the body is visible)
-eat,AmericanGangster_eat_u_cm_np1_fr_bad_62,1.0,7.55,0.406,0,too few joints (only a head or part of the body is visible)
+eat,AmericanGangster_eat_u_cm_np1_fr_bad_62,1.0,7.55,0.406,0,shoulders and hips are not visible together
 eat,AmericanGangster_eat_u_nm_np1_fr_med_12,1.0,6.05,0.047,0,too few joints (only a head or part of the body is visible)
 eat,American_History_X_eat_h_nm_np1_fr_goo_47,1.0,3.64,0.0,0,too few joints (only a head or part of the body is visible)
 eat,BIG_FISH_eat_h_nm_np1_fr_goo_15,0.938,4.97,0.0,0,too few joints (only a head or part of the body is visible)
 eat,BIG_FISH_eat_h_nm_np1_ri_goo_30,1.0,5.12,0.0,0,too few joints (only a head or part of the body is visible)
 eat,BIG_FISH_eat_u_nm_np1_fr_goo_16,1.0,4.0,0.0,0,too few joints (only a head or part of the body is visible)
-eat,BIG_FISH_eat_u_nm_np1_fr_goo_19,0.906,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-eat,BeforeNightFalls_eat_u_nm_np1_fr_med_0,1.0,7.31,0.344,0,too few joints (only a head or part of the body is visible)
+eat,BIG_FISH_eat_u_nm_np1_fr_goo_19,0.906,7.0,0.0,0,shoulders and hips are not visible together
+eat,BeforeNightFalls_eat_u_nm_np1_fr_med_0,1.0,7.31,0.344,0,shoulders and hips are not visible together
 eat,CastAway1_eat_h_nm_np1_fr_goo_22,1.0,3.06,0.0,0,too few joints (only a head or part of the body is visible)
 eat,CastAway1_eat_h_nm_np1_fr_goo_8,0.969,5.06,0.0,0,too few joints (only a head or part of the body is visible)
 eat,CastAway1_eat_u_nm_np1_fr_med_23,1.0,10.17,1.0,1,
@@ -191,7 +191,7 @@ eat,CharlieAndTheChocolateFactory_eat_h_nm_np1_fr_goo_21,1.0,3.14,0.0,0,too few 
 eat,CharlieAndTheChocolateFactory_eat_h_nm_np1_fr_goo_8,1.0,3.36,0.0,0,too few joints (only a head or part of the body is visible)
 eat,CharlieAndTheChocolateFactory_eat_h_nm_np1_fr_med_23,1.0,3.5,0.0,0,too few joints (only a head or part of the body is visible)
 eat,CharlieAndTheChocolateFactory_eat_h_nm_np1_ri_goo_6,0.969,2.76,0.0,0,too few joints (only a head or part of the body is visible)
-eat,CharlieAndTheChocolateFactory_eat_u_nm_np1_fr_goo_22,0.781,7.94,0.281,0,too few joints (only a head or part of the body is visible)
+eat,CharlieAndTheChocolateFactory_eat_u_nm_np1_fr_goo_22,0.781,7.94,0.281,0,shoulders and hips are not visible together
 eat,CharlieAndTheChocolateFactory_eat_u_nm_np1_le_med_0,1.0,9.0,1.0,1,
 eat,ChildrenOfMen_eat_u_cm_np1_fr_med_3,1.0,9.0,1.0,1,
 eat,ChildrenOfMen_eat_u_cm_np1_fr_med_4,1.0,9.0,1.0,1,
@@ -204,12 +204,12 @@ eat,Glory_eat_h_cm_np1_fr_med_8,1.0,3.08,0.0,0,too few joints (only a head or pa
 eat,HP_PRISONER_OF_AZKABAN_eat_u_cm_np1_fr_goo_9,1.0,10.33,1.0,1,
 eat,Hitch_Part_2_eat_h_nm_np1_fr_goo_0,1.0,3.03,0.0,0,too few joints (only a head or part of the body is visible)
 eat,IamLegendII_eat_h_nm_np1_le_goo_8,1.0,3.11,0.0,0,too few joints (only a head or part of the body is visible)
-eat,IamLegendII_eat_u_nm_np1_fr_med_5,0.781,8.4,0.531,0,too few joints (only a head or part of the body is visible)
-eat,IamLegendII_eat_u_nm_np1_fr_med_6,1.0,8.98,0.984,0,too few joints (only a head or part of the body is visible)
+eat,IamLegendII_eat_u_nm_np1_fr_med_5,0.781,8.4,0.531,1,
+eat,IamLegendII_eat_u_nm_np1_fr_med_6,1.0,8.98,0.984,1,
 eat,IamLegend_eat_h_nm_np1_le_goo_25,1.0,3.05,0.0,0,too few joints (only a head or part of the body is visible)
 eat,IamLegend_eat_h_nm_np1_ri_goo_26,1.0,6.88,0.0,0,too few joints (only a head or part of the body is visible)
-eat,IamLegend_eat_u_nm_np1_fr_med_15,0.953,8.26,0.453,0,too few joints (only a head or part of the body is visible)
-eat,IamLegend_eat_u_nm_np1_ri_med_2,0.938,8.67,0.797,0,too few joints (only a head or part of the body is visible)
+eat,IamLegend_eat_u_nm_np1_fr_med_15,0.953,8.26,0.453,0,shoulders and hips are not visible together
+eat,IamLegend_eat_u_nm_np1_ri_med_2,0.938,8.67,0.797,1,
 eat,KUNG_FU_HUSTLE_eat_h_cm_np1_le_goo_25,1.0,3.34,0.0,0,too few joints (only a head or part of the body is visible)
 eat,LONGESTYARD_eat_h_cm_np1_ri_goo_23,1.0,5.47,0.0,0,too few joints (only a head or part of the body is visible)
 eat,MeettheParents_eat_h_nm_np1_fr_goo_3,1.0,3.5,0.0,0,too few joints (only a head or part of the body is visible)
@@ -223,7 +223,7 @@ eat,OldSchool_eat_h_nm_np1_fr_goo_20,1.0,3.28,0.0,0,too few joints (only a head 
 eat,Pirates_3_eat_h_cm_np1_fr_goo_3,1.0,4.75,0.0,0,too few joints (only a head or part of the body is visible)
 eat,Pirates_3_eat_h_nm_np1_fr_goo_4,0.984,6.24,0.031,0,too few joints (only a head or part of the body is visible)
 eat,Pirates_4_eat_h_nm_np1_fr_goo_3,1.0,4.64,0.0,0,too few joints (only a head or part of the body is visible)
-eat,Prelinger_HabitPat1954_eat_u_nm_np1_fr_goo_16,1.0,7.16,0.078,0,too few joints (only a head or part of the body is visible)
+eat,Prelinger_HabitPat1954_eat_u_nm_np1_fr_goo_16,1.0,7.16,0.078,0,shoulders and hips are not visible together
 eat,Prelinger_HabitPat1954_eat_u_nm_np1_fr_goo_17,0.891,4.54,0.0,0,too few joints (only a head or part of the body is visible)
 eat,RATRACE_eat_h_nm_np1_fr_goo_12,1.0,3.0,0.0,0,too few joints (only a head or part of the body is visible)
 eat,RETURN_OF_THE_KING_eat_h_nm_np1_fr_goo_18,0.859,3.07,0.0,0,too few joints (only a head or part of the body is visible)
@@ -243,12 +243,12 @@ eat,SocialSeminarChanging_eat_u_cm_np1_fr_med_1,1.0,6.83,0.359,0,too few joints 
 eat,SocialSeminarGuy_eat_u_cm_np1_fr_med_0,1.0,6.34,0.125,0,too few joints (only a head or part of the body is visible)
 eat,StrangerThanFiction_eat_h_nm_np1_ri_goo_4,1.0,2.17,0.0,0,too few joints (only a head or part of the body is visible)
 eat,StrangerThanFiction_eat_u_nm_np1_ri_med_3,1.0,9.0,1.0,1,
-eat,Superbad_eat_u_nm_np1_fr_goo_1,1.0,7.83,0.203,0,too few joints (only a head or part of the body is visible)
+eat,Superbad_eat_u_nm_np1_fr_goo_1,1.0,7.83,0.203,0,shoulders and hips are not visible together
 eat,SweeneyTodd_eat_h_nm_np1_fr_bad_1,1.0,4.59,0.359,0,too few joints (only a head or part of the body is visible)
 eat,SweeneyTodd_eat_h_nm_np1_fr_goo_15,1.0,5.34,0.0,0,too few joints (only a head or part of the body is visible)
 eat,SweeneyTodd_eat_u_cm_np1_le_med_39,0.906,5.28,0.0,0,too few joints (only a head or part of the body is visible)
 eat,THE_PROTECTOR_eat_h_cm_np1_fr_goo_51,0.984,1.63,0.0,0,too few joints (only a head or part of the body is visible)
-eat,THE_PROTECTOR_eat_u_nm_np1_le_goo_16,1.0,7.2,0.062,0,too few joints (only a head or part of the body is visible)
+eat,THE_PROTECTOR_eat_u_nm_np1_le_goo_16,1.0,7.2,0.062,0,shoulders and hips are not visible together
 eat,THE_PROTECTOR_eat_u_nm_np1_le_goo_58,1.0,5.3,0.172,0,too few joints (only a head or part of the body is visible)
 eat,THE_PROTECTOR_eat_u_nm_np1_le_goo_59,1.0,4.67,0.0,0,too few joints (only a head or part of the body is visible)
 eat,TheBoondockSaints_eat_h_nm_np1_fr_med_81,1.0,5.31,0.0,0,too few joints (only a head or part of the body is visible)
@@ -258,7 +258,7 @@ eat,The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_10,1.0,5.66,0.0,0,too few joints (
 eat,The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_4,1.0,5.3,0.0,0,too few joints (only a head or part of the body is visible)
 eat,The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_5,1.0,3.12,0.0,0,too few joints (only a head or part of the body is visible)
 eat,The_Departed_-_Part_1_eat_u_nm_np1_fr_goo_1,1.0,4.44,0.0,0,too few joints (only a head or part of the body is visible)
-eat,The_Departed_-_Part_1_eat_u_nm_np1_fr_med_2,1.0,7.53,0.266,0,too few joints (only a head or part of the body is visible)
+eat,The_Departed_-_Part_1_eat_u_nm_np1_fr_med_2,1.0,7.53,0.266,0,shoulders and hips are not visible together
 eat,The_Departed_-_Part_1_eat_u_nm_np1_le_goo_0,1.0,6.12,0.0,0,too few joints (only a head or part of the body is visible)
 eat,The_Fugitive_4_eat_h_nm_np1_fr_goo_0,0.969,4.71,0.0,0,too few joints (only a head or part of the body is visible)
 eat,The_Matrix_3_eat_h_nm_np1_fr_goo_12,0.906,2.14,0.0,0,too few joints (only a head or part of the body is visible)
@@ -271,17 +271,17 @@ eat,WeddingCrashers_eat_h_cm_np1_fr_med_4,1.0,3.11,0.0,0,too few joints (only a 
 eat,WeddingCrashers_eat_h_nm_np1_fr_goo_12,1.0,5.62,0.328,0,too few joints (only a head or part of the body is visible)
 eat,WeddingCrashers_eat_h_nm_np1_fr_goo_8,1.0,3.22,0.0,0,too few joints (only a head or part of the body is visible)
 eat,preparationoffoods256kb_eat_h_cm_np1_le_goo_0,1.0,2.03,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_0,1.0,8.02,0.984,0,too few joints (only a head or part of the body is visible)
-brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_1,1.0,8.03,1.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_2,1.0,7.81,0.906,0,too few joints (only a head or part of the body is visible)
+brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_0,1.0,8.02,0.984,1,
+brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_1,1.0,8.03,1.0,1,
+brush_hair,April_09_brush_hair_u_nm_np1_ba_goo_2,1.0,7.81,0.906,1,
 brush_hair,Aussie_Brunette_Brushing_Hair_II_brush_hair_u_nm_np1_ba_goo_4,0.859,4.8,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Aussie_Brunette_Brushing_Hair_II_brush_hair_u_nm_np1_ri_med_3,1.0,5.61,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Aussie_Brunette_Brushing_Hair_II_brush_hair_u_nm_np2_le_goo_0,1.0,5.67,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Aussie_Brunette_Brushing_Hair_II_brush_hair_u_nm_np2_le_goo_1,1.0,3.03,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Aussie_Brunette_Brushing_Hair_II_brush_hair_u_nm_np2_le_med_2,1.0,5.14,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_ba_med_3,0.953,7.75,0.547,0,too few joints (only a head or part of the body is visible)
-brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_1,1.0,8.42,0.469,0,too few joints (only a head or part of the body is visible)
-brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_2,1.0,8.92,0.953,0,too few joints (only a head or part of the body is visible)
+brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_ba_med_3,0.953,7.75,0.547,1,
+brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_1,1.0,8.42,0.469,0,shoulders and hips are not visible together
+brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_goo_2,1.0,8.92,0.953,1,
 brush_hair,Aussie_Brunette_Brushing_Long_Hair_brush_hair_u_nm_np1_fr_med_0,1.0,9.0,1.0,1,
 brush_hair,Blonde_being_brushed_brush_hair_f_nm_np2_ri_med_0,1.0,11.77,1.0,1,
 brush_hair,Blonde_being_brushed_brush_hair_u_cm_np2_ri_med_1,0.859,4.44,0.094,0,too few joints (only a head or part of the body is visible)
@@ -295,12 +295,12 @@ brush_hair,Brunette_Foxyanya_ultra_silky_long_hair_brushing_hairjob_brush_hair_h
 brush_hair,Brushing_Hair_with_Beth_brush_hair_h_nm_np1_le_goo_0,0.625,3.3,0.094,0,no person found in most frames
 brush_hair,Brushing_Hair_with_Beth_brush_hair_u_nm_np1_fr_goo_1,0.656,6.21,0.203,0,no person found in most frames
 brush_hair,Brushing_Hair_with_Beth_brush_hair_u_nm_np1_fr_goo_2,0.781,4.62,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_0,1.0,7.03,0.016,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_2,1.0,7.05,0.016,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_ba_goo_1,1.0,7.84,0.922,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_ba_goo_2,1.0,7.98,0.984,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_fr_goo_0,1.0,7.78,0.672,0,too few joints (only a head or part of the body is visible)
+brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_0,1.0,7.03,0.016,0,shoulders and hips are not visible together
+brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
+brush_hair,Brushing_hair__the_right_way_brush_hair_u_nm_np1_fr_goo_2,1.0,7.05,0.016,0,shoulders and hips are not visible together
+brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_ba_goo_1,1.0,7.84,0.922,1,
+brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_ba_goo_2,1.0,7.98,0.984,1,
+brush_hair,Brushing_my_Long_Hair__February_2009_brush_hair_u_nm_np1_fr_goo_0,1.0,7.78,0.672,1,
 brush_hair,Brushing_my_hair_-_December_2008_brush_hair_u_cm_np1_ba_goo_1,1.0,6.12,0.203,0,too few joints (only a head or part of the body is visible)
 brush_hair,Brushing_my_hair_-_December_2008_brush_hair_u_cm_np1_ba_goo_2,1.0,6.45,0.266,0,too few joints (only a head or part of the body is visible)
 brush_hair,Brushing_my_hair_-_December_2008_brush_hair_u_nm_np1_ba_goo_0,1.0,6.72,0.484,0,too few joints (only a head or part of the body is visible)
@@ -309,17 +309,17 @@ brush_hair,Brushing_my_long_hair_brush_hair_u_nm_np1_fr_goo_0,1.0,10.84,1.0,1,
 brush_hair,Brushing_my_long_hair_brush_hair_u_nm_np1_fr_goo_1,1.0,10.69,1.0,1,
 brush_hair,Brushing_my_waist_lenth_hair_brush_hair_u_nm_np1_ba_goo_0,0.531,5.26,0.266,0,no person found in most frames
 brush_hair,Brushing_my_waist_lenth_hair_brush_hair_u_nm_np1_ba_goo_1,0.969,6.45,0.578,0,too few joints (only a head or part of the body is visible)
-brush_hair,Brushing_my_waist_lenth_hair_brush_hair_u_nm_np1_ba_goo_2,1.0,7.02,0.906,0,too few joints (only a head or part of the body is visible)
+brush_hair,Brushing_my_waist_lenth_hair_brush_hair_u_nm_np1_ba_goo_2,1.0,7.02,0.906,1,
 brush_hair,Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_fr_goo_2,0.984,4.97,0.062,0,too few joints (only a head or part of the body is visible)
 brush_hair,Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_le_goo_0,1.0,6.83,0.484,0,too few joints (only a head or part of the body is visible)
-brush_hair,Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_le_goo_1,1.0,7.09,0.438,0,too few joints (only a head or part of the body is visible)
+brush_hair,Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_cm_np1_le_goo_1,1.0,7.09,0.438,0,shoulders and hips are not visible together
 brush_hair,Chanta!____THAT_IS_long_blonde_hair!_brush_hair_u_nm_np1_ri_goo_3,1.0,9.0,1.0,1,
 brush_hair,Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ba_goo_0,0.766,5.47,0.328,0,too few joints (only a head or part of the body is visible)
 brush_hair,Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ba_goo_2,0.781,5.7,0.438,0,too few joints (only a head or part of the body is visible)
-brush_hair,Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ri_goo_1,0.969,8.48,0.922,0,too few joints (only a head or part of the body is visible)
-brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_ba_goo_0,0.844,7.3,0.812,0,too few joints (only a head or part of the body is visible)
-brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_ba_goo_2,1.0,8.59,0.938,0,too few joints (only a head or part of the body is visible)
-brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_le_goo_1,1.0,7.92,1.0,0,too few joints (only a head or part of the body is visible)
+brush_hair,Ella_brushing_her_amazing_long_hair_brush_hair_u_cm_np1_ri_goo_1,0.969,8.48,0.922,1,
+brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_ba_goo_0,0.844,7.3,0.812,1,
+brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_ba_goo_2,1.0,8.59,0.938,1,
+brush_hair,Ella_brushing_her_long_blonde_hair___again_brush_hair_u_cm_np1_le_goo_1,1.0,7.92,1.0,1,
 brush_hair,Haarek_mmen_brush_hair_h_cm_np1_fr_goo_0,0.781,3.98,0.031,0,too few joints (only a head or part of the body is visible)
 brush_hair,Haarek_mmen_brush_hair_h_cm_np1_fr_goo_1,0.906,3.12,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Haarek_mmen_brush_hair_h_cm_np1_fr_goo_2,0.516,3.06,0.031,0,no person found in most frames
@@ -329,21 +329,21 @@ brush_hair,Lektion_3__-_Das_Haare_b_rsten_brush_hair_h_nm_np1_le_med_0,0.812,3.0
 brush_hair,My_Hair_Routine_brush_hair_h_nm_np1_le_goo_0,1.0,5.19,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Olivia_Brushing_Hair_Playing_with_Evelyn_brush_hair_u_cm_np1_fr_goo_1,1.0,9.69,1.0,1,
 brush_hair,Olivia_Brushing_Hair_Playing_with_Evelyn_brush_hair_u_cm_np2_ri_goo_0,1.0,10.14,0.906,1,
-brush_hair,Prelinger_HabitPat1954_brush_hair_h_nm_np1_ba_med_2,0.828,8.92,0.781,0,too few joints (only a head or part of the body is visible)
+brush_hair,Prelinger_HabitPat1954_brush_hair_h_nm_np1_ba_med_2,0.828,8.92,0.781,1,
 brush_hair,Prelinger_HabitPat1954_brush_hair_h_nm_np1_fr_med_26,1.0,2.64,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,Prelinger_HabitPat1954_brush_hair_u_cm_np1_le_med_10,0.875,8.02,0.656,0,too few joints (only a head or part of the body is visible)
-brush_hair,Prelinger_HabitPat1954_brush_hair_u_nm_np1_le_goo_11,0.938,8.73,0.766,0,too few joints (only a head or part of the body is visible)
+brush_hair,Prelinger_HabitPat1954_brush_hair_u_cm_np1_le_med_10,0.875,8.02,0.656,1,
+brush_hair,Prelinger_HabitPat1954_brush_hair_u_nm_np1_le_goo_11,0.938,8.73,0.766,1,
 brush_hair,Silky_Straight_Hair_Original_brush_hair_h_nm_np1_ba_goo_0,0.938,3.08,0.016,0,too few joints (only a head or part of the body is visible)
 brush_hair,Silky_Straight_Hair_Original_brush_hair_h_nm_np1_ba_goo_1,0.781,2.68,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Silky_Straight_Hair_Original_brush_hair_u_nm_np1_ba_goo_2,0.875,3.59,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Slave_brush_my_hair_brush_hair_u_cm_np2_le_goo_0,1.0,9.16,0.938,1,
-brush_hair,Slave_brush_my_hair_brush_hair_u_cm_np2_le_goo_1,1.0,8.61,0.812,0,too few joints (only a head or part of the body is visible)
-brush_hair,Slave_brush_my_hair_brush_hair_u_cm_np2_le_goo_2,1.0,8.78,0.828,0,too few joints (only a head or part of the body is visible)
+brush_hair,Slave_brush_my_hair_brush_hair_u_cm_np2_le_goo_1,1.0,8.61,0.812,1,
+brush_hair,Slave_brush_my_hair_brush_hair_u_cm_np2_le_goo_2,1.0,8.78,0.828,1,
 brush_hair,Trannydude___Brushing_SyntheticHair___OhNOES!__those_fukin_knots!_brush_hair_u_nm_np1_fr_goo_0,1.0,6.95,0.047,0,too few joints (only a head or part of the body is visible)
 brush_hair,Trannydude___Brushing_SyntheticHair___OhNOES!__those_fukin_knots!_brush_hair_u_nm_np1_fr_goo_1,1.0,6.56,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,Trannydude___Brushing_SyntheticHair___OhNOES!__those_fukin_knots!_brush_hair_u_nm_np1_fr_goo_2,1.0,6.12,0.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,atempting_to_brush_my_hair_brush_hair_u_nm_np2_le_goo_0,1.0,8.39,0.781,0,too few joints (only a head or part of the body is visible)
-brush_hair,atempting_to_brush_my_hair_brush_hair_u_nm_np2_le_goo_1,1.0,8.23,0.797,0,too few joints (only a head or part of the body is visible)
+brush_hair,atempting_to_brush_my_hair_brush_hair_u_nm_np2_le_goo_0,1.0,8.39,0.781,1,
+brush_hair,atempting_to_brush_my_hair_brush_hair_u_nm_np2_le_goo_1,1.0,8.23,0.797,1,
 brush_hair,brush_my_hair_without_wearing_the_glasses_brush_hair_u_nm_np1_fr_goo_0,0.656,11.0,0.656,0,no person found in most frames
 brush_hair,brush_my_hair_without_wearing_the_glasses_brush_hair_u_nm_np1_fr_goo_1,1.0,11.0,1.0,1,
 brush_hair,brush_my_hair_without_wearing_the_glasses_brush_hair_u_nm_np1_fr_goo_2,0.672,10.98,0.672,0,no person found in most frames
@@ -365,21 +365,21 @@ brush_hair,indianrapunzels_com---silky_long_hair_brushing_brush_hair_u_cm_np2_fr
 brush_hair,indianrapunzels_com---silky_long_hair_brushing_brush_hair_u_cm_np2_ri_goo_1,0.922,3.49,0.125,0,too few joints (only a head or part of the body is visible)
 brush_hair,long_hair_Christa__brush_hair_u_nm_np1_le_goo_0,1.0,10.8,1.0,1,
 brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_ba_goo_2,1.0,6.97,0.516,0,too few joints (only a head or part of the body is visible)
-brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_fr_goo_0,1.0,8.39,0.75,0,too few joints (only a head or part of the body is visible)
-brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_le_goo_1,1.0,8.09,0.5,0,too few joints (only a head or part of the body is visible)
+brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_fr_goo_0,1.0,8.39,0.75,1,
+brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_le_goo_1,1.0,8.09,0.5,1,
 brush_hair,me_brushing_my_hair_lol_i_was_being_silly_brush_hair_u_nm_np1_ri_goo_3,0.906,6.02,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,rebecca_golden_hair_brush_hair_h_nm_np1_ba_goo_0,0.562,2.92,0.016,0,no person found in most frames
-brush_hair,red_head_brush_hair_u_cm_np1_ba_goo_0,1.0,7.98,1.0,0,too few joints (only a head or part of the body is visible)
-brush_hair,red_head_brush_hair_u_cm_np1_fr_goo_1,1.0,8.73,0.984,0,too few joints (only a head or part of the body is visible)
-brush_hair,red_head_brush_hair_u_cm_np1_le_goo_2,1.0,8.59,0.938,0,too few joints (only a head or part of the body is visible)
+brush_hair,red_head_brush_hair_u_cm_np1_ba_goo_0,1.0,7.98,1.0,1,
+brush_hair,red_head_brush_hair_u_cm_np1_fr_goo_1,1.0,8.73,0.984,1,
+brush_hair,red_head_brush_hair_u_cm_np1_le_goo_2,1.0,8.59,0.938,1,
 brush_hair,sarah_brushing_her_hair_brush_hair_h_cm_np1_ri_goo_0,1.0,6.02,0.0,0,too few joints (only a head or part of the body is visible)
 brush_hair,sarah_brushing_her_hair_brush_hair_h_cm_np1_ri_goo_1,0.656,5.21,0.016,0,no person found in most frames
 pick,122_Cleaning_Up_The_Beach_In_Chiba__Japan_pick_f_nm_np1_fr_bad_1,0.047,9.0,0.047,0,no person found in most frames
 pick,122_Cleaning_Up_The_Beach_In_Chiba__Japan_pick_f_nm_np1_le_bad_2,0.062,7.0,0.047,0,no person found in most frames
 pick,122_Cleaning_Up_The_Beach_In_Chiba__Japan_pick_f_nm_np1_ri_bad_0,0.031,9.0,0.031,0,no person found in most frames
-pick,AMADEUS_pick_u_nm_np1_fr_med_8,1.0,8.34,0.891,0,too few joints (only a head or part of the body is visible)
+pick,AMADEUS_pick_u_nm_np1_fr_med_8,1.0,8.34,0.891,1,
 pick,AboutABoy_pick_h_nm_np1_le_goo_9,0.953,4.15,0.0,0,too few joints (only a head or part of the body is visible)
-pick,BuriedTreasure_pick_u_cm_np1_le_goo_1,1.0,8.94,0.922,0,too few joints (only a head or part of the body is visible)
+pick,BuriedTreasure_pick_u_cm_np1_le_goo_1,1.0,8.94,0.922,1,
 pick,Catch_Me_If_You_Can_pick_f_cm_np1_ri_med_5,1.0,11.69,1.0,1,
 pick,Clay_sBasketballSkillz_pick_f_nm_np1_ba_med_0,0.969,11.92,0.969,1,
 pick,Clay_sBasketballSkillz_pick_f_nm_np1_ri_med_8,1.0,11.89,1.0,1,
@@ -410,11 +410,11 @@ pick,Fishing_For_People_pick_f_cm_np2_ri_med_1,1.0,12.47,1.0,1,
 pick,Fishing_For_People_pick_f_nm_np2_ba_med_0,1.0,11.22,1.0,1,
 pick,Flaschenrolf_auf_Tour_pick_f_cm_np1_ba_bad_0,0.969,10.94,0.969,1,
 pick,Flaschenrolf_auf_Tour_pick_u_cm_np1_ba_bad_1,1.0,10.53,1.0,1,
-pick,GardenWiseB256kb_pick_f_nm_np1_le_med_0,0.812,8.42,0.562,0,too few joints (only a head or part of the body is visible)
+pick,GardenWiseB256kb_pick_f_nm_np1_le_med_0,0.812,8.42,0.562,1,
 pick,Gattaca_pick_f_nm_np1_fr_med_1,1.0,10.97,1.0,1,
 pick,Gattaca_pick_f_nm_np1_ri_med_0,1.0,11.12,1.0,1,
 pick,IamLegendII_pick_u_cm_np1_fr_med_2,0.516,7.27,0.266,0,no person found in most frames
-pick,IamLegendII_pick_u_cm_np1_le_med_3,1.0,8.91,1.0,0,too few joints (only a head or part of the body is visible)
+pick,IamLegendII_pick_u_cm_np1_le_med_3,1.0,8.91,1.0,1,
 pick,IamLegendII_pick_u_nm_np1_fr_bad_0,0.766,6.29,0.078,0,too few joints (only a head or part of the body is visible)
 pick,IamLegendII_pick_u_nm_np1_fr_med_1,0.875,6.45,0.141,0,too few joints (only a head or part of the body is visible)
 pick,Juno_pick_u_cm_np1_le_bad_9,1.0,5.81,0.109,0,too few joints (only a head or part of the body is visible)
@@ -466,17 +466,17 @@ pick,Wallet_Trick_pick_f_cm_np4_ri_med_0,0.969,12.52,0.969,1,
 pick,Yep__I_m_picking_up_trash_today_pick_f_cm_np1_fr_med_1,1.0,12.62,1.0,1,
 pick,Yep__I_m_picking_up_trash_today_pick_f_cm_np1_ri_med_0,1.0,12.91,1.0,1,
 pick,americanthrift1_pick_u_cm_np1_fr_med_1,1.0,9.7,1.0,1,
-pick,americanthrift2_pick_u_cm_np1_ri_med_1,0.984,7.92,0.547,0,too few joints (only a head or part of the body is visible)
-pick,americanthrift2_pick_u_nm_np1_ri_med_2,0.969,8.16,0.484,0,too few joints (only a head or part of the body is visible)
+pick,americanthrift2_pick_u_cm_np1_ri_med_1,0.984,7.92,0.547,1,
+pick,americanthrift2_pick_u_nm_np1_ri_med_2,0.969,8.16,0.484,0,shoulders and hips are not visible together
 pick,garbage_men_pick_f_cm_np1_ri_med_0,1.0,12.55,1.0,1,
 pick,garbage_men_pick_f_cm_np1_ri_med_1,0.969,12.74,0.953,1,
 pick,garbage_men_pick_f_cm_np1_ri_med_2,1.0,12.72,1.0,1,
-pick,nameunknown256kb_pick_u_nm_np1_le_med_2,1.0,8.95,0.922,0,too few joints (only a head or part of the body is visible)
+pick,nameunknown256kb_pick_u_nm_np1_le_med_2,1.0,8.95,0.922,1,
 pick,pick_up_trash_says_yeti_pick_f_cm_np1_le_med_1,0.734,12.34,0.734,1,
 pick,pick_up_trash_says_yeti_pick_f_cm_np1_le_med_2,0.781,12.6,0.781,1,
 pick,pick_up_trash_says_yeti_pick_f_cm_np1_ri_med_0,1.0,12.2,1.0,1,
 pick,prelinger_LetsBeGo1953_pick_f_cm_np1_fr_med_8,0.984,12.71,0.969,1,
-pick,prelinger_LetsBeGo1953_pick_f_nm_np1_ri_med_12,0.969,7.55,0.359,0,too few joints (only a head or part of the body is visible)
+pick,prelinger_LetsBeGo1953_pick_f_nm_np1_ri_med_12,0.969,7.55,0.359,0,shoulders and hips are not visible together
 pick,prelinger_TowardEm1954_pick_u_cm_np1_le_goo_5,0.391,6.36,0.234,0,no person found in most frames
 pick,prelinger_they_grow_up_so_fast_1_pick_f_nm_np1_fr_med_10,1.0,12.92,1.0,1,
 pick,prelinger_they_grow_up_so_fast_1_pick_u_nm_np1_ri_med_1,1.0,9.55,1.0,1,
@@ -485,28 +485,28 @@ throw,2008-08-09GiantsGameDodgersPracticeClaytonKershaw_throw_f_cm_np1_fr_med_0,
 throw,2008-08-09GiantsGameDodgersPracticeClaytonKershaw_throw_f_cm_np1_fr_med_1,0.984,13.0,0.984,1,
 throw,2008-08-09GiantsGameDodgersPracticeClaytonKershaw_throw_f_cm_np1_fr_med_2,1.0,12.97,1.0,1,
 throw,APOCALYPTO_throw_f_nm_np1_fr_med_1,0.844,10.59,0.844,1,
-throw,APOCALYPTO_throw_u_cm_np1_ri_med_0,1.0,8.7,0.625,0,too few joints (only a head or part of the body is visible)
+throw,APOCALYPTO_throw_u_cm_np1_ri_med_0,1.0,8.7,0.625,1,
 throw,AboutABoy_throw_f_nm_np1_ba_med_2,0.922,11.54,0.922,1,
 throw,AboutABoy_throw_u_nm_np1_ba_med_3,1.0,5.16,0.156,0,too few joints (only a head or part of the body is visible)
 throw,AdamandAlvonplayingbasketball2_throw_f_nm_np1_fr_med_1,0.906,13.0,0.906,1,
-throw,BaseballPitchingtarget_BaseballPitchingCage_throw_u_cm_np1_ba_med_1,1.0,7.69,0.5,0,too few joints (only a head or part of the body is visible)
+throw,BaseballPitchingtarget_BaseballPitchingCage_throw_u_cm_np1_ba_med_1,1.0,7.69,0.5,1,
 throw,BaseballPitchingtarget_BaseballPitchingCage_throw_u_nm_np1_ba_med_0,0.844,6.89,0.188,0,too few joints (only a head or part of the body is visible)
 throw,BiomechanicsEvaluationofaPitcher_throw_f_cm_np1_ri_med_0,1.0,13.0,1.0,1,
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_0,1.0,8.44,1.0,0,too few joints (only a head or part of the body is visible)
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_0,1.0,8.44,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_1,1.0,9.25,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_10,1.0,9.95,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_11,1.0,10.17,1.0,1,
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_12,1.0,8.7,1.0,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_13,1.0,8.56,0.984,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_14,1.0,8.09,1.0,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_15,1.0,8.45,1.0,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_16,1.0,8.7,1.0,0,too few joints (only a head or part of the body is visible)
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_12,1.0,8.7,1.0,1,
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_13,1.0,8.56,0.984,1,
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_14,1.0,8.09,1.0,1,
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_15,1.0,8.45,1.0,1,
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_16,1.0,8.7,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_17,1.0,9.34,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_18,1.0,6.47,0.594,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_19,1.0,7.45,0.766,0,too few joints (only a head or part of the body is visible)
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_2,1.0,8.28,1.0,0,too few joints (only a head or part of the body is visible)
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_19,1.0,7.45,0.766,1,
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_2,1.0,8.28,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_3,1.0,9.0,1.0,1,
-throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_4,1.0,8.75,1.0,0,too few joints (only a head or part of the body is visible)
+throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_4,1.0,8.75,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_5,1.0,9.52,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_6,1.0,9.38,1.0,1,
 throw,Compilationknifethrowing_throw_u_nm_np1_ba_med_7,1.0,9.78,1.0,1,
@@ -526,19 +526,19 @@ throw,Faith_Rewarded_throw_u_nm_np1_fr_bad_34,0.781,5.76,0.281,0,too few joints 
 throw,Fellowship_3_throw_u_nm_np1_fr_bad_4,0.656,6.81,0.438,0,no person found in most frames
 throw,Fellowship_5_throw_u_cm_np1_fr_med_9,0.766,4.31,0.031,0,too few joints (only a head or part of the body is visible)
 throw,Fellowship_5_throw_u_cm_np1_ri_med_2,0.859,10.45,0.859,1,
-throw,Finding_Forrester_3_throw_u_nm_np1_fr_med_13,0.938,8.67,0.938,0,too few joints (only a head or part of the body is visible)
+throw,Finding_Forrester_3_throw_u_nm_np1_fr_med_13,0.938,8.67,0.938,1,
 throw,HowtoParticipateinKnife_throw_f_cm_np1_le_med_1,1.0,12.39,1.0,1,
-throw,HowtoParticipateinKnife_throw_u_cm_np1_ba_med_0,0.906,8.78,0.906,0,too few joints (only a head or part of the body is visible)
+throw,HowtoParticipateinKnife_throw_u_cm_np1_ba_med_0,0.906,8.78,0.906,1,
 throw,IndianaJonesandTheTempleofDoom_throw_u_nm_np1_fr_med_4,0.969,4.65,0.016,0,too few joints (only a head or part of the body is visible)
-throw,KUNG_FU_HUSTLE_throw_u_cm_np1_fr_med_1,0.953,8.93,0.922,0,too few joints (only a head or part of the body is visible)
+throw,KUNG_FU_HUSTLE_throw_u_cm_np1_fr_med_1,0.953,8.93,0.922,1,
 throw,KnifeThrowingJackDaggerDemoReel_throw_f_nm_np1_fr_med_1,0.828,12.96,0.828,1,
 throw,KnifeThrowingJackDaggerDemoReel_throw_f_nm_np1_fr_med_2,0.969,13.0,0.969,1,
 throw,KnifeThrowingJackDaggerDemoReel_throw_f_nm_np1_le_med_4,0.953,13.0,0.953,1,
-throw,KnifeThrowingJackDaggerDemoReel_throw_u_cm_np1_ba_med_6,0.812,7.6,0.812,0,too few joints (only a head or part of the body is visible)
-throw,KnifeThrowingJackDaggerDemoReel_throw_u_cm_np1_ri_med_7,1.0,8.44,1.0,0,too few joints (only a head or part of the body is visible)
-throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_ba_med_0,0.875,7.64,0.797,0,too few joints (only a head or part of the body is visible)
-throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_ba_med_3,1.0,8.42,0.906,0,too few joints (only a head or part of the body is visible)
-throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_fr_med_5,0.781,7.96,0.594,0,too few joints (only a head or part of the body is visible)
+throw,KnifeThrowingJackDaggerDemoReel_throw_u_cm_np1_ba_med_6,0.812,7.6,0.812,1,
+throw,KnifeThrowingJackDaggerDemoReel_throw_u_cm_np1_ri_med_7,1.0,8.44,1.0,1,
+throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_ba_med_0,0.875,7.64,0.797,1,
+throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_ba_med_3,1.0,8.42,0.906,1,
+throw,KnifeThrowingJackDaggerDemoReel_throw_u_nm_np1_fr_med_5,0.781,7.96,0.594,1,
 throw,KnifeThrowing_throw_f_nm_np1_le_med_0,1.0,12.39,1.0,1,
 throw,KnifeThrowing_throw_f_nm_np1_le_med_1,1.0,12.67,1.0,1,
 throw,KnifeThrowing_throw_f_nm_np1_le_med_2,1.0,12.69,1.0,1,
@@ -546,20 +546,20 @@ throw,KnifeThrowing_throw_f_nm_np1_le_med_3,1.0,12.84,1.0,1,
 throw,KnifeThrowing_throw_f_nm_np1_le_med_4,1.0,12.45,0.922,1,
 throw,Knifethrowing1_throw_u_cm_np1_le_med_0,0.672,12.53,0.672,0,no person found in most frames
 throw,Knifethrowing4knivestogethernospin_throw_f_nm_np1_ri_med_1,1.0,11.42,1.0,1,
-throw,Knifethrowing4knivestogethernospin_throw_u_nm_np1_ba_med_0,1.0,7.67,0.734,0,too few joints (only a head or part of the body is visible)
+throw,Knifethrowing4knivestogethernospin_throw_u_nm_np1_ba_med_0,1.0,7.67,0.734,1,
 throw,LittleChildren_throw_u_nm_np1_fr_med_8,0.328,1.1,0.0,0,no person found in most frames
 throw,NOVA_ELEGANTUNIVERSE2_throw_f_nm_np1_fr_med_2,1.0,12.97,1.0,1,
 throw,Pirates_4_throw_u_nm_np1_ba_med_4,0.844,3.09,0.016,0,too few joints (only a head or part of the body is visible)
 throw,Pirates_6_throw_u_cm_np1_fr_med_3,1.0,5.09,0.016,0,too few joints (only a head or part of the body is visible)
 throw,Prelinger_ActYourA1949_throw_f_cm_np1_ri_med_8,0.891,12.18,0.859,1,
-throw,Prelinger_ActYourA1949_throw_u_nm_np1_ri_med_13,1.0,8.58,1.0,0,too few joints (only a head or part of the body is visible)
+throw,Prelinger_ActYourA1949_throw_u_nm_np1_ri_med_13,1.0,8.58,1.0,1,
 throw,Return_of_the_King_12_throw_f_nm_np1_fr_med_0,0.438,12.71,0.438,0,no person found in most frames
 throw,SchoolRulesHowTheyHelpUs_throw_f_nm_np1_ba_med_3,0.953,12.08,0.953,1,
 throw,ScottKazmir_throw_f_cm_np1_fr_med_0,1.0,12.92,1.0,1,
 throw,ScottKazmir_throw_f_cm_np1_fr_med_1,0.812,12.52,0.812,1,
 throw,ScottKazmir_throw_f_cm_np1_fr_med_2,0.953,12.85,0.938,1,
-throw,Shadow_of_a_Doubt_throw_u_cm_np1_ba_med_0,1.0,7.72,0.922,0,too few joints (only a head or part of the body is visible)
-throw,Shadow_of_a_Doubt_throw_u_cm_np1_fr_med_5,0.875,7.14,0.031,0,too few joints (only a head or part of the body is visible)
+throw,Shadow_of_a_Doubt_throw_u_cm_np1_ba_med_0,1.0,7.72,0.922,1,
+throw,Shadow_of_a_Doubt_throw_u_cm_np1_fr_med_5,0.875,7.14,0.031,0,shoulders and hips are not visible together
 throw,Two_Towers_6_throw_h_cm_np1_fr_bad_3,0.75,4.19,0.0,0,too few joints (only a head or part of the body is visible)
 throw,Veoh_Alpha_Dog_1_throw_f_cm_np1_le_med_5,1.0,12.73,1.0,1,
 throw,Veoh_Alpha_Dog_1_throw_f_cm_np2_fr_med_57,1.0,13.0,1.0,1,
@@ -585,7 +585,7 @@ throw,prelinger_they_grow_up_so_fast_1_throw_f_nm_np1_fr_med_8,1.0,10.58,1.0,1,
 sit,20060723sfjffsomelikeitwarmed_sit_u_nm_np1_fr_goo_1,1.0,9.36,0.812,1,
 sit,50_FIRST_DATES_sit_f_cm_np1_fr_med_24,1.0,11.66,1.0,1,
 sit,50_FIRST_DATES_sit_f_nm_np1_le_med_4,1.0,6.89,0.0,0,too few joints (only a head or part of the body is visible)
-sit,AMADEUS_sit_u_nm_np1_fr_med_4,1.0,8.42,1.0,0,too few joints (only a head or part of the body is visible)
+sit,AMADEUS_sit_u_nm_np1_fr_med_4,1.0,8.42,1.0,1,
 sit,A_Beautiful_Mind_3_sit_f_cm_np1_fr_med_6,1.0,9.92,0.984,1,
 sit,A_Beautiful_Mind_3_sit_f_cm_np1_le_med_4,1.0,12.67,1.0,1,
 sit,A_Beautiful_Mind_5_sit_u_cm_np1_ri_med_1,0.938,13.0,0.938,1,
@@ -596,10 +596,10 @@ sit,AllThePresidentMen_sit_f_nm_np1_ri_med_7,1.0,12.27,1.0,1,
 sit,AmericanGangster_sit_f_cm_np1_fr_med_70,1.0,12.56,1.0,1,
 sit,AmericanGangster_sit_f_cm_np1_le_bad_11,0.984,10.4,0.984,1,
 sit,AmericanGangster_sit_f_cm_np1_le_med_43,0.984,11.9,0.984,1,
-sit,AmericanGangster_sit_f_cm_np2_fr_med_59,1.0,7.22,0.609,0,too few joints (only a head or part of the body is visible)
+sit,AmericanGangster_sit_f_cm_np2_fr_med_59,1.0,7.22,0.609,1,
 sit,AmericanGangster_sit_u_cm_np1_ba_bad_16,0.859,2.89,0.0,0,too few joints (only a head or part of the body is visible)
-sit,AmericanGangster_sit_u_cm_np1_fr_med_26,0.938,7.32,0.609,0,too few joints (only a head or part of the body is visible)
-sit,AmericanGangster_sit_u_cm_np1_le_med_61,1.0,7.25,0.625,0,too few joints (only a head or part of the body is visible)
+sit,AmericanGangster_sit_u_cm_np1_fr_med_26,0.938,7.32,0.609,1,
+sit,AmericanGangster_sit_u_cm_np1_le_med_61,1.0,7.25,0.625,1,
 sit,AmericanGangster_sit_u_cm_np1_ri_bad_10,0.422,5.33,0.047,0,no person found in most frames
 sit,AmericanGangster_sit_u_cm_np1_ri_med_25,1.0,5.64,0.344,0,too few joints (only a head or part of the body is visible)
 sit,AmericanGangster_sit_u_nm_np1_fr_med_29,1.0,9.16,1.0,1,
@@ -612,7 +612,7 @@ sit,BATMAN_BEGINS_sit_u_cm_np1_ba_med_10,1.0,13.0,1.0,1,
 sit,BIG_FISH_sit_f_nm_np1_fr_med_17,0.844,13.0,0.844,1,
 sit,BLACK_HAWK_DOWN_sit_u_cm_np1_ri_med_2,1.0,9.42,1.0,1,
 sit,BRIDGETOTERABITHIA_sit_f_nm_np1_fr_med_0,1.0,12.97,1.0,1,
-sit,BRIDGETOTERABITHIA_sit_u_nm_np1_fr_med_4,1.0,7.11,0.203,0,too few joints (only a head or part of the body is visible)
+sit,BRIDGETOTERABITHIA_sit_u_nm_np1_fr_med_4,1.0,7.11,0.203,0,shoulders and hips are not visible together
 sit,CastAway1_sit_f_nm_np1_le_med_25,1.0,12.7,1.0,1,
 sit,CastAway2_sit_f_cm_np1_ri_med_2,1.0,12.88,1.0,1,
 sit,Catch_Me_If_You_Can_sit_u_cm_np1_fr_med_6,1.0,10.19,1.0,1,
@@ -625,14 +625,14 @@ sit,Crash_sit_u_nm_np1_le_goo_26,0.984,6.46,0.344,0,too few joints (only a head 
 sit,EasternPromises_sit_f_cm_np1_ri_med_3,0.984,12.98,0.984,1,
 sit,EasternPromises_sit_f_nm_np1_fr_med_2,1.0,13.0,1.0,1,
 sit,EasternPromises_sit_f_nm_np1_ri_med_4,1.0,12.36,1.0,1,
-sit,Eurotrip_sit_u_cm_np1_fr_med_0,1.0,7.94,0.438,0,too few joints (only a head or part of the body is visible)
-sit,Eurotrip_sit_u_nm_np1_fr_goo_2,0.906,8.52,0.672,0,too few joints (only a head or part of the body is visible)
+sit,Eurotrip_sit_u_cm_np1_fr_med_0,1.0,7.94,0.438,0,shoulders and hips are not visible together
+sit,Eurotrip_sit_u_nm_np1_fr_goo_2,0.906,8.52,0.672,1,
 sit,Eurotrip_sit_u_nm_np1_fr_goo_3,1.0,9.34,0.859,1,
-sit,Finding_Forrester_1_sit_u_cm_np1_le_med_9,0.938,8.9,0.891,0,too few joints (only a head or part of the body is visible)
+sit,Finding_Forrester_1_sit_u_cm_np1_le_med_9,0.938,8.9,0.891,1,
 sit,Finding_Forrester_2_sit_u_cm_np1_ri_bad_3,0.406,9.08,0.391,0,no person found in most frames
-sit,Finding_Forrester_4_sit_u_cm_np1_fr_med_3,1.0,8.95,0.969,0,too few joints (only a head or part of the body is visible)
+sit,Finding_Forrester_4_sit_u_cm_np1_fr_med_3,1.0,8.95,0.969,1,
 sit,Finding_Forrester_5_sit_u_cm_np1_fr_med_2,1.0,6.16,0.047,0,too few joints (only a head or part of the body is visible)
-sit,Glory_sit_u_cm_np1_le_med_27,1.0,7.72,0.562,0,too few joints (only a head or part of the body is visible)
+sit,Glory_sit_u_cm_np1_le_med_27,1.0,7.72,0.562,1,
 sit,HP_PRISONER_OF_AZKABAN_sit_f_cm_np1_fr_med_20,0.906,12.76,0.906,1,
 sit,HP_PRISONER_OF_AZKABAN_sit_f_cm_np1_fr_med_3,0.734,12.55,0.734,1,
 sit,HP_PRISONER_OF_AZKABAN_sit_f_cm_np1_le_bad_16,1.0,12.98,1.0,1,
@@ -642,11 +642,11 @@ sit,Hitch_Part_2_sit_u_cm_np1_le_med_9,0.969,4.31,0.0,0,too few joints (only a h
 sit,IamLegendII_sit_f_cm_np1_fr_med_7,0.875,12.95,0.875,1,
 sit,IamLegendII_sit_f_nm_np1_le_med_4,0.672,13.0,0.672,0,no person found in most frames
 sit,IamLegend_sit_f_cm_np1_fr_med_21,0.953,12.95,0.953,1,
-sit,IamLegend_sit_f_cm_np1_fr_med_24,1.0,8.72,0.875,0,too few joints (only a head or part of the body is visible)
+sit,IamLegend_sit_f_cm_np1_fr_med_24,1.0,8.72,0.875,1,
 sit,IamLegend_sit_f_nm_np1_le_med_1,0.797,13.0,0.797,1,
 sit,IamLegend_sit_u_cm_np1_ri_med_11,1.0,6.81,0.609,0,too few joints (only a head or part of the body is visible)
 sit,IndianaJonesandTheTempleofDoom_sit_u_nm_np1_fr_med_0,1.0,6.39,0.219,0,too few joints (only a head or part of the body is visible)
-sit,Juno_sit_f_cm_np1_fr_med_4,1.0,8.84,0.531,0,too few joints (only a head or part of the body is visible)
+sit,Juno_sit_f_cm_np1_fr_med_4,1.0,8.84,0.531,1,
 sit,Juno_sit_u_cm_np1_fr_goo_7,1.0,10.59,0.938,1,
 sit,KUNG_FU_HUSTLE_sit_f_nm_np1_fr_med_43,1.0,13.0,1.0,1,
 sit,LONGESTYARD_sit_f_nm_np1_ba_med_29,1.0,12.3,1.0,1,
@@ -663,18 +663,18 @@ sit,Oceans12_sit_u_cm_np1_le_med_0,0.844,4.83,0.266,0,too few joints (only a hea
 sit,Oceans13_sit_u_nm_np1_fr_med_1,1.0,5.09,0.0,0,too few joints (only a head or part of the body is visible)
 sit,Panic_in_the_Streets_sit_f_nm_np1_le_med_7,1.0,10.17,1.0,1,
 sit,Pirates_5_sit_f_nm_np1_fr_med_11,1.0,12.12,0.938,1,
-sit,Prelinger_ActYourA1949_sit_u_cm_np1_ri_med_2,1.0,7.38,0.766,0,too few joints (only a head or part of the body is visible)
+sit,Prelinger_ActYourA1949_sit_u_cm_np1_ri_med_2,1.0,7.38,0.766,1,
 sit,Prelinger_FamilyLi1949_sit_f_cm_np1_fr_med_0,0.969,11.37,0.953,1,
-sit,Prelinger_HabitPat1954_sit_u_cm_np1_le_med_8,0.812,7.29,0.375,0,too few joints (only a head or part of the body is visible)
+sit,Prelinger_HabitPat1954_sit_u_cm_np1_le_med_8,0.812,7.29,0.375,0,shoulders and hips are not visible together
 sit,Prelinger_LetYours1940_sit_u_nm_np1_fr_med_0,0.969,9.4,0.906,1,
 sit,RATRACE_sit_f_cm_np1_ri_goo_33,0.844,10.19,0.828,1,
 sit,RETURN_OF_THE_KING_sit_f_nm_np1_le_bad_8,0.734,9.21,0.734,1,
-sit,RETURN_OF_THE_KING_sit_u_cm_np1_le_med_7,1.0,8.02,0.75,0,too few joints (only a head or part of the body is visible)
+sit,RETURN_OF_THE_KING_sit_u_cm_np1_le_med_7,1.0,8.02,0.75,1,
 sit,RomeEpisode1_sit_u_cm_np1_fr_goo_1,1.0,9.08,1.0,1,
 sit,SellingasaCareer_sit_u_nm_np1_ri_med_3,1.0,9.7,0.922,1,
 sit,Shadow_of_a_Doubt_sit_u_cm_np1_fr_med_11,1.0,6.8,0.156,0,too few joints (only a head or part of the body is visible)
 sit,Sixthsense_sit_u_cm_np1_fr_med_3,1.0,10.2,1.0,1,
-sit,SweeneyTodd_sit_f_cm_np1_fr_bad_16,1.0,8.0,1.0,0,too few joints (only a head or part of the body is visible)
+sit,SweeneyTodd_sit_f_cm_np1_fr_bad_16,1.0,8.0,1.0,1,
 sit,SweeneyTodd_sit_f_nm_np1_fr_bad_34,0.766,11.59,0.766,1,
 sit,SweeneyTodd_sit_u_cm_np1_fr_med_14,1.0,9.09,1.0,1,
 sit,SweeneyTodd_sit_u_cm_np1_fr_med_21,1.0,9.59,1.0,1,
@@ -683,28 +683,28 @@ sit,SweeneyTodd_sit_u_nm_np1_le_med_20,1.0,9.0,0.875,1,
 sit,TheBoondockSaints_sit_f_cm_np1_ri_med_42,1.0,11.62,1.0,1,
 sit,TheBoondockSaints_sit_f_nm_np1_fr_med_71,0.859,13.0,0.859,1,
 sit,TheBoondockSaints_sit_u_cm_np1_fr_bad_56,0.953,6.56,0.094,0,too few joints (only a head or part of the body is visible)
-sit,TheBoondockSaints_sit_u_cm_np1_fr_med_29,1.0,8.16,1.0,0,too few joints (only a head or part of the body is visible)
+sit,TheBoondockSaints_sit_u_cm_np1_fr_med_29,1.0,8.16,1.0,1,
 sit,TheBoondockSaints_sit_u_cm_np1_fr_med_34,1.0,6.89,0.188,0,too few joints (only a head or part of the body is visible)
 sit,TheBoondockSaints_sit_u_cm_np1_le_med_15,0.969,11.79,0.969,1,
-sit,TheBoondockSaints_sit_u_nm_np10_ba_med_0,1.0,7.92,1.0,0,too few joints (only a head or part of the body is visible)
+sit,TheBoondockSaints_sit_u_nm_np10_ba_med_0,1.0,7.92,1.0,1,
 sit,TheLastManOnearth_sit_f_nm_np1_ri_med_51,1.0,10.06,1.0,1,
 sit,TheLastManOnearth_sit_u_cm_np1_fr_med_23,0.453,9.0,0.453,0,no person found in most frames
 sit,TheLastManOnearth_sit_u_cm_np1_fr_med_52,0.969,10.0,0.969,1,
 sit,TheLastManOnearth_sit_u_nm_np1_ri_med_5,0.828,9.98,0.828,1,
 sit,TheLittleShopofHorrors_sit_f_nm_np1_ri_med_7,1.0,12.48,1.0,1,
-sit,TheLittleShopofHorrors_sit_u_cm_np1_fr_med_4,1.0,7.3,0.453,0,too few joints (only a head or part of the body is visible)
+sit,TheLittleShopofHorrors_sit_u_cm_np1_fr_med_4,1.0,7.3,0.453,0,shoulders and hips are not visible together
 sit,ThePerfectScore_sit_u_cm_np1_fr_med_0,1.0,6.61,0.328,0,too few joints (only a head or part of the body is visible)
 sit,ThePerfectScore_sit_u_cm_np1_fr_med_1,0.984,9.56,0.922,1,
 sit,ThePerfectScore_sit_u_cm_np1_fr_med_2,1.0,9.86,1.0,1,
 sit,ThePerfectScore_sit_u_cm_np1_fr_med_7,0.875,4.86,0.156,0,too few joints (only a head or part of the body is visible)
 sit,ThePerfectScore_sit_u_nm_np1_ri_med_10,0.797,3.63,0.0,0,too few joints (only a head or part of the body is visible)
 sit,TheRoyalTenenbaums_sit_u_nm_np1_fr_med_2,1.0,10.47,0.969,1,
-sit,TheRoyalTenenbaums_sit_u_nm_np1_fr_med_4,1.0,7.62,0.75,0,too few joints (only a head or part of the body is visible)
+sit,TheRoyalTenenbaums_sit_u_nm_np1_fr_med_4,1.0,7.62,0.75,1,
 sit,The_Departed_-_Part_1_sit_u_nm_np1_fr_med_9,0.781,4.0,0.0,0,too few joints (only a head or part of the body is visible)
 sit,The_Departed_-_Part_2_sit_u_nm_np1_fr_goo_1,1.0,3.95,0.0,0,too few joints (only a head or part of the body is visible)
 sit,The_Fugitive_2_sit_f_cm_np1_fr_med_8,1.0,10.7,1.0,1,
 sit,The_House_on_Haunted_Hill_sit_u_cm_np1_fr_med_17,1.0,9.0,1.0,1,
-sit,ThreeStories_sit_u_cm_np1_fr_med_1,1.0,8.83,1.0,0,too few joints (only a head or part of the body is visible)
+sit,ThreeStories_sit_u_cm_np1_fr_med_1,1.0,8.83,1.0,1,
 sit,TrumanShow_sit_f_cm_np1_ri_med_15,1.0,10.92,1.0,1,
 sit,TrumanShow_sit_f_nm_np1_le_med_37,0.969,12.5,0.969,1,
 sit,TrumanShow_sit_u_nm_np1_fr_med_14,0.594,3.89,0.0,0,no person found in most frames
@@ -722,42 +722,42 @@ sit,prelinger_LetsBeGo1953_sit_f_nm_np2_fr_med_6,0.969,11.23,0.969,1,
 sit,prelinger_LetsPlay1949_sit_f_nm_np1_fr_med_8,0.938,11.48,0.938,1,
 sit,prelinger_LetsPlay1949_sit_u_cm_np1_le_med_9,0.734,11.36,0.734,1,
 sit,prideandprejudice1_sit_f_cm_np1_ba_med_5,1.0,12.22,1.0,1,
-sit,prideandprejudice1_sit_f_nm_np1_ri_med_10,1.0,8.36,0.547,0,too few joints (only a head or part of the body is visible)
+sit,prideandprejudice1_sit_f_nm_np1_ri_med_10,1.0,8.36,0.547,1,
 sit,prideandprejudice1_sit_u_nm_np1_ba_med_3,1.0,13.0,1.0,1,
 stand,20060723sfjffangelina_stand_f_nm_np1_le_med_0,0.75,11.92,0.719,1,
 stand,20060723sfjffcomeback_stand_u_cm_np1_ba_med_1,1.0,3.08,0.062,0,too few joints (only a head or part of the body is visible)
-stand,20060723sfjffdabaum_stand_u_nm_np1_fr_med_1,1.0,8.94,1.0,0,too few joints (only a head or part of the body is visible)
-stand,20060723sfjffjewgotmail_stand_u_cm_np1_ri_med_0,1.0,8.94,0.781,0,too few joints (only a head or part of the body is visible)
+stand,20060723sfjffdabaum_stand_u_nm_np1_fr_med_1,1.0,8.94,1.0,1,
+stand,20060723sfjffjewgotmail_stand_u_cm_np1_ri_med_0,1.0,8.94,0.781,1,
 stand,20070723_sfjff_waitingforrescue_stand_f_nm_np1_fr_med_0,0.875,12.18,0.781,1,
-stand,20070723_sfjff_waitingforrescue_stand_u_cm_np1_fr_med_2,0.797,8.76,0.438,0,too few joints (only a head or part of the body is visible)
+stand,20070723_sfjff_waitingforrescue_stand_u_cm_np1_fr_med_2,0.797,8.76,0.438,0,shoulders and hips are not visible together
 stand,21_stand_f_nm_np1_fr_med_2,1.0,12.5,1.0,1,
-stand,50_FIRST_DATES_stand_u_cm_np1_fr_med_25,0.875,8.54,0.719,0,too few joints (only a head or part of the body is visible)
+stand,50_FIRST_DATES_stand_u_cm_np1_fr_med_25,0.875,8.54,0.719,1,
 stand,50_FIRST_DATES_stand_u_nm_np1_fr_med_8,1.0,9.62,1.0,1,
 stand,AReporttoHomeBuilders_stand_u_cm_np1_le_med_0,1.0,9.02,1.0,1,
 stand,A_Beautiful_Mind_4_stand_f_cm_np1_fr_med_13,1.0,10.08,1.0,1,
-stand,A_Beautiful_Mind_6_stand_u_cm_np1_fr_med_3,1.0,8.94,0.969,0,too few joints (only a head or part of the body is visible)
+stand,A_Beautiful_Mind_6_stand_u_cm_np1_fr_med_3,1.0,8.94,0.969,1,
 stand,AboutABoy_stand_u_nm_np1_fr_bad_7,0.953,11.38,0.938,1,
 stand,AgentCodyBanks_stand_u_cm_np1_fr_med_5,1.0,3.44,0.0,0,too few joints (only a head or part of the body is visible)
 stand,AllThePresidentMen_stand_u_nm_np1_le_med_1,1.0,11.7,1.0,1,
 stand,AmericanGangster_stand_f_nm_np1_fr_bad_34,0.875,10.21,0.875,1,
-stand,AmericanGangster_stand_f_nm_np1_le_med_33,0.922,8.59,0.922,0,too few joints (only a head or part of the body is visible)
+stand,AmericanGangster_stand_f_nm_np1_le_med_33,0.922,8.59,0.922,1,
 stand,AmericanGangster_stand_u_cm_np1_ba_med_13,0.875,4.77,0.172,0,too few joints (only a head or part of the body is visible)
 stand,AmericanGangster_stand_u_cm_np1_fr_bad_0,0.984,13.0,0.984,1,
 stand,AmericanGangster_stand_u_cm_np1_fr_bad_19,0.203,9.31,0.203,0,no person found in most frames
 stand,AmericanGangster_stand_u_cm_np1_le_med_35,1.0,9.2,1.0,1,
 stand,AmericanGangster_stand_u_nm_np1_ba_bad_22,1.0,1.11,0.0,0,too few joints (only a head or part of the body is visible)
 stand,AmericanGangster_stand_u_nm_np1_fr_bad_51,0.969,5.84,0.219,0,too few joints (only a head or part of the body is visible)
-stand,AmericanGangster_stand_u_nm_np1_fr_med_55,1.0,7.02,0.594,0,too few joints (only a head or part of the body is visible)
-stand,American_History_X_stand_u_cm_np1_fr_med_38,1.0,8.45,0.891,0,too few joints (only a head or part of the body is visible)
-stand,American_History_X_stand_u_cm_np1_le_med_41,0.766,8.78,0.625,0,too few joints (only a head or part of the body is visible)
+stand,AmericanGangster_stand_u_nm_np1_fr_med_55,1.0,7.02,0.594,1,
+stand,American_History_X_stand_u_cm_np1_fr_med_38,1.0,8.45,0.891,1,
+stand,American_History_X_stand_u_cm_np1_le_med_41,0.766,8.78,0.625,1,
 stand,American_History_X_stand_u_nm_np1_fr_med_5,1.0,3.08,0.0,0,too few joints (only a head or part of the body is visible)
-stand,BATMAN_BEGINS_stand_f_cm_np1_fr_med_8,1.0,7.33,0.531,0,too few joints (only a head or part of the body is visible)
+stand,BATMAN_BEGINS_stand_f_cm_np1_fr_med_8,1.0,7.33,0.531,1,
 stand,BATMAN_BEGINS_stand_f_nm_np1_ba_med_0,0.875,12.12,0.875,1,
 stand,BIG_FISH_stand_f_cm_np1_fr_med_22,1.0,11.75,0.953,1,
-stand,BIG_FISH_stand_u_nm_np1_fr_med_27,1.0,8.92,0.797,0,too few joints (only a head or part of the body is visible)
+stand,BIG_FISH_stand_u_nm_np1_fr_med_27,1.0,8.92,0.797,1,
 stand,BLACK_HAWK_DOWN_stand_f_nm_np1_ba_med_14,0.297,10.95,0.297,0,no person found in most frames
 stand,BLACK_HAWK_DOWN_stand_u_cm_np1_fr_med_35,1.0,9.0,1.0,1,
-stand,BLACK_HAWK_DOWN_stand_u_cm_np1_fr_med_6,1.0,7.67,0.344,0,too few joints (only a head or part of the body is visible)
+stand,BLACK_HAWK_DOWN_stand_u_cm_np1_fr_med_6,1.0,7.67,0.344,0,shoulders and hips are not visible together
 stand,BLACK_HAWK_DOWN_stand_u_nm_np1_le_med_11,0.875,11.16,0.875,1,
 stand,BRIDGETOTERABITHIA_stand_f_nm_np1_fr_med_1,1.0,12.97,1.0,1,
 stand,BeforeNightFalls_stand_f_nm_np1_fr_med_3,1.0,12.02,1.0,1,
@@ -786,10 +786,10 @@ stand,Fellowship_3_stand_f_cm_np1_fr_bad_2,0.922,10.63,0.656,1,
 stand,Fellowship_4_stand_f_cm_np1_fr_med_3,1.0,9.53,0.766,1,
 stand,Fellowship_6_stand_u_cm_np1_fr_med_10,1.0,9.3,0.938,1,
 stand,FestivalofColors_stand_f_nm_np1_fr_med_0,0.969,11.69,0.969,1,
-stand,Finding_Forrester_1_stand_u_cm_np1_le_bad_10,0.75,8.94,0.688,0,too few joints (only a head or part of the body is visible)
-stand,Finding_Forrester_3_stand_u_cm_np1_fr_bad_10,0.938,8.38,0.641,0,too few joints (only a head or part of the body is visible)
+stand,Finding_Forrester_1_stand_u_cm_np1_le_bad_10,0.75,8.94,0.688,1,
+stand,Finding_Forrester_3_stand_u_cm_np1_fr_bad_10,0.938,8.38,0.641,1,
 stand,GardenWiseA256kb_stand_f_cm_np1_fr_med_1,0.859,11.62,0.719,1,
-stand,Glory_stand_u_cm_np1_fr_bad_20,1.0,7.69,0.516,0,too few joints (only a head or part of the body is visible)
+stand,Glory_stand_u_cm_np1_fr_bad_20,1.0,7.69,0.516,1,
 stand,GoneBabyGone_stand_f_cm_np1_fr_med_0,0.922,10.1,0.766,1,
 stand,Gossip1953256kb_stand_f_cm_np1_le_med_0,0.984,9.87,0.984,1,
 stand,GuardiansOfO256kb_stand_u_nm_np1_ri_med_1,0.797,9.73,0.797,1,
@@ -802,34 +802,34 @@ stand,IamLegend_stand_f_cm_np1_fr_bad_27,0.953,11.03,0.891,1,
 stand,IamLegend_stand_f_cm_np1_ri_med_23,1.0,10.89,1.0,1,
 stand,IamLegend_stand_f_nm_np1_fr_med_20,1.0,10.39,0.594,1,
 stand,IndianaJonesandTheTempleofDoom_stand_f_nm_np1_ri_med_3,0.5,11.09,0.5,0,no person found in most frames
-stand,KUNG_FU_HUSTLE_stand_u_cm_np1_fr_med_34,0.969,7.45,0.422,0,too few joints (only a head or part of the body is visible)
+stand,KUNG_FU_HUSTLE_stand_u_cm_np1_fr_med_34,0.969,7.45,0.422,0,shoulders and hips are not visible together
 stand,LONGESTYARD_stand_u_cm_np1_le_med_18,1.0,6.12,0.406,0,too few joints (only a head or part of the body is visible)
 stand,LivefreeorDieHard_stand_f_cm_np1_fr_med_5,0.594,10.95,0.422,0,no person found in most frames
 stand,Man_Who_Cheated_Himself_512kb_stand_u_cm_np1_fr_med_11,1.0,4.22,0.0,0,too few joints (only a head or part of the body is visible)
-stand,Man_Who_Cheated_Himself_512kb_stand_u_nm_np1_ba_med_0,1.0,8.39,0.891,0,too few joints (only a head or part of the body is visible)
+stand,Man_Who_Cheated_Himself_512kb_stand_u_nm_np1_ba_med_0,1.0,8.39,0.891,1,
 stand,Man_Who_Cheated_Himself_512kb_stand_u_nm_np1_ba_med_7,0.297,3.0,0.0,0,no person found in most frames
 stand,Narcotic1967256kb_stand_f_cm_np1_le_med_1,0.953,10.56,0.953,1,
 stand,Narcotic1967256kb_stand_f_nm_np1_fr_med_2,1.0,13.0,1.0,1,
 stand,Oceans12_stand_u_cm_np1_fr_med_13,1.0,9.31,0.781,1,
 stand,Oceans13_stand_u_nm_np1_fr_med_9,1.0,9.38,1.0,1,
 stand,OldSchool_stand_f_cm_np1_fr_med_6,1.0,11.88,1.0,1,
-stand,OldSchool_stand_f_nm_np1_fr_med_21,1.0,7.12,0.516,0,too few joints (only a head or part of the body is visible)
+stand,OldSchool_stand_f_nm_np1_fr_med_21,1.0,7.12,0.516,1,
 stand,OldSchool_stand_u_cm_np1_fr_med_18,1.0,10.19,1.0,1,
 stand,OldSchool_stand_u_cm_np1_ri_med_8,0.906,10.57,0.828,1,
 stand,Panic_in_the_Streets_stand_f_nm_np1_fr_med_8,1.0,10.84,1.0,1,
 stand,Panic_in_the_Streets_stand_u_cm_np1_ba_bad_0,0.922,6.29,0.578,0,too few joints (only a head or part of the body is visible)
-stand,Panic_in_the_Streets_stand_u_cm_np1_ri_med_2,1.0,7.08,0.406,0,too few joints (only a head or part of the body is visible)
+stand,Panic_in_the_Streets_stand_u_cm_np1_ri_med_2,1.0,7.08,0.406,0,shoulders and hips are not visible together
 stand,Prelinger_ActYourA1949_stand_f_cm_np1_fr_med_17,1.0,11.77,1.0,1,
 stand,Prelinger_HabitPat1954_stand_f_cm_np1_ri_med_1,0.75,12.65,0.75,1,
 stand,Prelinger_HabitPat1954_stand_f_nm_np1_ba_med_12,0.766,9.47,0.641,1,
 stand,Prelinger_LetYours1940_stand_f_nm_np1_fr_med_4,0.516,13.0,0.516,0,no person found in most frames
-stand,RATRACE_stand_f_cm_np1_fr_med_36,1.0,8.31,0.609,0,too few joints (only a head or part of the body is visible)
+stand,RATRACE_stand_f_cm_np1_fr_med_36,1.0,8.31,0.609,1,
 stand,RATRACE_stand_f_cm_np1_le_med_35,1.0,11.64,1.0,1,
 stand,RATRACE_stand_f_cm_np1_ri_med_28,1.0,11.55,1.0,1,
 stand,RETURN_OF_THE_KING_stand_f_cm_np1_fr_med_55,1.0,11.89,1.0,1,
 stand,RETURN_OF_THE_KING_stand_f_cm_np1_ri_med_0,0.953,12.41,0.938,1,
 stand,RETURN_OF_THE_KING_stand_f_nm_np1_ri_bad_23,1.0,3.64,0.0,0,too few joints (only a head or part of the body is visible)
-stand,RETURN_OF_THE_KING_stand_u_cm_np1_fr_med_12,1.0,7.45,0.312,0,too few joints (only a head or part of the body is visible)
+stand,RETURN_OF_THE_KING_stand_u_cm_np1_fr_med_12,1.0,7.45,0.312,0,shoulders and hips are not visible together
 stand,Return_of_the_King_1_stand_f_cm_np1_fr_med_5,0.938,13.0,0.938,1,
 stand,RomeEpisode1_stand_f_cm_np1_fr_med_0,0.875,10.7,0.875,1,
 stand,RushHour2_stand_u_cm_np1_fr_med_11,0.391,10.76,0.312,0,no person found in most frames
@@ -855,9 +855,9 @@ stand,TheBoondockSaints_stand_f_cm_np1_fr_med_59,1.0,9.45,1.0,1,
 stand,TheBoondockSaints_stand_f_cm_np1_fr_med_60,1.0,11.56,1.0,1,
 stand,TheBoondockSaints_stand_u_cm_np1_fr_bad_45,0.922,6.53,0.406,0,too few joints (only a head or part of the body is visible)
 stand,TheBoondockSaints_stand_u_cm_np1_fr_med_19,0.781,6.72,0.281,0,too few joints (only a head or part of the body is visible)
-stand,TheBoondockSaints_stand_u_cm_np1_le_med_116,0.734,7.13,0.359,0,too few joints (only a head or part of the body is visible)
+stand,TheBoondockSaints_stand_u_cm_np1_le_med_116,0.734,7.13,0.359,0,shoulders and hips are not visible together
 stand,TheBoondockSaints_stand_u_cm_np2_ri_med_5,1.0,4.38,0.0,0,too few joints (only a head or part of the body is visible)
-stand,TheBoondockSaints_stand_u_cm_np3_fr_med_101,0.969,8.89,0.875,0,too few joints (only a head or part of the body is visible)
+stand,TheBoondockSaints_stand_u_cm_np3_fr_med_101,0.969,8.89,0.875,1,
 stand,TheBoondockSaints_stand_u_nm_np1_ba_bad_38,0.516,7.88,0.297,0,no person found in most frames
 stand,TheBoondockSaints_stand_u_nm_np1_fr_med_111,1.0,6.77,0.281,0,too few joints (only a head or part of the body is visible)
 stand,TheBoondockSaints_stand_u_nm_np1_le_med_102,0.609,8.85,0.438,0,no person found in most frames
@@ -875,14 +875,14 @@ stand,likebeckam_stand_u_nm_np1_fr_goo_33,1.0,9.44,0.703,1,
 stand,prelinger_ControlY1950_stand_f_cm_np1_fr_med_2,1.0,11.83,1.0,1,
 stand,prelinger_ControlY1950_stand_f_nm_np1_fr_med_14,0.641,13.0,0.641,0,no person found in most frames
 stand,prelinger_ControlY1950_stand_f_nm_np1_fr_med_8,0.422,12.78,0.422,0,no person found in most frames
-stand,prelinger_ControlY1950_stand_u_cm_np1_fr_med_0,1.0,8.73,0.953,0,too few joints (only a head or part of the body is visible)
-stand,prelinger_LetsBeGo1953_stand_u_nm_np10_ba_med_4,0.734,7.72,0.703,0,too few joints (only a head or part of the body is visible)
+stand,prelinger_ControlY1950_stand_u_cm_np1_fr_med_0,1.0,8.73,0.953,1,
+stand,prelinger_LetsBeGo1953_stand_u_nm_np10_ba_med_4,0.734,7.72,0.703,1,
 stand,prideandprejudice1_stand_u_nm_np1_fr_med_11,1.0,9.8,1.0,1,
 clap,103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_cm_np1_fr_med_1,1.0,9.0,1.0,1,
-clap,103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_nm_np1_fr_med_0,1.0,8.95,0.953,0,too few joints (only a head or part of the body is visible)
-clap,20_Rhythm_clap_u_nm_np1_fr_goo_0,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,20_Rhythm_clap_u_nm_np1_fr_goo_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,20_Rhythm_clap_u_nm_np1_fr_goo_2,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+clap,103_years_old_japanese_woman__Nao_is_clapping_with_piano_music_by_beethoven_clap_u_nm_np1_fr_med_0,1.0,8.95,0.953,1,
+clap,20_Rhythm_clap_u_nm_np1_fr_goo_0,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,20_Rhythm_clap_u_nm_np1_fr_goo_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,20_Rhythm_clap_u_nm_np1_fr_goo_2,1.0,7.0,0.0,0,shoulders and hips are not visible together
 clap,20_Rhythm_clap_u_nm_np1_le_goo_3,1.0,6.64,0.0,0,too few joints (only a head or part of the body is visible)
 clap,20_Rhythm_clap_u_nm_np1_le_goo_4,1.0,6.62,0.016,0,too few joints (only a head or part of the body is visible)
 clap,20_Rhythm_clap_u_nm_np1_le_goo_5,1.0,6.56,0.0,0,too few joints (only a head or part of the body is visible)
@@ -893,13 +893,13 @@ clap,Alex_applauding_himself_clap_u_cm_np1_fr_med_1,1.0,13.0,1.0,1,
 clap,Alex_applauding_himself_clap_u_nm_np1_fr_med_0,1.0,12.97,1.0,1,
 clap,Applauding_Abby_clap_u_nm_np1_fr_med_0,1.0,12.45,1.0,1,
 clap,Applauding_Abby_clap_u_nm_np1_fr_med_1,1.0,12.16,1.0,1,
-clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_0,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_2,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_0,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_2,1.0,7.0,0.0,0,shoulders and hips are not visible together
 clap,Boom_Snap_Clap_clap_u_nm_np1_fr_med_0,1.0,9.0,1.0,1,
 clap,Boom_Snap_Clap_clap_u_nm_np1_fr_med_1,1.0,9.0,1.0,1,
-clap,Boom__Snap__Clap!_(Challenge)_clap_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Boom__Snap__Clap!_(Challenge)_clap_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+clap,Boom__Snap__Clap!_(Challenge)_clap_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,Boom__Snap__Clap!_(Challenge)_clap_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
 clap,Budam_-_Clap_Hands_clap_u_nm_np1_fr_med_0,0.938,12.65,0.938,1,
 clap,Budam_-_Clap_Hands_clap_u_nm_np1_fr_med_1,1.0,12.44,1.0,1,
 clap,Budam_-_Clap_Hands_clap_u_nm_np1_fr_med_2,1.0,9.8,0.859,1,
@@ -910,10 +910,10 @@ clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np1_fr_bad_10,1.0,12.36,1.0,1
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np1_fr_med_5,1.0,12.56,1.0,1,
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np2_ba_med_2,0.594,11.47,0.594,0,no person found in most frames
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np2_ba_med_3,0.766,10.31,0.734,1,
-clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np3_fr_med_4,1.0,8.7,0.875,0,too few joints (only a head or part of the body is visible)
+clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np3_fr_med_4,1.0,8.7,0.875,1,
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np3_fr_med_8,1.0,11.91,0.891,1,
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_f_cm_np3_fr_med_9,0.859,12.85,0.859,1,
-clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_u_cm_np1_fr_med_0,1.0,7.31,0.094,0,too few joints (only a head or part of the body is visible)
+clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_u_cm_np1_fr_med_0,1.0,7.31,0.094,0,shoulders and hips are not visible together
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_u_cm_np1_fr_med_1,1.0,6.98,0.0,0,too few joints (only a head or part of the body is visible)
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_u_cm_np1_fr_med_6,1.0,10.44,0.781,1,
 clap,Deutscher_Klatsch_-_The_Clap_-_Lexy_clap_u_cm_np2_fr_bad_11,0.859,9.62,0.844,1,
@@ -936,40 +936,40 @@ clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_fr_med_1,1.0,6.73,0.047,0
 clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_ri_bad_3,1.0,6.48,0.0,0,too few joints (only a head or part of the body is visible)
 clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_ri_bad_4,1.0,6.3,0.0,0,too few joints (only a head or part of the body is visible)
 clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_ri_med_2,1.0,6.31,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_ri_med_5,0.859,8.24,0.359,0,too few joints (only a head or part of the body is visible)
-clap,LetThePeopleClap_clap_u_cm_np1_fr_med_0,0.938,7.42,0.453,0,too few joints (only a head or part of the body is visible)
+clap,Kurt_Kr_mer_-_Klatschen_im_Flugzeug_clap_u_cm_np1_ri_med_5,0.859,8.24,0.359,0,shoulders and hips are not visible together
+clap,LetThePeopleClap_clap_u_cm_np1_fr_med_0,0.938,7.42,0.453,0,shoulders and hips are not visible together
 clap,LetThePeopleClap_clap_u_cm_np1_fr_med_1,0.984,5.73,0.422,0,too few joints (only a head or part of the body is visible)
-clap,LetThePeopleClap_clap_u_cm_np1_fr_med_2,1.0,8.91,0.812,0,too few joints (only a head or part of the body is visible)
-clap,LetThePeopleClap_clap_u_cm_np1_fr_med_3,0.953,8.82,0.766,0,too few joints (only a head or part of the body is visible)
+clap,LetThePeopleClap_clap_u_cm_np1_fr_med_2,1.0,8.91,0.812,1,
+clap,LetThePeopleClap_clap_u_cm_np1_fr_med_3,0.953,8.82,0.766,1,
 clap,Martin_klatscht_in_die_h_nde_und_FURZT_clap_u_cm_np1_fr_med_0,0.344,10.55,0.328,0,no person found in most frames
-clap,My_Lil__Man_clapping_his_Hands_clap_u_nm_np1_fr_goo_0,1.0,8.81,0.875,0,too few joints (only a head or part of the body is visible)
-clap,My_Lil__Man_clapping_his_Hands_clap_u_nm_np1_fr_med_1,1.0,8.67,0.812,0,too few joints (only a head or part of the body is visible)
-clap,NotAnotherTeenMovieslowclap_clap_u_cm_np1_fr_med_1,0.906,8.78,0.75,0,too few joints (only a head or part of the body is visible)
-clap,NotAnotherTeenMovieslowclap_clap_u_cm_np1_fr_med_2,1.0,8.33,0.891,0,too few joints (only a head or part of the body is visible)
-clap,NotAnotherTeenMovieslowclap_clap_u_cm_np5_fr_med_3,0.969,7.81,0.766,0,too few joints (only a head or part of the body is visible)
-clap,NotAnotherTeenMovieslowclap_clap_u_nm_np1_fr_med_0,0.906,8.53,0.828,0,too few joints (only a head or part of the body is visible)
+clap,My_Lil__Man_clapping_his_Hands_clap_u_nm_np1_fr_goo_0,1.0,8.81,0.875,1,
+clap,My_Lil__Man_clapping_his_Hands_clap_u_nm_np1_fr_med_1,1.0,8.67,0.812,1,
+clap,NotAnotherTeenMovieslowclap_clap_u_cm_np1_fr_med_1,0.906,8.78,0.75,1,
+clap,NotAnotherTeenMovieslowclap_clap_u_cm_np1_fr_med_2,1.0,8.33,0.891,1,
+clap,NotAnotherTeenMovieslowclap_clap_u_cm_np5_fr_med_3,0.969,7.81,0.766,1,
+clap,NotAnotherTeenMovieslowclap_clap_u_nm_np1_fr_med_0,0.906,8.53,0.828,1,
 clap,RE-_Boom_Snap_Clap_clap_u_nm_np1_fr_med_0,1.0,10.92,1.0,1,
 clap,RE-_Boom_Snap_Clap_clap_u_nm_np1_fr_med_1,1.0,10.98,1.0,1,
 clap,Return_of_the_King_12_clap_u_nm_np1_fr_goo_4,1.0,3.97,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Ronin_Paintball_Club_-_MY-NPL_2009_Malacca_Prize_Giving_Ceremony_Part_2_clap_u_cm_np1_ba_med_0,0.953,7.16,0.906,0,too few joints (only a head or part of the body is visible)
+clap,Ronin_Paintball_Club_-_MY-NPL_2009_Malacca_Prize_Giving_Ceremony_Part_2_clap_u_cm_np1_ba_med_0,0.953,7.16,0.906,1,
 clap,SnakesonaPlaneSlowClap_clap_u_cm_np2_fr_med_0,1.0,5.88,0.0,0,too few joints (only a head or part of the body is visible)
-clap,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_clap_u_cm_np1_fr_med_3,1.0,8.45,0.672,0,too few joints (only a head or part of the body is visible)
+clap,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_clap_u_cm_np1_fr_med_3,1.0,8.45,0.672,1,
 clap,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_clap_u_cm_np1_fr_med_4,1.0,9.0,1.0,1,
-clap,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_clap_u_cm_np1_fr_med_5,1.0,8.95,0.953,0,too few joints (only a head or part of the body is visible)
+clap,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_clap_u_cm_np1_fr_med_5,1.0,8.95,0.953,1,
 clap,Standing_clap_f_cm_np1_fr_med_0,1.0,13.0,1.0,1,
 clap,Standing_clap_f_cm_np1_fr_med_1,1.0,13.0,1.0,1,
-clap,The_Slow_Clap_clap_u_cm_np1_fr_bad_16,1.0,8.91,0.938,0,too few joints (only a head or part of the body is visible)
+clap,The_Slow_Clap_clap_u_cm_np1_fr_bad_16,1.0,8.91,0.938,1,
 clap,The_Slow_Clap_clap_u_cm_np1_fr_bad_6,1.0,6.3,0.078,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_cm_np1_fr_bad_7,1.0,6.62,0.109,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_cm_np1_fr_med_15,1.0,8.97,0.969,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_cm_np1_fr_med_3,1.0,8.78,0.938,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_cm_np1_fr_med_4,1.0,8.23,0.766,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_cm_np2_fr_bad_18,0.875,8.84,0.797,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_cm_np2_fr_med_17,1.0,8.28,0.859,0,too few joints (only a head or part of the body is visible)
+clap,The_Slow_Clap_clap_u_cm_np1_fr_med_15,1.0,8.97,0.969,1,
+clap,The_Slow_Clap_clap_u_cm_np1_fr_med_3,1.0,8.78,0.938,1,
+clap,The_Slow_Clap_clap_u_cm_np1_fr_med_4,1.0,8.23,0.766,1,
+clap,The_Slow_Clap_clap_u_cm_np2_fr_bad_18,0.875,8.84,0.797,1,
+clap,The_Slow_Clap_clap_u_cm_np2_fr_med_17,1.0,8.28,0.859,1,
 clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_19,1.0,5.59,0.0,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_20,1.0,4.81,0.0,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_25,1.0,8.3,0.812,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_27,0.922,8.98,0.812,0,too few joints (only a head or part of the body is visible)
+clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_25,1.0,8.3,0.812,1,
+clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_27,0.922,8.98,0.812,1,
 clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_29,1.0,6.45,0.0,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_nm_np1_fr_bad_5,1.0,6.06,0.078,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_nm_np1_fr_med_0,1.0,5.05,0.0,0,too few joints (only a head or part of the body is visible)
@@ -981,53 +981,53 @@ clap,The_Slow_Clap_clap_u_nm_np1_fr_med_14,1.0,9.0,1.0,1,
 clap,The_Slow_Clap_clap_u_nm_np1_fr_med_2,0.891,3.75,0.0,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_nm_np1_fr_med_24,1.0,9.0,1.0,1,
 clap,The_Slow_Clap_clap_u_nm_np1_fr_med_30,1.0,5.3,0.125,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np2_fr_bad_26,0.938,8.72,0.812,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np2_fr_med_21,1.0,8.52,0.859,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np2_fr_med_22,1.0,8.73,0.797,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np2_fr_med_23,1.0,8.86,0.859,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np2_fr_med_28,0.859,8.89,0.797,0,too few joints (only a head or part of the body is visible)
+clap,The_Slow_Clap_clap_u_nm_np2_fr_bad_26,0.938,8.72,0.812,1,
+clap,The_Slow_Clap_clap_u_nm_np2_fr_med_21,1.0,8.52,0.859,1,
+clap,The_Slow_Clap_clap_u_nm_np2_fr_med_22,1.0,8.73,0.797,1,
+clap,The_Slow_Clap_clap_u_nm_np2_fr_med_23,1.0,8.86,0.859,1,
+clap,The_Slow_Clap_clap_u_nm_np2_fr_med_28,0.859,8.89,0.797,1,
 clap,The_Slow_Clap_clap_u_nm_np2_fr_med_8,0.859,6.56,0.0,0,too few joints (only a head or part of the body is visible)
 clap,The_Slow_Clap_clap_u_nm_np2_fr_med_9,0.766,6.51,0.0,0,too few joints (only a head or part of the body is visible)
-clap,The_Slow_Clap_clap_u_nm_np3_fr_med_11,1.0,7.88,0.281,0,too few joints (only a head or part of the body is visible)
+clap,The_Slow_Clap_clap_u_nm_np3_fr_med_11,1.0,7.88,0.281,0,shoulders and hips are not visible together
 clap,Theslowclap1_clap_f_cm_np1_fr_med_0,1.0,13.0,1.0,1,
-clap,Veoh_Alpha_Dog_1_clap_u_nm_np1_fr_goo_62,1.0,8.58,0.75,0,too few joints (only a head or part of the body is visible)
+clap,Veoh_Alpha_Dog_1_clap_u_nm_np1_fr_goo_62,1.0,8.58,0.75,1,
 clap,Wendy_playing_wii_fit_with_clapping_hands_clap_f_cm_np1_le_med_0,1.0,13.0,1.0,1,
 clap,Wendy_playing_wii_fit_with_clapping_hands_clap_f_cm_np1_le_med_1,1.0,13.0,1.0,1,
 clap,_Boom_Snap_Clap__challenge_clap_u_nm_np1_fr_med_0,1.0,6.73,0.0,0,too few joints (only a head or part of the body is visible)
 clap,_Boom_Snap_Clap__challenge_clap_u_nm_np1_fr_med_1,0.953,5.74,0.0,0,too few joints (only a head or part of the body is visible)
 clap,boom-snap-clap_clap_u_nm_np1_fr_med_0,1.0,9.0,1.0,1,
 clap,boom-snap-clap_clap_u_nm_np1_fr_med_1,1.0,9.0,1.0,1,
-clap,boom-snap-clap_clap_u_nm_np1_fr_med_2,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,boom-snap-clap_clap_u_nm_np1_fr_med_3,1.0,7.16,0.078,0,too few joints (only a head or part of the body is visible)
+clap,boom-snap-clap_clap_u_nm_np1_fr_med_2,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,boom-snap-clap_clap_u_nm_np1_fr_med_3,1.0,7.16,0.078,0,shoulders and hips are not visible together
 clap,boom_snap_clap_(challenge)_HARDCORE_VERSION!_clap_u_nm_np1_fr_bad_0,1.0,10.59,1.0,1,
 clap,boom_snap_clap_(challenge)_HARDCORE_VERSION!_clap_u_nm_np1_fr_bad_1,1.0,9.56,0.875,1,
-clap,boom_snap_clap_(challenge)_clap_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-clap,boom_snap_clap_(challenge)_clap_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+clap,boom_snap_clap_(challenge)_clap_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,shoulders and hips are not visible together
+clap,boom_snap_clap_(challenge)_clap_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
 clap,boomsnapclap!_clap_u_nm_np1_fr_med_0,1.0,6.5,0.0,0,too few joints (only a head or part of the body is visible)
 clap,boomsnapclap!_clap_u_nm_np1_fr_med_1,1.0,6.69,0.0,0,too few joints (only a head or part of the body is visible)
 clap,boomsnapclap!_clap_u_nm_np1_fr_med_2,1.0,5.69,0.0,0,too few joints (only a head or part of the body is visible)
 clap,slowclap_clap_u_nm_np1_fr_goo_0,1.0,4.23,0.0,0,too few joints (only a head or part of the body is visible)
 clap,that70_sshowslowclap_clap_u_nm_np1_fr_med_0,0.891,10.67,0.891,1,
 wave,20060723sfjffbartsinger_wave_f_cm_np1_ba_med_0,1.0,9.5,0.672,1,
-wave,21_wave_u_nm_np1_fr_goo_5,0.812,8.25,0.375,0,too few joints (only a head or part of the body is visible)
+wave,21_wave_u_nm_np1_fr_goo_5,0.812,8.25,0.375,0,shoulders and hips are not visible together
 wave,50_FIRST_DATES_wave_f_cm_np1_fr_med_0,0.859,13.0,0.859,1,
 wave,50_FIRST_DATES_wave_u_cm_np1_fr_goo_30,0.812,4.9,0.0,0,too few joints (only a head or part of the body is visible)
 wave,50_FIRST_DATES_wave_u_cm_np1_fr_med_1,0.922,3.76,0.0,0,too few joints (only a head or part of the body is visible)
 wave,50_FIRST_DATES_wave_u_cm_np1_fr_med_36,0.922,12.9,0.922,1,
 wave,A_Beautiful_Mind_2_wave_u_cm_np1_ri_med_3,1.0,6.5,0.0,0,too few joints (only a head or part of the body is visible)
-wave,Abschieds-winken_!!!!!!_Gruss_Guido_wave_u_cm_np1_fr_bad_0,1.0,7.28,0.188,0,too few joints (only a head or part of the body is visible)
+wave,Abschieds-winken_!!!!!!_Gruss_Guido_wave_u_cm_np1_fr_bad_0,1.0,7.28,0.188,0,shoulders and hips are not visible together
 wave,Abschieds-winken_!!!!!!_Gruss_Guido_wave_u_cm_np1_fr_bad_1,1.0,6.97,0.0,0,too few joints (only a head or part of the body is visible)
 wave,AllThePresidentMen_wave_h_nm_np1_fr_med_6,0.969,4.84,0.0,0,too few joints (only a head or part of the body is visible)
-wave,AmericanGangster_wave_u_cm_np1_fr_med_57,1.0,7.11,0.25,0,too few joints (only a head or part of the body is visible)
+wave,AmericanGangster_wave_u_cm_np1_fr_med_57,1.0,7.11,0.25,0,shoulders and hips are not visible together
 wave,American_History_X_wave_u_nm_np1_fr_med_16,0.672,4.77,0.062,0,no person found in most frames
-wave,BATMAN_BEGINS_wave_u_cm_np1_fr_med_19,0.984,8.73,0.891,0,too few joints (only a head or part of the body is visible)
+wave,BATMAN_BEGINS_wave_u_cm_np1_fr_med_19,0.984,8.73,0.891,1,
 wave,BIG_FISH_wave_u_nm_np1_fr_bad_4,1.0,9.31,1.0,1,
 wave,BIG_FISH_wave_u_nm_np1_fr_goo_10,1.0,6.61,0.0,0,too few joints (only a head or part of the body is visible)
 wave,BIG_FISH_wave_u_nm_np1_fr_goo_9,1.0,6.89,0.031,0,too few joints (only a head or part of the body is visible)
 wave,BIG_FISH_wave_u_nm_np1_le_goo_28,0.969,6.74,0.125,0,too few joints (only a head or part of the body is visible)
 wave,BLACK_HAWK_DOWN_wave_u_nm_np1_ba_goo_19,1.0,2.8,0.0,0,too few joints (only a head or part of the body is visible)
 wave,Bubble_Gum_Club_2_wave_h_nm_np2_fr_med_0,1.0,4.08,0.0,0,too few joints (only a head or part of the body is visible)
-wave,BuddhaPainter_wave_u_nm_np1_fr_med_1,1.0,8.89,1.0,0,too few joints (only a head or part of the body is visible)
+wave,BuddhaPainter_wave_u_nm_np1_fr_med_1,1.0,8.89,1.0,1,
 wave,Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_0,1.0,11.48,1.0,1,
 wave,Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_1,1.0,11.0,1.0,1,
 wave,Bush_Wave_vs__Obama_Wave_and_Which_Commander-in-chief_Salutes_the_Best__You_Decide_wave_u_cm_np1_fr_med_10,1.0,12.12,1.0,1,
@@ -1043,14 +1043,14 @@ wave,CastAway1_wave_u_cm_np1_ri_med_4,1.0,4.73,0.0,0,too few joints (only a head
 wave,CharlieAndTheChocolateFactory_wave_u_nm_np1_fr_bad_1,1.0,6.28,0.0,0,too few joints (only a head or part of the body is visible)
 wave,CharlieAndTheChocolateFactory_wave_u_nm_np1_fr_med_2,0.266,5.35,0.0,0,no person found in most frames
 wave,CharlieAndTheChocolateFactory_wave_u_nm_np2_fr_goo_18,1.0,3.0,0.0,0,too few joints (only a head or part of the body is visible)
-wave,Chris_Benoit_waving_goodbye_wave_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-wave,Chris_Benoit_waving_goodbye_wave_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
-wave,Crash_wave_u_cm_np1_ba_med_13,0.891,7.47,0.641,0,too few joints (only a head or part of the body is visible)
-wave,DONNIE_DARKO_wave_u_nm_np1_fr_goo_9,1.0,7.0,0.0,0,too few joints (only a head or part of the body is visible)
+wave,Chris_Benoit_waving_goodbye_wave_u_nm_np1_fr_med_0,1.0,7.0,0.0,0,shoulders and hips are not visible together
+wave,Chris_Benoit_waving_goodbye_wave_u_nm_np1_fr_med_1,1.0,7.0,0.0,0,shoulders and hips are not visible together
+wave,Crash_wave_u_cm_np1_ba_med_13,0.891,7.47,0.641,1,
+wave,DONNIE_DARKO_wave_u_nm_np1_fr_goo_9,1.0,7.0,0.0,0,shoulders and hips are not visible together
 wave,DONNIE_DARKO_wave_u_nm_np1_le_goo_8,1.0,5.98,0.0,0,too few joints (only a head or part of the body is visible)
-wave,EVOLUTION_wave_u_cm_np1_fr_med_4,1.0,7.41,0.609,0,too few joints (only a head or part of the body is visible)
+wave,EVOLUTION_wave_u_cm_np1_fr_med_4,1.0,7.41,0.609,1,
 wave,EVOLUTION_wave_u_nm_np1_fr_med_18,1.0,9.0,1.0,1,
-wave,EVOLUTION_wave_u_nm_np1_le_med_3,1.0,8.5,0.922,0,too few joints (only a head or part of the body is visible)
+wave,EVOLUTION_wave_u_nm_np1_le_med_3,1.0,8.5,0.922,1,
 wave,Eurotrip_wave_u_nm_np1_fr_goo_4,0.797,5.76,0.0,0,too few joints (only a head or part of the body is visible)
 wave,Gaye_waves_to_the_paparazzi_as_she_flees_New_York_after_stalking_Adam_Lambert_in_Central_Park_wave_u_cm_np1_fr_med_0,0.969,10.81,0.891,1,
 wave,Glory_wave_u_nm_np6_fr_med_33,0.969,6.81,0.172,0,too few joints (only a head or part of the body is visible)
@@ -1074,7 +1074,7 @@ wave,Maya_beim_Winken_wave_f_cm_np1_fr_med_2,1.0,10.7,1.0,1,
 wave,Miro_Klose_winkt_wave_f_cm_np1_le_med_0,1.0,12.88,1.0,1,
 wave,Newall_Green_High_Students_Waving_Goodbye_wave_u_cm_np1_fr_bad_2,1.0,3.72,0.109,0,too few joints (only a head or part of the body is visible)
 wave,Newall_Green_High_Students_Waving_Goodbye_wave_u_cm_np1_fr_med_0,0.969,6.74,0.188,0,too few joints (only a head or part of the body is visible)
-wave,Newall_Green_High_Students_Waving_Goodbye_wave_u_cm_np3_fr_med_1,1.0,8.31,0.859,0,too few joints (only a head or part of the body is visible)
+wave,Newall_Green_High_Students_Waving_Goodbye_wave_u_cm_np3_fr_med_1,1.0,8.31,0.859,1,
 wave,Oceans12_wave_h_nm_np1_fr_goo_8,1.0,6.48,0.0,0,too few joints (only a head or part of the body is visible)
 wave,OldSchool_wave_f_cm_np1_fr_med_13,1.0,11.88,0.969,1,
 wave,OldSchool_wave_u_nm_np1_fr_med_24,1.0,9.0,1.0,1,
@@ -1085,12 +1085,12 @@ wave,RATRACE_wave_f_nm_np1_fr_med_21,1.0,10.61,1.0,1,
 wave,RATRACE_wave_f_nm_np1_ri_med_10,0.547,10.89,0.547,0,no person found in most frames
 wave,RATRACE_wave_u_cm_np1_fr_med_6,1.0,4.41,0.0,0,too few joints (only a head or part of the body is visible)
 wave,RATRACE_wave_u_nm_np1_fr_med_27,1.0,12.53,0.922,1,
-wave,RATRACE_wave_u_nm_np1_fr_med_34,0.984,8.92,0.984,0,too few joints (only a head or part of the body is visible)
+wave,RATRACE_wave_u_nm_np1_fr_med_34,0.984,8.92,0.984,1,
 wave,RATRACE_wave_u_nm_np1_fr_med_9,1.0,6.05,0.0,0,too few joints (only a head or part of the body is visible)
 wave,SchoolRulesHowTheyHelpUs_wave_f_nm_np1_ba_med_0,1.0,12.56,1.0,1,
-wave,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_wave_u_cm_np1_fr_med_0,1.0,8.66,0.656,0,too few joints (only a head or part of the body is visible)
+wave,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_wave_u_cm_np1_fr_med_0,1.0,8.66,0.656,1,
 wave,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_wave_u_cm_np1_fr_med_1,1.0,9.0,1.0,1,
-wave,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_wave_u_cm_np1_fr_med_2,1.0,8.98,0.984,0,too few joints (only a head or part of the body is visible)
+wave,Song_I_Can_Wave_My_Hands_-_Cullen_s_Abc_s_wave_u_cm_np1_fr_med_2,1.0,8.98,0.984,1,
 wave,Superbad_wave_f_cm_np1_fr_med_4,1.0,11.86,1.0,1,
 wave,TrumanShow_wave_f_nm_np1_fr_med_26,0.609,13.0,0.609,0,no person found in most frames
 wave,TrumanShow_wave_u_nm_np1_fr_med_0,0.922,9.14,0.922,1,
@@ -1110,10 +1110,10 @@ wave,prelinger_LetsBeGo1953_wave_u_cm_np10_ba_med_3,0.375,7.54,0.359,0,no person
 wave,prideandprejudice1_wave_f_nm_np1_ri_med_14,1.0,9.94,1.0,1,
 wave,veoh_harold_and_kumar_wave_u_nm_np1_fr_goo_5,1.0,5.28,0.0,0,too few joints (only a head or part of the body is visible)
 wave,wave_and_say_hi_wave_u_nm_np1_fr_med_0,1.0,6.91,0.0,0,too few joints (only a head or part of the body is visible)
-wave,winKen_wave_u_cm_np1_ba_bad_0,1.0,8.2,0.766,0,too few joints (only a head or part of the body is visible)
+wave,winKen_wave_u_cm_np1_ba_bad_0,1.0,8.2,0.766,1,
 wave,winKen_wave_u_cm_np1_ri_bad_1,1.0,5.03,0.031,0,too few joints (only a head or part of the body is visible)
 kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_ba_bad_5,1.0,12.03,1.0,1,
-kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_fr_bad_1,1.0,7.91,1.0,0,too few joints (only a head or part of the body is visible)
+kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_fr_bad_1,1.0,7.91,1.0,1,
 kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_fr_bad_3,1.0,12.0,1.0,1,
 kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_fr_bad_4,0.0,0.0,0.0,0,no person found in most frames
 kick_ball,Amazing_Soccer_2_kick_ball_f_cm_np1_le_bad_2,0.938,12.63,0.938,1,
@@ -1129,7 +1129,7 @@ kick_ball,Banned_Commercials_-_Nike_-_Soccer_vs_ninjas_kick_ball_f_nm_np1_fr_goo
 kick_ball,Banned_Commercials_-_Nike_-_Soccer_vs_ninjas_kick_ball_f_nm_np1_fr_goo_2,0.453,13.0,0.453,0,no person found in most frames
 kick_ball,Banned_Commercials_-_Nike_-_Soccer_vs_ninjas_kick_ball_f_nm_np1_fr_goo_3,0.391,5.4,0.0,0,no person found in most frames
 kick_ball,Banned_Commercials_-_Nike_-_Soccer_vs_ninjas_kick_ball_f_nm_np1_fr_med_8,0.484,12.84,0.484,0,no person found in most frames
-kick_ball,Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_ba_med_0,0.844,7.41,0.359,0,too few joints (only a head or part of the body is visible)
+kick_ball,Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_ba_med_0,0.844,7.41,0.359,0,shoulders and hips are not visible together
 kick_ball,Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_fr_med_1,0.672,3.98,0.109,0,no person found in most frames
 kick_ball,Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_fr_med_2,0.469,11.2,0.375,0,no person found in most frames
 kick_ball,Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_fr_med_3,0.625,11.8,0.562,0,no person found in most frames
@@ -1172,7 +1172,7 @@ kick_ball,GOAL_2_living_the_dream_movie_part_2_kick_ball_f_cm_np1_fr_med_3,0.906
 kick_ball,GOAL_2_living_the_dream_movie_part_9_kick_ball_f_cm_np1_fr_med_0,1.0,10.48,0.906,1,
 kick_ball,Goal_1_2_kick_ball_f_cm_np1_fr_goo_2,0.891,11.82,0.75,1,
 kick_ball,Goal_1_2_kick_ball_f_cm_np3_ri_med_3,0.938,12.45,0.938,1,
-kick_ball,Goal_1_2_kick_ball_l_cm_np2_le_bad_1,0.75,8.79,0.438,0,too few joints (only a head or part of the body is visible)
+kick_ball,Goal_1_2_kick_ball_l_cm_np2_le_bad_1,0.75,8.79,0.438,0,shoulders and hips are not visible together
 kick_ball,How_to_Shoot_Penalty_Kicks_kick_ball_f_cm_np1_ba_bad_0,1.0,12.34,1.0,1,
 kick_ball,How_to_Shoot_Penalty_Kicks_kick_ball_f_cm_np1_ba_bad_1,1.0,12.83,1.0,1,
 kick_ball,How_to_Shoot_Penalty_Kicks_kick_ball_f_cm_np1_ba_bad_2,1.0,12.44,1.0,1,
@@ -1186,7 +1186,7 @@ kick_ball,Lattenknaller_-_M_nner_wie_wir_(Teil_11)_kick_ball_f_cm_np1_fr_goo_0,1
 kick_ball,Lattenknaller_-_M_nner_wie_wir_(Teil_11)_kick_ball_f_cm_np1_ri_med_2,0.875,12.75,0.875,1,
 kick_ball,Lattenknaller_-_M_nner_wie_wir_(Teil_11)_kick_ball_f_cm_np5_le_med_1,0.688,12.09,0.688,0,no person found in most frames
 kick_ball,Lattenknaller_-_M_nner_wie_wir_(Teil_11)_kick_ball_f_cm_np5_le_med_3,0.125,11.0,0.125,0,no person found in most frames
-kick_ball,LittleChildren_kick_ball_l_cm_np1_ri_bad_4,1.0,8.53,0.453,0,too few joints (only a head or part of the body is visible)
+kick_ball,LittleChildren_kick_ball_l_cm_np1_ri_bad_4,1.0,8.53,0.453,0,shoulders and hips are not visible together
 kick_ball,Manchester_United_vs_Chelsea_Champion_League_final_2008_penalty_shootout_kick_ball_f_nm_np1_ba_bad_0,0.016,13.0,0.016,0,no person found in most frames
 kick_ball,Manchester_United_vs_Chelsea_Champion_League_final_2008_penalty_shootout_kick_ball_f_nm_np1_ba_bad_1,0.188,12.25,0.188,0,no person found in most frames
 kick_ball,Manchester_United_vs_Chelsea_Champion_League_final_2008_penalty_shootout_kick_ball_f_nm_np1_ba_bad_2,0.016,12.0,0.016,0,no person found in most frames
@@ -1316,13 +1316,13 @@ jump,New_polish_best_goalkeeper_-_FC_Barcelona_jump_f_cm_np1_le_bad_0,0.922,12.9
 jump,OldSchool_jump_f_nm_np1_fr_bad_26,1.0,12.03,0.938,1,
 jump,Parkour-_Diving_Kong_jump_u_cm_np1_fr_bad_1,0.109,12.0,0.109,0,no person found in most frames
 jump,Parkour-_Diving_Kong_jump_u_cm_np1_ri_bad_0,0.812,10.73,0.75,1,
-jump,RATRACE_jump_f_cm_np1_ba_bad_3,1.0,8.66,0.578,0,too few joints (only a head or part of the body is visible)
+jump,RATRACE_jump_f_cm_np1_ba_bad_3,1.0,8.66,0.578,1,
 jump,RATRACE_jump_f_cm_np1_fr_bad_38,0.828,11.83,0.75,1,
 jump,RATRACE_jump_f_cm_np1_fr_bad_39,0.625,12.4,0.625,0,no person found in most frames
 jump,RATRACE_jump_f_cm_np1_fr_bad_40,0.531,10.15,0.531,0,no person found in most frames
 jump,RATRACE_jump_f_nm_np1_ba_bad_29,0.781,12.14,0.781,1,
-jump,RATRACE_jump_f_nm_np1_ba_bad_30,1.0,8.42,0.859,0,too few joints (only a head or part of the body is visible)
-jump,RETURN_OF_THE_KING_jump_f_cm_np1_fr_bad_29,0.75,8.85,0.516,0,too few joints (only a head or part of the body is visible)
+jump,RATRACE_jump_f_nm_np1_ba_bad_30,1.0,8.42,0.859,1,
+jump,RETURN_OF_THE_KING_jump_f_cm_np1_fr_bad_29,0.75,8.85,0.516,1,
 jump,RETURN_OF_THE_KING_jump_f_nm_np1_fr_bad_40,0.812,9.79,0.781,1,
 jump,Return_of_the_King_12_jump_f_nm_np2_fr_bad_2,0.031,2.0,0.0,0,no person found in most frames
 jump,Return_of_the_King_7_jump_f_cm_np1_ri_bad_0,0.75,9.23,0.578,1,
@@ -1370,7 +1370,7 @@ jump,THE_PROTECTOR_jump_f_nm_np1_ba_bad_90,0.969,12.53,0.969,1,
 jump,THE_PROTECTOR_jump_f_nm_np1_fr_bad_95,0.094,5.5,0.0,0,no person found in most frames
 jump,THE_PROTECTOR_jump_f_nm_np1_fr_bad_96,0.234,5.27,0.0,0,no person found in most frames
 jump,TheBoondockSaints_jump_f_cm_np1_ba_bad_67,0.891,9.56,0.891,1,
-jump,TheBoondockSaints_jump_u_cm_np1_fr_bad_83,1.0,8.88,0.906,0,too few joints (only a head or part of the body is visible)
+jump,TheBoondockSaints_jump_u_cm_np1_fr_bad_83,1.0,8.88,0.906,1,
 jump,TheBoondockSaints_jump_u_cm_np1_ri_bad_103,0.484,6.03,0.219,0,no person found in most frames
 jump,TheBoondockSaints_jump_u_cm_np1_ri_bad_127,0.781,4.12,0.0,0,too few joints (only a head or part of the body is visible)
 jump,TheBoondockSaints_jump_u_nm_np1_fr_bad_73,1.0,9.09,0.922,1,
@@ -1382,7 +1382,7 @@ jump,happy_go_lovely_jump_f_cm_np1_fr_bad_20,0.719,12.83,0.719,1,
 jump,happy_go_lovely_jump_h_cm_np1_fr_bad_0,0.906,12.83,0.906,1,
 jump,le_parkour_kl_jump_f_nm_np1_le_bad_3,0.875,13.0,0.875,1,
 jump,le_parkour_kl_jump_l_nm_np1_le_bad_1,0.641,8.95,0.375,0,no person found in most frames
-jump,le_parkour_kl_jump_l_nm_np1_ri_bad_0,0.844,7.46,0.125,0,too few joints (only a head or part of the body is visible)
+jump,le_parkour_kl_jump_l_nm_np1_ri_bad_0,0.844,7.46,0.125,0,shoulders and hips are not visible together
 jump,le_parkour_kl_jump_l_nm_np1_ri_bad_2,0.953,12.9,0.953,1,
 jump,likebeckam_jump_l_cm_np1_ri_bad_17,0.875,9.57,0.406,0,shoulders and hips are not visible together
 jump,prelinger_ControlY1950_jump_f_nm_np1_fr_bad_13,0.438,12.25,0.438,0,no person found in most frames
@@ -1410,7 +1410,7 @@ fall_floor,Blade_Vs_Deacon_Frost_Sword_Fight_Scene_fall_floor_f_cm_np2_fr_med_3,
 fall_floor,CasinoRoyale_fall_floor_f_cm_np1_fr_med_7,1.0,11.89,1.0,1,
 fall_floor,CastAway1_fall_floor_u_nm_np1_fr_med_11,0.328,7.1,0.078,0,no person found in most frames
 fall_floor,Catch_Me_If_You_Can_fall_floor_f_cm_np1_fr_med_0,0.797,10.49,0.688,1,
-fall_floor,Crash_fall_floor_u_cm_np1_fr_med_1,0.766,8.76,0.578,0,too few joints (only a head or part of the body is visible)
+fall_floor,Crash_fall_floor_u_cm_np1_fr_med_1,0.766,8.76,0.578,1,
 fall_floor,EVOLUTION_fall_floor_f_cm_np1_fr_med_21,0.672,10.79,0.672,0,no person found in most frames
 fall_floor,EVOLUTION_fall_floor_f_nm_np1_ba_med_5,0.328,4.19,0.0,0,no person found in most frames
 fall_floor,Fellowship_3_fall_floor_f_nm_np1_fr_med_3,0.562,7.61,0.25,0,no person found in most frames
@@ -1425,7 +1425,7 @@ fall_floor,Glory_fall_floor_f_cm_np1_fr_med_39,0.625,9.18,0.5,0,no person found 
 fall_floor,Glory_fall_floor_u_cm_np1_fr_med_55,0.422,8.89,0.359,0,no person found in most frames
 fall_floor,HP_PRISONER_OF_AZKABAN_fall_floor_f_cm_np1_ri_med_5,0.828,11.89,0.781,1,
 fall_floor,HP_PRISONER_OF_AZKABAN_fall_floor_u_cm_np1_fr_med_14,0.859,6.36,0.359,0,too few joints (only a head or part of the body is visible)
-fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_20,0.734,8.19,0.422,0,too few joints (only a head or part of the body is visible)
+fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_20,0.734,8.19,0.422,0,shoulders and hips are not visible together
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_21,0.297,8.42,0.125,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_33,0.688,11.25,0.656,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ba_bad_49,0.375,12.58,0.375,0,no person found in most frames
@@ -1437,18 +1437,18 @@ fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_fr_bad_47,0.625,12.07,0.625,0,no p
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_fr_med_40,0.406,4.85,0.109,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_le_med_3,0.922,12.81,0.922,1,
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_le_med_41,0.266,10.35,0.172,0,no person found in most frames
-fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ri_med_19,0.906,8.67,0.484,0,too few joints (only a head or part of the body is visible)
+fall_floor,KUNG_FU_HUSTLE_fall_floor_f_cm_np1_ri_med_19,0.906,8.67,0.484,0,shoulders and hips are not visible together
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_nm_np1_ba_bad_23,0.438,5.57,0.125,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_nm_np1_ba_bad_54,0.281,12.5,0.281,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_nm_np1_le_bad_0,0.875,2.93,0.0,0,too few joints (only a head or part of the body is visible)
 fall_floor,KUNG_FU_HUSTLE_fall_floor_f_nm_np1_le_med_13,0.531,9.56,0.531,0,no person found in most frames
 fall_floor,KUNG_FU_HUSTLE_fall_floor_u_cm_np1_fr_med_8,0.828,6.08,0.109,0,too few joints (only a head or part of the body is visible)
 fall_floor,KUNG_FU_HUSTLE_fall_floor_u_nm_np1_le_med_4,0.406,8.27,0.219,0,no person found in most frames
-fall_floor,LONGESTYARD_fall_floor_f_cm_np1_ba_med_13,0.844,8.83,0.625,0,too few joints (only a head or part of the body is visible)
+fall_floor,LONGESTYARD_fall_floor_f_cm_np1_ba_med_13,0.844,8.83,0.625,1,
 fall_floor,LONGESTYARD_fall_floor_f_cm_np1_fr_med_19,0.875,11.91,0.812,1,
 fall_floor,LONGESTYARD_fall_floor_f_cm_np1_fr_med_25,1.0,12.09,0.891,1,
 fall_floor,LONGESTYARD_fall_floor_f_cm_np1_le_bad_2,0.375,6.25,0.156,0,no person found in most frames
-fall_floor,LONGESTYARD_fall_floor_f_cm_np1_le_med_12,0.891,8.44,0.484,0,too few joints (only a head or part of the body is visible)
+fall_floor,LONGESTYARD_fall_floor_f_cm_np1_le_med_12,0.891,8.44,0.484,0,shoulders and hips are not visible together
 fall_floor,LONGESTYARD_fall_floor_f_cm_np1_le_med_17,0.984,12.41,0.984,1,
 fall_floor,LONGESTYARD_fall_floor_f_cm_np1_le_med_31,1.0,12.73,0.953,1,
 fall_floor,LONGESTYARD_fall_floor_h_nm_np1_fr_med_5,0.031,7.0,0.031,0,no person found in most frames
@@ -1472,7 +1472,7 @@ fall_floor,RETURN_OF_THE_KING_fall_floor_u_cm_np1_fr_med_37,0.656,5.36,0.047,0,n
 fall_floor,RETURN_OF_THE_KING_fall_floor_u_cm_np2_fr_med_1,0.656,7.57,0.391,0,no person found in most frames
 fall_floor,RETURN_OF_THE_KING_fall_floor_u_nm_np2_ba_med_35,0.312,11.6,0.281,0,no person found in most frames
 fall_floor,Return_of_the_King_1_fall_floor_u_nm_np1_le_med_8,0.734,6.72,0.391,0,too few joints (only a head or part of the body is visible)
-fall_floor,Return_of_the_King_4_fall_floor_u_cm_np1_fr_med_9,0.828,8.19,0.625,0,too few joints (only a head or part of the body is visible)
+fall_floor,Return_of_the_King_4_fall_floor_u_cm_np1_fr_med_9,0.828,8.19,0.625,1,
 fall_floor,Return_of_the_King_8_fall_floor_f_cm_np1_ba_med_2,0.609,7.31,0.266,0,no person found in most frames
 fall_floor,RushHour2_fall_floor_f_cm_np1_fr_bad_3,0.109,9.71,0.078,0,no person found in most frames
 fall_floor,Superbad_fall_floor_u_nm_np1_ba_bad_3,0.5,9.0,0.469,0,no person found in most frames
@@ -1499,7 +1499,7 @@ fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_fr_goo_10,0.922,12.58,0.875,1,
 fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_fr_med_18,0.312,13.0,0.312,0,no person found in most frames
 fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_fr_med_61,0.609,11.62,0.609,0,no person found in most frames
 fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_fr_med_84,0.656,12.43,0.656,0,no person found in most frames
-fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_le_bad_2,0.703,8.96,0.406,0,too few joints (only a head or part of the body is visible)
+fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_le_bad_2,0.703,8.96,0.406,0,shoulders and hips are not visible together
 fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_le_bad_67,0.344,7.0,0.234,0,no person found in most frames
 fall_floor,THE_PROTECTOR_fall_floor_f_nm_np1_ri_bad_92,0.953,10.51,0.953,1,
 fall_floor,THE_PROTECTOR_fall_floor_u_cm_np1_ba_med_86,0.672,10.35,0.547,0,no person found in most frames
@@ -1511,7 +1511,7 @@ fall_floor,TheBoondockSaints_fall_floor_h_cm_np1_ri_bad_117,0.547,3.29,0.016,0,n
 fall_floor,TheBoondockSaints_fall_floor_u_cm_np1_ba_bad_82,0.688,7.23,0.516,0,no person found in most frames
 fall_floor,TheBoondockSaints_fall_floor_u_cm_np1_fr_med_108,1.0,11.27,1.0,1,
 fall_floor,TheBoondockSaints_fall_floor_u_cm_np1_fr_med_62,1.0,10.12,1.0,1,
-fall_floor,TheBoondockSaints_fall_floor_u_cm_np1_fr_med_63,0.922,8.19,0.438,0,too few joints (only a head or part of the body is visible)
+fall_floor,TheBoondockSaints_fall_floor_u_cm_np1_fr_med_63,0.922,8.19,0.438,0,shoulders and hips are not visible together
 fall_floor,TheBoondockSaints_fall_floor_u_nm_np1_ba_med_97,0.781,9.26,0.688,1,
 fall_floor,TheBoondockSaints_fall_floor_u_nm_np1_fr_med_70,0.344,6.45,0.188,0,no person found in most frames
 fall_floor,TheBoondockSaints_fall_floor_u_nm_np2_fr_med_64,0.828,9.02,0.828,1,
@@ -1530,30 +1530,30 @@ punch,50_FIRST_DATES_punch_f_nm_np1_ri_med_16,1.0,13.0,1.0,1,
 punch,A_Beautiful_Mind_4_punch_h_nm_np1_ba_med_11,0.734,3.06,0.0,0,too few joints (only a head or part of the body is visible)
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_14,0.75,5.6,0.406,0,too few joints (only a head or part of the body is visible)
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_23,0.516,7.7,0.406,0,no person found in most frames
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_5,0.969,8.42,0.969,0,too few joints (only a head or part of the body is visible)
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_7,0.984,7.51,0.969,0,too few joints (only a head or part of the body is visible)
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_5,0.969,8.42,0.969,1,
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ba_med_7,0.984,7.51,0.969,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_0,1.0,10.56,1.0,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_12,1.0,10.62,1.0,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_16,0.547,10.71,0.547,0,no person found in most frames
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_19,0.484,9.39,0.484,0,no person found in most frames
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_fr_med_2,0.641,10.02,0.625,0,no person found in most frames
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_3,0.938,8.68,0.859,0,too few joints (only a head or part of the body is visible)
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_4,0.969,7.92,0.844,0,too few joints (only a head or part of the body is visible)
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_3,0.938,8.68,0.859,1,
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_4,0.969,7.92,0.844,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_1,1.0,9.53,1.0,1,
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_10,0.781,7.96,0.781,0,too few joints (only a head or part of the body is visible)
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_10,0.781,7.96,0.781,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_11,1.0,9.62,1.0,1,
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_13,0.906,8.93,0.797,0,too few joints (only a head or part of the body is visible)
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_13,0.906,8.93,0.797,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_15,0.938,9.13,0.906,1,
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_17,0.938,7.23,0.547,0,too few joints (only a head or part of the body is visible)
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_18,0.953,7.05,0.609,0,too few joints (only a head or part of the body is visible)
-punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_20,0.703,8.93,0.688,0,too few joints (only a head or part of the body is visible)
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_17,0.938,7.23,0.547,1,
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_18,0.953,7.05,0.609,1,
+punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_20,0.703,8.93,0.688,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_21,1.0,9.08,1.0,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_22,1.0,9.14,1.0,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_24,0.891,9.33,0.891,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_6,0.422,8.78,0.406,0,no person found in most frames
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_8,0.859,9.0,0.859,1,
 punch,AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_ri_med_9,0.891,6.09,0.438,0,too few joints (only a head or part of the body is visible)
-punch,BATMAN_BEGINS_punch_h_nm_np1_ba_bad_7,0.984,7.84,0.875,0,too few joints (only a head or part of the body is visible)
+punch,BATMAN_BEGINS_punch_h_nm_np1_ba_bad_7,0.984,7.84,0.875,1,
 punch,BeginnerKyokushinKarateTechniques_punch_f_nm_np2_fr_med_0,1.0,13.0,1.0,1,
 punch,BeginnerKyokushinKarateTechniques_punch_f_nm_np2_fr_med_1,1.0,13.0,1.0,1,
 punch,BeginnerKyokushinKarateTechniques_punch_f_nm_np2_fr_med_2,1.0,13.0,1.0,1,
@@ -1562,37 +1562,37 @@ punch,BoxingTipsHowtoBuildPunchingPower_punch_u_cm_np1_fr_goo_1,1.0,10.86,1.0,1,
 punch,BoxingTipsHowtoBuildPunchingPower_punch_u_cm_np1_fr_goo_2,1.0,10.7,1.0,1,
 punch,BoxingTipsHowtoBuildPunchingPower_punch_u_cm_np1_fr_med_3,1.0,9.72,1.0,1,
 punch,BoxingTipsHowtoBuildPunchingPower_punch_u_cm_np1_fr_med_4,1.0,10.83,1.0,1,
-punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_1,1.0,8.92,0.938,0,too few joints (only a head or part of the body is visible)
-punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_2,1.0,7.59,0.0,0,too few joints (only a head or part of the body is visible)
+punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_1,1.0,8.92,0.938,1,
+punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_2,1.0,7.59,0.0,0,shoulders and hips are not visible together
 punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_3,1.0,6.77,0.0,0,too few joints (only a head or part of the body is visible)
 punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_4,1.0,6.95,0.0,0,too few joints (only a head or part of the body is visible)
-punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_5,1.0,7.09,0.0,0,too few joints (only a head or part of the body is visible)
-punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_nm_np1_ri_goo_0,1.0,8.22,0.266,0,too few joints (only a head or part of the body is visible)
+punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_cm_np1_ri_goo_5,1.0,7.09,0.0,0,shoulders and hips are not visible together
+punch,BoxingTipsHowtoMakeKnucklesStronger_punch_u_nm_np1_ri_goo_0,1.0,8.22,0.266,0,shoulders and hips are not visible together
 punch,CharlieAndTheChocolateFactory_punch_u_cm_np1_ri_med_11,1.0,4.73,0.297,0,too few joints (only a head or part of the body is visible)
 punch,CharlieAndTheChocolateFactory_punch_u_nm_np1_le_med_12,0.75,6.08,0.141,0,too few joints (only a head or part of the body is visible)
 punch,Crash_punch_h_cm_np1_ri_med_18,0.875,6.38,0.422,0,too few joints (only a head or part of the body is visible)
-punch,Eurotrip_punch_u_cm_np1_ri_goo_1,1.0,7.94,0.75,0,too few joints (only a head or part of the body is visible)
+punch,Eurotrip_punch_u_cm_np1_ri_goo_1,1.0,7.94,0.75,1,
 punch,Fellowship_7_punch_u_cm_np1_ba_med_13,0.422,7.3,0.188,0,no person found in most frames
 punch,Glory_punch_f_nm_np1_fr_med_36,0.453,12.62,0.453,0,no person found in most frames
 punch,Glory_punch_u_cm_np1_ba_med_50,0.484,9.03,0.438,0,no person found in most frames
 punch,Glory_punch_u_cm_np1_fr_bad_37,1.0,11.3,1.0,1,
 punch,Glory_punch_u_cm_np1_fr_bad_43,1.0,3.45,0.0,0,too few joints (only a head or part of the body is visible)
 punch,HARD_FACE_SLAP_COMPILATION_-_THE_FUNNIEST_FACE_SLAPS_EVER!!_-_Old_school_Vids_punch_f_cm_np1_fr_bad_0,0.969,11.61,0.719,1,
-punch,HARD_FACE_SLAP_COMPILATION_punch_u_cm_np1_ri_bad_2,0.875,8.89,0.797,0,too few joints (only a head or part of the body is visible)
-punch,HP_PRISONER_OF_AZKABAN_punch_u_cm_np1_ba_med_24,1.0,8.56,0.594,0,too few joints (only a head or part of the body is visible)
+punch,HARD_FACE_SLAP_COMPILATION_punch_u_cm_np1_ri_bad_2,0.875,8.89,0.797,1,
+punch,HP_PRISONER_OF_AZKABAN_punch_u_cm_np1_ba_med_24,1.0,8.56,0.594,1,
 punch,Italian_Job_4_punch_u_cm_np1_fr_med_1,0.938,4.55,0.0,0,too few joints (only a head or part of the body is visible)
 punch,KUNG_FU_HUSTLE_punch_u_cm_np1_fr_med_14,0.688,9.82,0.641,0,no person found in most frames
-punch,KUNG_FU_HUSTLE_punch_u_cm_np1_fr_med_30,0.812,7.1,0.344,0,too few joints (only a head or part of the body is visible)
-punch,KUNG_FU_HUSTLE_punch_u_cm_np2_ri_med_31,0.844,7.8,0.391,0,too few joints (only a head or part of the body is visible)
-punch,KUNG_FU_HUSTLE_punch_u_nm_np1_fr_med_53,1.0,7.78,0.797,0,too few joints (only a head or part of the body is visible)
-punch,KUNG_FU_HUSTLE_punch_u_nm_np1_ri_med_32,0.984,8.4,0.891,0,too few joints (only a head or part of the body is visible)
-punch,KUNG_FU_HUSTLE_punch_u_nm_np1_ri_med_51,0.828,8.89,0.828,0,too few joints (only a head or part of the body is visible)
+punch,KUNG_FU_HUSTLE_punch_u_cm_np1_fr_med_30,0.812,7.1,0.344,0,shoulders and hips are not visible together
+punch,KUNG_FU_HUSTLE_punch_u_cm_np2_ri_med_31,0.844,7.8,0.391,0,shoulders and hips are not visible together
+punch,KUNG_FU_HUSTLE_punch_u_nm_np1_fr_med_53,1.0,7.78,0.797,1,
+punch,KUNG_FU_HUSTLE_punch_u_nm_np1_ri_med_32,0.984,8.4,0.891,1,
+punch,KUNG_FU_HUSTLE_punch_u_nm_np1_ri_med_51,0.828,8.89,0.828,1,
 punch,LivefreeorDieHard_punch_u_cm_np1_fr_med_1,0.453,4.0,0.016,0,no person found in most frames
 punch,LivefreeorDieHard_punch_u_cm_np1_fr_med_4,0.828,3.02,0.0,0,too few joints (only a head or part of the body is visible)
-punch,Man_Who_Cheated_Himself_512kb_punch_u_cm_np1_ba_med_12,1.0,7.39,0.969,0,too few joints (only a head or part of the body is visible)
+punch,Man_Who_Cheated_Himself_512kb_punch_u_cm_np1_ba_med_12,1.0,7.39,0.969,1,
 punch,Oceans11_punch_u_nm_np1_fr_med_9,0.812,5.33,0.281,0,too few joints (only a head or part of the body is visible)
-punch,OldSchool_punch_u_cm_np1_ba_bad_27,1.0,7.14,0.172,0,too few joints (only a head or part of the body is visible)
-punch,OldSchool_punch_u_nm_np1_le_med_23,1.0,8.06,0.766,0,too few joints (only a head or part of the body is visible)
+punch,OldSchool_punch_u_cm_np1_ba_bad_27,1.0,7.14,0.172,0,shoulders and hips are not visible together
+punch,OldSchool_punch_u_nm_np1_le_med_23,1.0,8.06,0.766,1,
 punch,PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_0,1.0,9.23,1.0,1,
 punch,PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_1,1.0,9.33,1.0,1,
 punch,PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_10,1.0,9.5,1.0,1,
@@ -1619,35 +1619,35 @@ punch,THE_PROTECTOR_punch_f_cm_np1_ba_med_49,0.906,11.86,0.906,1,
 punch,THE_PROTECTOR_punch_f_cm_np1_le_bad_32,0.703,11.84,0.703,1,
 punch,THE_PROTECTOR_punch_u_cm_np1_ba_med_82,1.0,10.58,0.984,1,
 punch,THE_PROTECTOR_punch_u_cm_np1_fr_med_7,0.531,10.0,0.531,0,no person found in most frames
-punch,THE_PROTECTOR_punch_u_cm_np1_ri_med_76,1.0,8.5,0.656,0,too few joints (only a head or part of the body is visible)
+punch,THE_PROTECTOR_punch_u_cm_np1_ri_med_76,1.0,8.5,0.656,1,
 punch,TheBoondockSaints_punch_f_cm_np1_ri_bad_36,0.297,5.74,0.062,0,no person found in most frames
 punch,TheBoondockSaints_punch_h_nm_np1_fr_bad_105,0.578,3.19,0.0,0,no person found in most frames
-punch,TheBoondockSaints_punch_u_cm_np1_ri_bad_68,1.0,7.78,0.234,0,too few joints (only a head or part of the body is visible)
+punch,TheBoondockSaints_punch_u_cm_np1_ri_bad_68,1.0,7.78,0.234,0,shoulders and hips are not visible together
 punch,TheBoondockSaints_punch_u_nm_np1_le_bad_37,0.125,3.0,0.0,0,no person found in most frames
 punch,The_Departed_-_Part_1_punch_h_cm_np1_fr_bad_3,1.0,2.92,0.0,0,too few joints (only a head or part of the body is visible)
 punch,The_Fugitive_6_punch_u_cm_np1_ba_med_12,0.938,6.05,0.188,0,too few joints (only a head or part of the body is visible)
 punch,The_Fugitive_6_punch_u_cm_np1_fr_med_11,0.859,5.87,0.172,0,too few joints (only a head or part of the body is visible)
-punch,The_Matrix_2_punch_u_cm_np2_ri_med_4,0.984,8.19,0.828,0,too few joints (only a head or part of the body is visible)
+punch,The_Matrix_2_punch_u_cm_np2_ri_med_4,0.984,8.19,0.828,1,
 punch,The_Matrix_3_punch_u_cm_np1_le_goo_3,1.0,6.81,0.469,0,too few joints (only a head or part of the body is visible)
 punch,The_Matrix_3_punch_u_cm_np2_le_med_6,0.891,9.19,0.891,1,
 punch,The_Matrix_4_punch_u_cm_np1_fr_med_4,0.75,3.96,0.031,0,too few joints (only a head or part of the body is visible)
 punch,The_Matrix_4_punch_u_nm_np1_fr_bad_3,0.703,5.02,0.188,0,too few joints (only a head or part of the body is visible)
-punch,The_Matrix_5_punch_u_cm_np1_fr_med_18,0.859,7.29,0.344,0,too few joints (only a head or part of the body is visible)
+punch,The_Matrix_5_punch_u_cm_np1_fr_med_18,0.859,7.29,0.344,0,shoulders and hips are not visible together
 punch,The_Matrix_5_punch_u_cm_np1_le_med_15,1.0,9.86,1.0,1,
-punch,The_Matrix_5_punch_u_cm_np1_le_med_17,1.0,8.7,1.0,0,too few joints (only a head or part of the body is visible)
-punch,The_Matrix_5_punch_u_nm_np1_ba_med_20,0.703,8.09,0.594,0,too few joints (only a head or part of the body is visible)
+punch,The_Matrix_5_punch_u_cm_np1_le_med_17,1.0,8.7,1.0,1,
+punch,The_Matrix_5_punch_u_nm_np1_ba_med_20,0.703,8.09,0.594,1,
 punch,The_Matrix_Revolutions_6_punch_u_nm_np1_fr_med_9,0.562,4.25,0.078,0,no person found in most frames
-punch,The_Matrix_Revolutions_6_punch_u_nm_np1_le_med_5,1.0,8.66,1.0,0,too few joints (only a head or part of the body is visible)
+punch,The_Matrix_Revolutions_6_punch_u_nm_np1_le_med_5,1.0,8.66,1.0,1,
 punch,The_Matrix_Revolutions_6_punch_u_nm_np2_ri_med_1,0.328,9.48,0.297,0,no person found in most frames
 punch,TrumanShow_punch_u_cm_np1_ba_bad_30,1.0,4.94,0.047,0,too few joints (only a head or part of the body is visible)
 punch,Two_Towers_3_punch_u_cm_np1_fr_bad_3,0.594,5.95,0.297,0,no person found in most frames
-punch,Two_Towers_3_punch_u_nm_np1_fr_bad_4,0.828,7.68,0.531,0,too few joints (only a head or part of the body is visible)
+punch,Two_Towers_3_punch_u_nm_np1_fr_bad_4,0.828,7.68,0.531,1,
 punch,Two_Towers_6_punch_h_nm_np1_fr_med_10,0.438,6.18,0.234,0,no person found in most frames
 punch,Two_Towers_6_punch_u_cm_np1_fr_bad_5,0.594,8.16,0.406,0,no person found in most frames
 punch,Two_Towers_6_punch_u_cm_np1_ri_med_6,0.5,9.19,0.5,0,no person found in most frames
 punch,Veoh_Alpha_Dog_1_punch_f_nm_np1_ri_med_47,1.0,9.7,1.0,1,
 punch,Veoh_Alpha_Dog_1_punch_h_cm_np1_ba_med_51,1.0,3.25,0.0,0,too few joints (only a head or part of the body is visible)
-punch,Veoh_Alpha_Dog_1_punch_u_cm_np1_ba_med_52,1.0,8.62,0.703,0,too few joints (only a head or part of the body is visible)
+punch,Veoh_Alpha_Dog_1_punch_u_cm_np1_ba_med_52,1.0,8.62,0.703,1,
 punch,kick__bruce_lee_v_s_japanese_punch_u_cm_np1_ri_bad_2,0.828,9.04,0.797,1,
 punch,kick__bruce_lee_v_s_japanese_punch_u_cm_np1_ri_bad_3,0.641,6.2,0.266,0,no person found in most frames
 punch,kick__bruce_lee_v_s_japanese_punch_u_cm_np1_ri_bad_4,0.562,7.36,0.297,0,no person found in most frames
@@ -1656,7 +1656,7 @@ kick,American_History_X_kick_f_nm_np1_le_bad_37,0.703,10.42,0.516,1,
 kick,American_History_X_kick_l_cm_np1_le_med_33,0.719,10.39,0.719,1,
 kick,Best_fight_scene_in_history_of_movie_kick_f_cm_np2_ba_bad_2,0.359,12.43,0.359,0,no person found in most frames
 kick,Best_fight_scene_in_history_of_movie_kick_f_cm_np2_ri_bad_0,0.453,12.14,0.422,0,no person found in most frames
-kick,CharlieAndTheChocolateFactory_kick_f_nm_np1_ri_med_19,1.0,7.78,0.484,0,too few joints (only a head or part of the body is visible)
+kick,CharlieAndTheChocolateFactory_kick_f_nm_np1_ri_med_19,1.0,7.78,0.484,0,shoulders and hips are not visible together
 kick,FOOT_2009_(REMI_GAILLARD)_kick_f_cm_np1_ba_med_5,1.0,11.89,1.0,1,
 kick,KUNG_FU_HUSTLE_kick_f_cm_np1_fr_bad_9,0.359,8.52,0.359,0,no person found in most frames
 kick,KUNG_FU_HUSTLE_kick_f_cm_np1_fr_med_15,0.641,12.68,0.641,0,no person found in most frames
@@ -1674,7 +1674,7 @@ kick,RushHour2_kick_l_cm_np1_le_med_2,0.312,10.3,0.312,0,no person found in most
 kick,THE_PROTECTOR_kick_f_cm_np1_ba_bad_37,0.844,9.74,0.734,1,
 kick,THE_PROTECTOR_kick_f_cm_np1_ba_med_63,1.0,12.48,1.0,1,
 kick,THE_PROTECTOR_kick_f_cm_np1_ba_med_69,1.0,12.92,1.0,1,
-kick,THE_PROTECTOR_kick_f_cm_np1_ba_med_72,0.922,8.34,0.562,0,too few joints (only a head or part of the body is visible)
+kick,THE_PROTECTOR_kick_f_cm_np1_ba_med_72,0.922,8.34,0.562,1,
 kick,THE_PROTECTOR_kick_f_cm_np1_fr_bad_53,1.0,12.69,1.0,1,
 kick,THE_PROTECTOR_kick_f_cm_np1_fr_med_4,0.859,11.6,0.844,1,
 kick,THE_PROTECTOR_kick_f_cm_np1_fr_med_48,0.953,12.79,0.953,1,
@@ -1697,7 +1697,7 @@ kick,THE_PROTECTOR_kick_f_nm_np1_fr_med_3,1.0,10.17,1.0,1,
 kick,THE_PROTECTOR_kick_f_nm_np1_fr_med_68,1.0,10.97,0.734,1,
 kick,THE_PROTECTOR_kick_f_nm_np1_le_med_8,0.703,11.6,0.703,1,
 kick,THE_PROTECTOR_kick_f_nm_np2_fr_bad_78,0.906,12.12,0.906,1,
-kick,THE_PROTECTOR_kick_u_cm_np1_ba_bad_25,1.0,7.55,0.812,0,too few joints (only a head or part of the body is visible)
+kick,THE_PROTECTOR_kick_u_cm_np1_ba_bad_25,1.0,7.55,0.812,1,
 kick,THE_PROTECTOR_kick_u_cm_np1_ri_med_47,1.0,10.02,1.0,1,
 kick,TheBoondockSaints_kick_f_cm_np1_fr_med_123,0.812,5.46,0.203,0,too few joints (only a head or part of the body is visible)
 kick,TheBoondockSaints_kick_f_cm_np1_fr_med_88,1.0,11.55,1.0,1,
@@ -1712,8 +1712,8 @@ kick,The_Matrix_5_kick_f_cm_np1_fr_bad_16,0.969,9.87,0.922,1,
 kick,The_Matrix_5_kick_f_cm_np1_fr_med_19,1.0,9.61,0.859,1,
 kick,The_Matrix_5_kick_f_cm_np1_fr_med_6,0.594,10.61,0.562,0,no person found in most frames
 kick,The_Matrix_5_kick_f_cm_np1_le_med_13,0.875,11.11,0.875,1,
-kick,The_Matrix_5_kick_u_nm_np1_fr_bad_14,0.938,8.73,0.938,0,too few joints (only a head or part of the body is visible)
-kick,The_Matrix_6_kick_f_nm_np1_fr_med_6,0.781,7.84,0.594,0,too few joints (only a head or part of the body is visible)
+kick,The_Matrix_5_kick_u_nm_np1_fr_bad_14,0.938,8.73,0.938,1,
+kick,The_Matrix_6_kick_f_nm_np1_fr_med_6,0.781,7.84,0.594,1,
 kick,The_Matrix_Revolutions_2_kick_f_cm_np1_ba_bad_2,0.656,9.43,0.656,0,no person found in most frames
 kick,The_Matrix_Revolutions_6_kick_f_cm_np1_ba_med_7,0.625,10.9,0.531,0,no person found in most frames
 kick,The_Matrix_Revolutions_6_kick_f_cm_np1_ri_med_0,1.0,12.25,1.0,1,
@@ -1735,10 +1735,10 @@ kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_f_nm_np1_ba
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_f_nm_np1_ri_bad_2,0.625,12.65,0.625,0,no person found in most frames
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_1,0.906,10.09,0.891,1,
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_10,0.453,7.28,0.266,0,no person found in most frames
-kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_3,0.812,8.75,0.719,0,too few joints (only a head or part of the body is visible)
+kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_3,0.812,8.75,0.719,1,
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_5,0.969,9.92,0.953,1,
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_6,1.0,9.0,0.844,1,
-kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_8,0.75,8.4,0.641,0,too few joints (only a head or part of the body is visible)
+kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ba_med_8,0.75,8.4,0.641,1,
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ri_med_12,0.969,10.1,0.969,1,
 kick,kick__Baddest_Fight_Scenes_EVER!_-_Kickboxer_-_Part_1_of_2_kick_u_cm_np1_ri_med_9,0.688,7.95,0.594,0,no person found in most frames
 kick,kick__Best_CHUCK_NORRIS_kick_to_the_nuts!_kick_f_cm_np1_ba_goo_0,1.0,9.33,0.781,1,
@@ -1759,8 +1759,8 @@ kick,kick__Best_fight_scene_of_all_time_kick_f_cm_np1_ri_bad_15,0.844,9.7,0.781,
 kick,kick__Best_fight_scene_of_all_time_kick_f_cm_np1_ri_bad_2,0.938,12.6,0.938,1,
 kick,kick__Best_fight_scene_of_all_time_kick_f_cm_np1_ri_bad_3,1.0,12.27,1.0,1,
 kick,kick__Best_fight_scene_of_all_time_kick_f_cm_np1_ri_bad_4,1.0,10.2,0.75,1,
-kick,kick__Best_fight_scene_of_all_time_kick_u_cm_np1_fr_bad_12,0.969,8.27,0.891,0,too few joints (only a head or part of the body is visible)
-kick,kick__Best_fight_scene_of_all_time_kick_u_cm_np1_fr_bad_13,1.0,8.3,0.828,0,too few joints (only a head or part of the body is visible)
+kick,kick__Best_fight_scene_of_all_time_kick_u_cm_np1_fr_bad_12,0.969,8.27,0.891,1,
+kick,kick__Best_fight_scene_of_all_time_kick_u_cm_np1_fr_bad_13,1.0,8.3,0.828,1,
 kick,kick__Bruce_Lee_Kick_kick_u_cm_np1_fr_med_0,0.797,10.47,0.797,1,
 kick,kick__Bruce_Lee_sidekick_kick_f_cm_np1_ri_med_1,0.609,12.9,0.609,0,no person found in most frames
 kick,kick__Bruce_Lee_sidekick_kick_f_nm_np1_ri_med_0,1.0,13.0,1.0,1,
@@ -1775,7 +1775,7 @@ kick,kick__bruce_lee_v_s_japanese_kick_f_cm_np1_ri_bad_12,0.891,12.54,0.891,1,
 kick,kick__bruce_lee_v_s_japanese_kick_f_cm_np1_ri_bad_18,0.734,12.06,0.734,1,
 kick,kick__bruce_lee_v_s_japanese_kick_f_cm_np1_ri_bad_6,0.922,12.08,0.922,1,
 kick,kick__bruce_lee_v_s_japanese_kick_f_cm_np1_ri_bad_7,0.734,12.49,0.734,1,
-kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_fr_bad_5,0.75,7.73,0.484,0,too few joints (only a head or part of the body is visible)
+kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_fr_bad_5,0.75,7.73,0.484,0,shoulders and hips are not visible together
 kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_le_bad_16,1.0,10.91,1.0,1,
 kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_ri_bad_0,0.781,6.72,0.516,0,too few joints (only a head or part of the body is visible)
 kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_ri_bad_1,0.547,9.31,0.422,0,no person found in most frames
@@ -1783,28 +1783,28 @@ kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_ri_bad_8,0.875,9.62,0.875,1,
 kick,kick__bruce_lee_v_s_japanese_kick_u_cm_np1_ri_bad_9,0.812,10.38,0.812,1,
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_10,0.719,9.37,0.719,1,
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_2,0.766,4.37,0.125,0,too few joints (only a head or part of the body is visible)
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_6,0.891,8.09,0.5,0,too few joints (only a head or part of the body is visible)
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_6,0.891,8.09,0.5,1,
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_7,0.859,5.09,0.016,0,too few joints (only a head or part of the body is visible)
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_ba_goo_8,1.0,6.11,0.766,0,too few joints (only a head or part of the body is visible)
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_0,1.0,8.44,1.0,0,too few joints (only a head or part of the body is visible)
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_0,1.0,8.44,1.0,1,
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_1,1.0,10.22,1.0,1,
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_11,0.969,7.74,0.844,0,too few joints (only a head or part of the body is visible)
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_11,0.969,7.74,0.844,1,
 hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_12,0.859,9.0,0.859,1,
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_3,1.0,8.58,0.953,0,too few joints (only a head or part of the body is visible)
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_4,1.0,8.56,0.875,0,too few joints (only a head or part of the body is visible)
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_9,1.0,8.89,1.0,0,too few joints (only a head or part of the body is visible)
-hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np4_le_goo_5,1.0,8.5,0.938,0,too few joints (only a head or part of the body is visible)
-hug,2007-05-26__Anni_hug_u_cm_np2_le_med_0,0.969,8.03,0.547,0,too few joints (only a head or part of the body is visible)
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_3,1.0,8.58,0.953,1,
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_4,1.0,8.56,0.875,1,
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np2_le_goo_9,1.0,8.89,1.0,1,
+hug,-_FREE_HUGS_-_Abrazos_Gratis_www_abrazosgratis_org_hug_u_cm_np4_le_goo_5,1.0,8.5,0.938,1,
+hug,2007-05-26__Anni_hug_u_cm_np2_le_med_0,0.969,8.03,0.547,1,
 hug,A_Beautiful_Mind_3_hug_u_cm_np2_ba_med_2,0.891,9.28,0.875,1,
 hug,A_Beautiful_Mind_4_hug_u_cm_np2_ba_goo_14,1.0,6.72,0.297,0,too few joints (only a head or part of the body is visible)
 hug,A_Beautiful_Mind_4_hug_u_cm_np3_ba_goo_6,1.0,6.16,0.078,0,too few joints (only a head or part of the body is visible)
 hug,American_History_X_hug_f_nm_np2_le_med_35,1.0,9.94,0.938,1,
 hug,American_History_X_hug_u_cm_np2_le_med_19,0.875,4.36,0.141,0,too few joints (only a head or part of the body is visible)
 hug,American_History_X_hug_u_nm_np2_ba_med_25,0.938,6.63,0.219,0,too few joints (only a head or part of the body is visible)
-hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_0,0.875,8.02,0.609,0,too few joints (only a head or part of the body is visible)
-hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_1,0.734,7.09,0.328,0,too few joints (only a head or part of the body is visible)
+hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_0,0.875,8.02,0.609,1,
+hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_1,0.734,7.09,0.328,0,shoulders and hips are not visible together
 hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_2,1.0,9.62,1.0,1,
-hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_3,1.0,7.42,0.766,0,too few joints (only a head or part of the body is visible)
+hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_ba_med_3,1.0,7.42,0.766,1,
 hug,American_Idol_Awards_Given_to_7_Winners_at_Walt_Disney_World_hug_u_cm_np2_le_med_4,0.953,9.51,0.953,1,
 hug,Awards_Ceremony_hug_u_cm_np2_le_med_0,1.0,11.02,1.0,1,
 hug,CSU_Cesar_Chavez_Day_Celebration_and_Award_Ceremony_2009_Part_7_hug_u_cm_np2_le_med_8,0.984,10.44,0.984,1,
@@ -1817,52 +1817,52 @@ hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_f_cm_np2_le_
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_f_cm_np2_le_med_7,0.922,12.25,0.922,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_f_cm_np4_ba_med_6,1.0,12.72,1.0,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_13,1.0,9.25,1.0,1,
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_18,0.719,7.11,0.281,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_19,0.922,8.42,0.844,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_21,1.0,7.91,1.0,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_22,1.0,8.56,1.0,0,too few joints (only a head or part of the body is visible)
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_18,0.719,7.11,0.281,0,shoulders and hips are not visible together
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_19,0.922,8.42,0.844,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_21,1.0,7.91,1.0,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_22,1.0,8.56,1.0,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_24,0.984,10.08,0.984,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_ba_med_3,0.984,5.46,0.016,0,too few joints (only a head or part of the body is visible)
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_10,1.0,6.59,0.016,0,too few joints (only a head or part of the body is visible)
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_11,1.0,9.33,1.0,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_12,0.906,9.6,0.906,1,
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_14,0.969,8.4,0.969,0,too few joints (only a head or part of the body is visible)
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_14,0.969,8.4,0.969,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_16,0.891,9.54,0.875,1,
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_17,0.859,7.91,0.688,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_23,1.0,8.0,0.984,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_25,0.969,8.92,0.891,0,too few joints (only a head or part of the body is visible)
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_17,0.859,7.91,0.688,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_23,1.0,8.0,0.984,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_25,0.969,8.92,0.891,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_26,1.0,6.94,0.422,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_27,0.953,8.05,0.625,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_5,0.922,8.71,0.875,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_8,1.0,8.53,1.0,0,too few joints (only a head or part of the body is visible)
-hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_9,0.984,7.94,0.969,0,too few joints (only a head or part of the body is visible)
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_27,0.953,8.05,0.625,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_5,0.922,8.71,0.875,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_8,1.0,8.53,1.0,1,
+hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np2_le_med_9,0.984,7.94,0.969,1,
 hug,Calins_gratuits_a_Paris_-_Free_Hugs_France_-_version_longue_hug_u_cm_np3_le_med_28,0.828,9.72,0.828,1,
 hug,Cleaning_The_Beach_Jeton_Bardhi__Dimitar_Chaprazov_hug_u_cm_np2_le_med_0,0.891,9.91,0.875,1,
 hug,Cox_umarmt_JD!_hug_u_cm_np2_ba_med_0,0.984,2.22,0.0,0,too few joints (only a head or part of the body is visible)
 hug,Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_f_cm_np2_ba_bad_0,1.0,12.81,1.0,1,
 hug,Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_f_cm_np2_ba_bad_2,1.0,12.56,1.0,1,
-hug,Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_u_cm_np2_le_med_1,0.859,7.93,0.406,0,too few joints (only a head or part of the body is visible)
+hug,Crazy_Fan!_Michael_Jackson_in_M_nchen_hug_u_cm_np2_le_med_1,0.859,7.93,0.406,0,shoulders and hips are not visible together
 hug,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_hug_f_cm_np2_ba_med_11,1.0,12.67,1.0,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_f_cm_np2_le_bad_9,0.781,12.06,0.781,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_f_cm_np2_le_med_4,0.359,12.26,0.359,0,no person found in most frames
 hug,Free_Hugs_-_Gratis_umarmung_hug_f_cm_np2_le_med_6,0.625,10.9,0.625,0,no person found in most frames
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_ba_med_17,0.812,8.98,0.812,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_ba_med_17,0.812,8.98,0.812,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_ba_med_3,0.641,12.29,0.641,0,no person found in most frames
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_ba_med_7,0.891,8.37,0.891,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_ba_med_7,0.891,8.37,0.891,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_0,0.938,9.98,0.922,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_1,0.938,9.3,0.922,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_10,0.969,10.69,0.969,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_11,0.656,8.93,0.531,0,no person found in most frames
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_12,0.984,9.46,0.859,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_14,0.578,4.89,0.141,0,no person found in most frames
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_15,0.75,7.6,0.688,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_15,0.75,7.6,0.688,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_16,0.781,10.52,0.781,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_18,0.406,8.69,0.406,0,no person found in most frames
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_19,0.875,7.59,0.5,0,too few joints (only a head or part of the body is visible)
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_2,0.844,8.37,0.812,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_19,0.875,7.59,0.5,1,
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_2,0.844,8.37,0.812,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_20,0.891,12.25,0.891,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_5,0.859,9.09,0.859,1,
-hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_8,0.953,7.79,0.688,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np2_le_med_8,0.953,7.79,0.688,1,
 hug,Free_Hugs_-_Gratis_umarmung_hug_u_cm_np4_le_med_13,0.875,6.8,0.453,0,too few joints (only a head or part of the body is visible)
 hug,Free_Hugs_-_Medellin_hug_f_cm_np2_ba_med_6,0.906,10.48,0.906,1,
 hug,Free_Hugs_-_Medellin_hug_f_cm_np2_ba_med_7,1.0,9.41,1.0,1,
@@ -1887,27 +1887,27 @@ hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_ba_med_9,0.859,9.65,0
 hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_10,0.938,9.8,0.938,1,
 hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_11,0.812,10.6,0.812,1,
 hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_12,1.0,9.55,1.0,1,
-hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_13,0.969,8.0,0.875,0,too few joints (only a head or part of the body is visible)
-hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_14,1.0,8.48,1.0,0,too few joints (only a head or part of the body is visible)
-hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_15,0.938,7.77,0.734,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_13,0.969,8.0,0.875,1,
+hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_14,1.0,8.48,1.0,1,
+hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_15,0.938,7.77,0.734,1,
 hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_3,0.828,5.96,0.188,0,too few joints (only a head or part of the body is visible)
-hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_7,0.859,8.35,0.609,0,too few joints (only a head or part of the body is visible)
+hug,Free_Hugs_-_Paris_www_calins-gratuits_com_hug_u_cm_np2_le_med_7,0.859,8.35,0.609,1,
 hug,Galena_Prehvalena_-_Slavi_Show_-_mnogo_smqh_hug_u_cm_np2_ba_med_0,1.0,9.02,1.0,1,
-hug,Jay_Leno_-_17_years_of_Mel_Gibson_on_the_Tonight_Show_hug_u_cm_np2_le_med_1,0.969,8.87,0.969,0,too few joints (only a head or part of the body is visible)
+hug,Jay_Leno_-_17_years_of_Mel_Gibson_on_the_Tonight_Show_hug_u_cm_np2_le_med_1,0.969,8.87,0.969,1,
 hug,Price_giving_ceremony_hug_f_cm_np2_le_med_0,1.0,12.98,1.0,1,
 hug,d173_graveyard_call_price_giving_ceremony_hug_f_cm_np2_ba_med_1,1.0,12.47,1.0,1,
 hug,d173_graveyard_call_price_giving_ceremony_hug_u_cm_np2_le_bad_3,1.0,9.38,1.0,1,
-hug,different_kinds_of_hugs_XD_hug_u_cm_np2_le_med_0,0.859,7.33,0.625,0,too few joints (only a head or part of the body is visible)
+hug,different_kinds_of_hugs_XD_hug_u_cm_np2_le_med_0,0.859,7.33,0.625,1,
 hug,veoh_harold_and_kumar_hug_f_cm_np2_le_med_7,1.0,12.34,1.0,1,
-shake_hands,2008-2009_Folk_Song_Singing_Competition_Prize_Giving_Ceremony_shake_hands_f_cm_np2_ba_bad_1,1.0,7.3,0.953,0,too few joints (only a head or part of the body is visible)
+shake_hands,2008-2009_Folk_Song_Singing_Competition_Prize_Giving_Ceremony_shake_hands_f_cm_np2_ba_bad_1,1.0,7.3,0.953,1,
 shake_hands,2008-2009_Folk_Song_Singing_Competition_Prize_Giving_Ceremony_shake_hands_f_cm_np2_le_bad_0,1.0,12.92,1.0,1,
 shake_hands,2008_Stockholm_Water_Prize_Award_Ceremony_shake_hands_u_nm_np2_le_med_0,1.0,9.12,1.0,1,
 shake_hands,2009_NJEHA_Conference__Awards_Ceremony_-_Part_1_shake_hands_u_cm_np2_le_med_0,1.0,5.98,0.031,0,too few joints (only a head or part of the body is visible)
 shake_hands,40_Trofeo_S_A_R__Princesa_Sofia_Price_Giving_Ceremony_shake_hands_f_cm_np2_le_bad_2,1.0,11.83,1.0,1,
-shake_hands,40_Trofeo_S_A_R__Princesa_Sofia_Price_Giving_Ceremony_shake_hands_u_cm_np2_le_med_0,1.0,8.72,0.828,0,too few joints (only a head or part of the body is visible)
+shake_hands,40_Trofeo_S_A_R__Princesa_Sofia_Price_Giving_Ceremony_shake_hands_u_cm_np2_le_med_0,1.0,8.72,0.828,1,
 shake_hands,40_Trofeo_S_A_R__Princesa_Sofia_Price_Giving_Ceremony_shake_hands_u_cm_np2_le_med_1,1.0,9.03,1.0,1,
-shake_hands,ANNA_BESSONOVA_in_Mie_WC_2009_-_Elegance_Award_Ceremony_shake_hands_u_cm_np2_le_med_0,1.0,7.05,0.109,0,too few joints (only a head or part of the body is visible)
-shake_hands,ANNA_BESSONOVA_in_Mie_WC_2009_-_Elegance_Award_Ceremony_shake_hands_u_cm_np2_le_med_1,0.859,7.11,0.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,ANNA_BESSONOVA_in_Mie_WC_2009_-_Elegance_Award_Ceremony_shake_hands_u_cm_np2_le_med_0,1.0,7.05,0.109,0,shoulders and hips are not visible together
+shake_hands,ANNA_BESSONOVA_in_Mie_WC_2009_-_Elegance_Award_Ceremony_shake_hands_u_cm_np2_le_med_1,0.859,7.11,0.0,0,shoulders and hips are not visible together
 shake_hands,A_Beautiful_Mind_1_shake_hands_u_nm_np2_le_med_1,1.0,9.0,1.0,1,
 shake_hands,A_Beautiful_Mind_5_shake_hands_f_nm_np2_ri_med_0,1.0,13.0,1.0,1,
 shake_hands,A_Beautiful_Mind_6_shake_hands_f_nm_np2_le_med_8,1.0,11.44,0.844,1,
@@ -1933,7 +1933,7 @@ shake_hands,CSU_Cesar_Chavez_Day_Celebration_and_Award_Ceremony_2009_Part_7_shak
 shake_hands,CSU_Cesar_Chavez_Day_Celebration_and_Award_Ceremony_2009_Part_7_shake_hands_u_cm_np2_le_med_4,1.0,9.56,1.0,1,
 shake_hands,CSU_Cesar_Chavez_Day_Celebration_and_Award_Ceremony_2009_Part_7_shake_hands_u_cm_np2_le_med_5,1.0,9.42,1.0,1,
 shake_hands,CSU_Cesar_Chavez_Day_Celebration_and_Award_Ceremony_2009_Part_7_shake_hands_u_cm_np2_le_med_7,0.938,11.05,0.938,1,
-shake_hands,Celebrated_Israeli_Author_Snubs_Olmert_at_Prize_Giving_Ceremony_shake_hands_u_cm_np2_ba_med_0,1.0,8.14,1.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,Celebrated_Israeli_Author_Snubs_Olmert_at_Prize_Giving_Ceremony_shake_hands_u_cm_np2_ba_med_0,1.0,8.14,1.0,1,
 shake_hands,Celebrated_Israeli_Author_Snubs_Olmert_at_Prize_Giving_Ceremony_shake_hands_u_cm_np2_ba_med_1,1.0,10.78,1.0,1,
 shake_hands,Concourse_d_elegance_Sofia_2009___PRICE_GIVING_CEREMONY_shake_hands_f_cm_np2_le_med_0,1.0,12.67,1.0,1,
 shake_hands,Creating_the_Right_Impression___The_Handshake_shake_hands_u_cm_np2_le_med_0,1.0,10.73,1.0,1,
@@ -1941,27 +1941,27 @@ shake_hands,Diane_Kruger_-_Letterman_shake_hands_f_cm_np2_le_med_0,0.891,12.67,0
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_ba_med_10,1.0,11.95,1.0,1,
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_fr_med_7,1.0,12.3,1.0,1,
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_le_bad_2,1.0,9.97,1.0,1,
-shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_le_med_1,1.0,7.09,0.516,0,too few joints (only a head or part of the body is visible)
+shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_le_med_1,1.0,7.09,0.516,1,
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_f_cm_np2_le_med_9,1.0,12.98,1.0,1,
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_0,1.0,9.02,1.0,1,
-shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_3,0.953,8.85,0.953,0,too few joints (only a head or part of the body is visible)
-shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_4,1.0,8.69,1.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_3,0.953,8.85,0.953,1,
+shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_4,1.0,8.69,1.0,1,
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_5,1.0,11.19,1.0,1,
-shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_6,1.0,7.34,0.281,0,too few joints (only a head or part of the body is visible)
+shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_le_med_6,1.0,7.34,0.281,0,shoulders and hips are not visible together
 shake_hands,Emma_2008_Eurofinals_-_prize_giving_ceremony_Team_Pioneer_members_divx_shake_hands_u_cm_np2_ri_med_8,0.984,6.44,0.188,0,too few joints (only a head or part of the body is visible)
 shake_hands,Emma_Watson_on_the_David_Letterman_Late_Show_(2009)_shake_hands_f_cm_np2_le_med_0,1.0,12.41,1.0,1,
 shake_hands,Ethan_(Bortnick)_-_Jay_Leno_shake_hands_f_cm_np2_le_bad_0,1.0,12.08,1.0,1,
 shake_hands,Finding_Forrester_1_shake_hands_u_nm_np2_ba_bad_0,1.0,6.75,0.625,0,too few joints (only a head or part of the body is visible)
-shake_hands,Finding_Forrester_2_shake_hands_u_cm_np2_le_med_0,0.891,7.68,0.578,0,too few joints (only a head or part of the body is visible)
-shake_hands,Gerard_Butler_with_Jay_Leno_shake_hands_u_cm_np2_le_med_0,0.953,8.77,0.953,0,too few joints (only a head or part of the body is visible)
+shake_hands,Finding_Forrester_2_shake_hands_u_cm_np2_le_med_0,0.891,7.68,0.578,1,
+shake_hands,Gerard_Butler_with_Jay_Leno_shake_hands_u_cm_np2_le_med_0,0.953,8.77,0.953,1,
 shake_hands,Geri_Halliwell_-_Look_At_Me_+_Interview_(Jay_Leno_1999)_shake_hands_f_cm_np2_le_med_0,1.0,10.55,0.969,1,
-shake_hands,Grammy_Awards_Eric_Benet_shake_hands_u_cm_np2_le_med_0,1.0,8.52,1.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,Grammy_Awards_Eric_Benet_shake_hands_u_cm_np2_le_med_0,1.0,8.52,1.0,1,
 shake_hands,Hand_Shake_Guy_shake_hands_f_cm_np2_le_med_5,1.0,12.92,1.0,1,
 shake_hands,Hand_Shake_Guy_shake_hands_f_cm_np2_le_med_6,1.0,12.91,1.0,1,
 shake_hands,Hand_Shake_Guy_shake_hands_f_nm_np2_le_med_3,0.781,2.08,0.0,0,too few joints (only a head or part of the body is visible)
 shake_hands,Hand_Shake_Guy_shake_hands_f_nm_np2_le_med_4,0.859,1.04,0.0,0,too few joints (only a head or part of the body is visible)
-shake_hands,Hand_Shake_Guy_shake_hands_u_nm_np2_le_med_0,1.0,7.73,0.859,0,too few joints (only a head or part of the body is visible)
-shake_hands,Hand_Shake_Guy_shake_hands_u_nm_np2_le_med_1,1.0,8.44,0.719,0,too few joints (only a head or part of the body is visible)
+shake_hands,Hand_Shake_Guy_shake_hands_u_nm_np2_le_med_0,1.0,7.73,0.859,1,
+shake_hands,Hand_Shake_Guy_shake_hands_u_nm_np2_le_med_1,1.0,8.44,0.719,1,
 shake_hands,Hand_Shake_Guy_shake_hands_u_nm_np2_le_med_2,1.0,9.0,1.0,1,
 shake_hands,Howard_Stern_on_Jay_Leno_-_First_Appearance_Part_1_2_shake_hands_f_cm_np2_le_bad_0,0.906,12.76,0.906,1,
 shake_hands,Hugh_Laurie_-_Dave_Letterman_Show_shake_hands_f_cm_np2_le_med_0,1.0,11.44,1.0,1,
@@ -1972,26 +1972,26 @@ shake_hands,IPL_Awards_Ceremony_shake_hands_f_cm_np2_ba_med_1,1.0,12.91,1.0,1,
 shake_hands,IPL_Awards_Ceremony_shake_hands_f_cm_np2_le_med_2,1.0,12.08,1.0,1,
 shake_hands,IPL_Awards_Ceremony_shake_hands_f_cm_np2_le_med_4,1.0,11.34,1.0,1,
 shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_3,0.828,9.11,0.766,1,
-shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_5,1.0,8.97,0.984,0,too few joints (only a head or part of the body is visible)
-shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_6,0.984,8.3,0.953,0,too few joints (only a head or part of the body is visible)
-shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_7,0.938,8.55,0.938,0,too few joints (only a head or part of the body is visible)
+shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_5,1.0,8.97,0.984,1,
+shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_6,0.984,8.3,0.953,1,
+shake_hands,IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_7,0.938,8.55,0.938,1,
 shake_hands,Inter-forum_futsal_tournament__prize_giving_ceremony_shake_hands_u_cm_np2_ba_med_0,1.0,10.62,1.0,1,
 shake_hands,Inter-forum_futsal_tournament__prize_giving_ceremony_shake_hands_u_cm_np2_le_med_1,1.0,9.08,1.0,1,
 shake_hands,Inter-forum_futsal_tournament__prize_giving_ceremony_shake_hands_u_cm_np2_le_med_2,1.0,9.05,1.0,1,
 shake_hands,Inter-forum_futsal_tournament__prize_giving_ceremony_shake_hands_u_cm_np2_le_med_3,1.0,9.0,1.0,1,
-shake_hands,Jay_Leno_-_17_years_of_Mel_Gibson_on_the_Tonight_Show_shake_hands_u_cm_np2_le_med_0,1.0,8.98,1.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,Jay_Leno_-_17_years_of_Mel_Gibson_on_the_Tonight_Show_shake_hands_u_cm_np2_le_med_0,1.0,8.98,1.0,1,
 shake_hands,Jay_Leno_@_David_Letterman_shake_hands_f_cm_np2_le_med_0,1.0,11.77,1.0,1,
-shake_hands,Johnny_Vegas_Presents_An_Award_shake_hands_u_cm_np2_ri_med_0,1.0,8.81,0.906,0,too few joints (only a head or part of the body is visible)
+shake_hands,Johnny_Vegas_Presents_An_Award_shake_hands_u_cm_np2_ri_med_0,1.0,8.81,0.906,1,
 shake_hands,Johnny_Vegas_Presents_An_Award_shake_hands_u_cm_np2_ri_med_1,1.0,10.83,0.844,1,
 shake_hands,Kibaki_and_Raila_shake_hands_-_Jan_24__08_shake_hands_u_cm_np2_fr_med_0,1.0,9.31,1.0,1,
 shake_hands,Kibaki_and_Raila_shake_hands_-_Jan_24__08_shake_hands_u_cm_np2_le_med_1,0.984,9.14,0.984,1,
 shake_hands,Kibaki_and_Raila_shake_hands_-_Jan_24__08_shake_hands_u_cm_np2_le_med_2,1.0,9.0,1.0,1,
-shake_hands,Meet_shake_hands_u_cm_np2_le_med_0,1.0,8.14,0.703,0,too few joints (only a head or part of the body is visible)
+shake_hands,Meet_shake_hands_u_cm_np2_le_med_0,1.0,8.14,0.703,1,
 shake_hands,Meet_shake_hands_u_cm_np2_le_med_1,1.0,9.0,1.0,1,
 shake_hands,Meeting_with_Boyko_Borisov__Prime_Minister_of_Bulgaria_shake_hands_u_cm_np2_le_med_0,1.0,9.27,1.0,1,
 shake_hands,Meeting_with_Boyko_Borisov__Prime_Minister_of_Bulgaria_shake_hands_u_cm_np2_le_med_1,1.0,9.0,1.0,1,
-shake_hands,Obama__Barroso_shake_hands_in_Prague_shake_hands_u_cm_np2_le_med_0,1.0,8.97,1.0,0,too few joints (only a head or part of the body is visible)
-shake_hands,Obama_and_Chavez_shaking_hands_shake_hands_u_cm_np2_fr_med_0,1.0,8.97,0.984,0,too few joints (only a head or part of the body is visible)
+shake_hands,Obama__Barroso_shake_hands_in_Prague_shake_hands_u_cm_np2_le_med_0,1.0,8.97,1.0,1,
+shake_hands,Obama_and_Chavez_shaking_hands_shake_hands_u_cm_np2_fr_med_0,1.0,8.97,0.984,1,
 shake_hands,Pambos_and_Maria_at_the_Slavi_s_Show_shake_hands_f_cm_np2_le_bad_0,1.0,11.72,1.0,1,
 shake_hands,Pambos_and_Maria_at_the_Slavi_s_Show_shake_hands_f_cm_np2_le_bad_1,0.969,12.4,0.969,1,
 shake_hands,Paramotor_Worlds_2009-_Prize_Giving_Ceremony_shake_hands_f_cm_np2_ba_med_1,1.0,10.95,1.0,1,
@@ -1999,7 +1999,7 @@ shake_hands,Paramotor_Worlds_2009-_Prize_Giving_Ceremony_shake_hands_f_cm_np2_ri
 shake_hands,Patricia_Arquette_on_Letterman_2007_shake_hands_f_cm_np2_le_med_0,1.0,12.94,1.0,1,
 shake_hands,Pittsburgh_Penguins_Awards_Ceremony_2009_shake_hands_u_cm_np2_le_med_0,1.0,10.7,1.0,1,
 shake_hands,Pittsburgh_Penguins_Awards_Ceremony_2009_shake_hands_u_cm_np2_le_med_1,0.984,10.81,0.984,1,
-shake_hands,Pittsburgh_Penguins_Awards_Ceremony_2009_shake_hands_u_cm_np2_le_med_2,0.906,8.62,0.859,0,too few joints (only a head or part of the body is visible)
+shake_hands,Pittsburgh_Penguins_Awards_Ceremony_2009_shake_hands_u_cm_np2_le_med_2,0.906,8.62,0.859,1,
 shake_hands,Price_giving_ceremony_shake_hands_f_cm_np2_ba_bad_4,1.0,13.0,1.0,1,
 shake_hands,Price_giving_ceremony_shake_hands_f_cm_np2_ba_med_1,1.0,12.98,1.0,1,
 shake_hands,Price_giving_ceremony_shake_hands_f_cm_np4_le_med_2,0.984,10.7,0.984,1,
@@ -2010,22 +2010,22 @@ shake_hands,Prize_Giving_Ceremony_1_shake_hands_f_cm_np1_ri_med_0,0.828,10.92,0.
 shake_hands,Prize_Giving_Ceremony_1_shake_hands_f_cm_np2_ba_med_2,1.0,11.52,1.0,1,
 shake_hands,Prize_Giving_Ceremony_1_shake_hands_f_cm_np2_le_med_1,0.781,9.84,0.734,1,
 shake_hands,Prize_Giving_Ceremony_of_MWC_VI_shake_hands_u_cm_np2_le_med_0,1.0,9.0,1.0,1,
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ba_med_6,1.0,8.64,1.0,0,too few joints (only a head or part of the body is visible)
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ba_med_7,1.0,8.06,0.844,0,too few joints (only a head or part of the body is visible)
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ba_med_6,1.0,8.64,1.0,1,
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ba_med_7,1.0,8.06,0.844,1,
 shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_0,1.0,11.0,1.0,1,
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_1,1.0,8.75,0.938,0,too few joints (only a head or part of the body is visible)
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_2,1.0,8.86,1.0,0,too few joints (only a head or part of the body is visible)
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_1,1.0,8.75,0.938,1,
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_2,1.0,8.86,1.0,1,
 shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_le_med_5,1.0,9.0,1.0,1,
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ri_med_3,0.969,8.65,0.891,0,too few joints (only a head or part of the body is visible)
-shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ri_med_4,1.0,8.55,0.906,0,too few joints (only a head or part of the body is visible)
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ri_med_3,0.969,8.65,0.891,1,
+shake_hands,RailsConf_09-___Ruby_Heroes_Award_Ceremony__shake_hands_u_cm_np2_ri_med_4,1.0,8.55,0.906,1,
 shake_hands,Ronin_Paintball_Club_-_MY-NPL_2009_Malacca_Prize_Giving_Ceremony_Part_2_shake_hands_u_cm_np2_ba_med_1,0.734,9.74,0.734,1,
 shake_hands,Ronin_Paintball_Club_-_MY-NPL_2009_Malacca_Prize_Giving_Ceremony_Part_2_shake_hands_u_cm_np2_ba_med_2,1.0,10.34,1.0,1,
 shake_hands,Ronin_Paintball_Club_-_MY-NPL_2009_Malacca_Prize_Giving_Ceremony_Part_2_shake_hands_u_cm_np2_ba_med_3,1.0,10.19,1.0,1,
 shake_hands,Sido_geht_w_hlen_-_Sido_trifft_Frank-Walter_Steinmeier_shake_hands_u_cm_np2_le_med_0,1.0,9.33,1.0,1,
 shake_hands,Slavi_Trifonov_-_Gaco_Bacov_11_02_08_shake_hands_u_cm_np2_le_bad_0,1.0,9.0,1.0,1,
 shake_hands,Smosh_-_Handshake_shake_hands_u_cm_np2_le_med_0,1.0,9.0,1.0,1,
-shake_hands,Sonny_Rollins_Polar_Music__Prize_2007_Award_Ceremony_shake_hands_u_nm_np2_fr_med_1,0.828,7.51,0.141,0,too few joints (only a head or part of the body is visible)
-shake_hands,Sonny_Rollins_Polar_Music__Prize_2007_Award_Ceremony_shake_hands_u_nm_np2_le_med_0,1.0,8.47,0.859,0,too few joints (only a head or part of the body is visible)
+shake_hands,Sonny_Rollins_Polar_Music__Prize_2007_Award_Ceremony_shake_hands_u_nm_np2_fr_med_1,0.828,7.51,0.141,0,shoulders and hips are not visible together
+shake_hands,Sonny_Rollins_Polar_Music__Prize_2007_Award_Ceremony_shake_hands_u_nm_np2_le_med_0,1.0,8.47,0.859,1,
 shake_hands,Speech_Day_2009_(Part_9)_shake_hands_f_cm_np2_le_med_2,1.0,13.0,1.0,1,
 shake_hands,Speech_Day_2009_(Part_9)_shake_hands_f_cm_np2_le_med_3,1.0,12.53,1.0,1,
 shake_hands,Speech_Day_2009_(Part_9)_shake_hands_f_cm_np2_le_med_4,0.891,13.0,0.891,1,
@@ -2036,7 +2036,7 @@ shake_hands,Speech_Day_2009_(Part_9)_shake_hands_f_nm_np2_le_med_0,1.0,12.92,1.0
 shake_hands,Speech_Day_2009_(Part_9)_shake_hands_f_nm_np2_le_med_1,0.969,12.68,0.953,1,
 shake_hands,The_Fugitive_6_shake_hands_u_nm_np2_ri_med_5,1.0,9.0,1.0,1,
 shake_hands,The_McCain-Obama_Post-Debate__Handshake__shake_hands_u_cm_np2_le_med_0,1.0,10.25,1.0,1,
-shake_hands,Veoh_Alpha_Dog_1_shake_hands_u_cm_np2_ri_med_0,1.0,7.02,0.328,0,too few joints (only a head or part of the body is visible)
+shake_hands,Veoh_Alpha_Dog_1_shake_hands_u_cm_np2_ri_med_0,1.0,7.02,0.328,0,shoulders and hips are not visible together
 shake_hands,Vor_dem_Treffen_Merkel_shake_hands_f_cm_np2_fr_med_1,1.0,9.0,1.0,1,
 shake_hands,Vor_dem_Treffen_Merkel_shake_hands_f_cm_np2_le_med_2,0.828,11.85,0.828,1,
 shake_hands,Vor_dem_Treffen_Merkel_shake_hands_f_nm_np2_le_med_0,0.984,11.3,0.953,1,
@@ -2046,7 +2046,7 @@ shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_c
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_fr_med_6,1.0,11.12,1.0,1,
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_fr_med_7,1.0,11.12,1.0,1,
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_fr_med_8,1.0,11.45,1.0,1,
-shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_le_bad_5,0.984,8.78,0.953,0,too few joints (only a head or part of the body is visible)
+shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_le_bad_5,0.984,8.78,0.953,1,
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_le_med_3,1.0,9.0,1.0,1,
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_le_med_4,1.0,9.0,1.0,1,
 shake_hands,Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_u_cm_np2_fr_med_0,1.0,10.03,1.0,1,
