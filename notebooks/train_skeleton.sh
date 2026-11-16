@@ -26,7 +26,7 @@
 
 set -e                                         # stop at the first step that fails
 
-EXP="${EXP:-exp1}"                             # which yaml in configs/experiments/skeleton_experiments/
+EXP="${EXP:-exp3}"                             # which yaml in configs/experiments/skeleton_experiments/
 RUN_NAME="ctr_gcn_2d_${EXP}"                   # results go to models/hpc_runs/<RUN_NAME>/
 EXP_DIR="configs/experiments/skeleton_experiments"
 HPC_EXP="hpc_${EXP}"                           # copy of the experiment yaml with the cluster settings

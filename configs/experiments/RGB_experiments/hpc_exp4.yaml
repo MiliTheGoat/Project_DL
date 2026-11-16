@@ -1,0 +1,40 @@
+name: x3d_m_exp4
+seed: 21430557
+# ---- how far to train
+# The run always continues from where it stopped (checkpoint in <output_dir>/<name>/last.pt).
+#   test_n_epochs: 3  -> stop after epoch 3 (short trial to look at the train / validation curves)
+#   test_n_epochs: 5  -> run again: continues from epoch 3 and stops after epoch 5
+#   test_n_epochs: 0  -> run the whole schedule below (continues from the last finished epoch)
+test_n_epochs: 0
+restart: false
+
+# ---- fine-tuning schedule, run from top to bottom
+# train:  head = only the new last layer | last_stage = last residual stage + head | all = the whole network
+# lr:     learning rate at the start of the stage; it falls along a cosine curve during the stage
+stages:
+  - {train: head,       epochs: 4,  lr: 0.002}
+  - {train: last_stage, epochs: 6,  lr: 0.0001}
+  - {train: all,        epochs: 14, lr: 0.0002}
+
+# ---- optimisation
+weight_decay: 0.03        # AdamW
+label_smoothing: 0.1
+mixed_precision: true     # half-precision on the GPU: faster and less memory (ignored on CPU)
+
+# ---- model
+pretrained: true          # start from the Kinetics-400 weights
+dropout: 0.5             # dropout before the last layer
+
+# ---- data (X3D-M needs exactly 16 frames at 224 px)
+num_frames: 16
+side: 256                 # short side of the frame after resizing
+size: 224                 # centre crop
+batch_size: 8
+num_workers: 8
+train_fraction: 1.0       # 0.1 = use only 10% of the training clips (quick tests, data-scarcity study)
+
+# ---- saving and logging
+output_dir: models/hpc_runs
+log_every_steps: 20       # how often the training loss is sent to wandb inside an epoch
+wandb_project: rgb-vs-skeleton
+wandb_mode: offline
