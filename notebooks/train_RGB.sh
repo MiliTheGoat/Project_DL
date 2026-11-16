@@ -21,8 +21,10 @@
 #BSUB -R "span[hosts=1]"                       # all cores on the same machine
 #BSUB -R "rusage[mem=8GB]"                     # memory PER CORE -> 8 x 8 GB = 64 GB
 #BSUB -W 12:00                                 # time limit hh:mm (the queue allows at most 24:00)
-#BSUB -o hpc_rgb_%J.out                        # what the script prints   (%J = job number)
-#BSUB -e hpc_rgb_%J.err                        # error messages
+#BSUB -o hpc_outputs/RGB_outs/hpc_rgb_%J.out                        # what the script prints   (%J = job number)
+#BSUB -e hpc_outputs/RGB_outs/hpc_rgb_%J.err                        # error messages
+#BSUB -N
+# -- s225102@dtu.dk --
 
 set -e                                         # stop at the first step that fails
 

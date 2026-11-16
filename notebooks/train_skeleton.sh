@@ -21,8 +21,10 @@
 #BSUB -R "span[hosts=1]"                       # all cores on the same machine
 #BSUB -R "rusage[mem=8GB]"                     # memory PER CORE -> 4 x 8 GB = 32 GB
 #BSUB -W 6:00                                  # time limit hh:mm (the queue allows at most 24:00)
-#BSUB -o hpc_skeleton_%J.out                   # what the script prints   (%J = job number)
-#BSUB -e hpc_skeleton_%J.err                   # error messages
+#BSUB -o hpc_outputs/skeleton_outs/hpc_skeleton_%J.out                   # what the script prints   (%J = job number)
+#BSUB -e hpc_outputs/skeleton_outs/hpc_skeleton_%J.err                   # error messages
+#BSUB -N
+# -- s225102@dtu.dk --
 
 set -e                                         # stop at the first step that fails
 
