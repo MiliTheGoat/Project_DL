@@ -25,12 +25,12 @@
     "A055 hug": 0.9963369963369964,
     "A058 shake_hands": 0.9926739926739927
   },
-  "latency_ms_batch1_median": 17.1289859999888,
-  "latency_ms_batch1_p95": 18.0175570000074,
-  "test_total_time_s": 250.390272343,
-  "test_model_time_s": 48.28374526299967,
-  "throughput_clips_per_s": 90.46522750477774,
+  "latency_ms_batch1_median": 15.558786999918084,
+  "latency_ms_batch1_p95": 18.490063999934137,
+  "test_total_time_s": 260.02557032000004,
+  "test_model_time_s": 47.19959437499824,
+  "throughput_clips_per_s": 92.54316817421088,
   "batch_size": 8,
-  "video_reading_ms_per_clip": 46.26980931318688,
+  "video_reading_ms_per_clip": 48.723895591804435,
   "device": "Tesla T4"
 }

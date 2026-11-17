@@ -2,6 +2,7 @@
   "name": "ctr_gcn_2d_exp1",
   "model": "CTR-GCN",
   "experiment": "exp1",
+  "test_on": "ntu",
   "test_clips": 4368,
   "skeleton_format": "2d13",
   "test_accuracy": 0.9265109896659851,
@@ -24,11 +25,11 @@
     "A055 hug": 0.9633699633699634,
     "A058 shake_hands": 0.9633699633699634
   },
-  "latency_ms_batch1_median": 22.73189499965156,
-  "latency_ms_batch1_p95": 28.273900999920443,
-  "test_total_time_s": 7.184998066999924,
-  "test_model_time_s": 7.065815264001685,
-  "throughput_clips_per_s": 618.187687732754,
+  "latency_ms_batch1_median": 33.169504000056804,
+  "latency_ms_batch1_p95": 42.35392900000079,
+  "test_total_time_s": 6.385750697999924,
+  "test_model_time_s": 6.253293138999993,
+  "throughput_clips_per_s": 698.5119524875684,
   "batch_size": 64,
   "device": "Tesla T4"
 }
