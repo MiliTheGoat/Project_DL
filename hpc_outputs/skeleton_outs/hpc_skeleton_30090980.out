@@ -1,0 +1,143 @@
+===== CTR-GCN (2D skeletons), experiment exp3 -> models/hpc_runs/ctr_gcn_2d_exp3   Tue Nov 17 05:38:03 CET 2026
+
+===== 1. Python environment
+environment found: .venv
+
+===== 2. Data
+NTU skeletons:  data/processed/skeleton_cache_2d13.npz (149M)
+HMDB skeletons: data/external/skeleton_estm/hmdb_skeleton_2d13.npz found, pose estimation will be skipped
+
+===== 3. GPU
+Tesla V100-SXM2-32GB, 32768 MiB
+PyTorch 2.6.0+cu124 uses Tesla V100-SXM2-32GB
+
+===== 4. Experiment settings for the cluster
+wrote configs/experiments/skeleton_experiments/hpc_exp3.yaml (wandb: offline)
+
+===== 5. HMDB skeletons (pose estimation)   Tue Nov 17 05:38:06 CET 2026
+nothing to do
+
+===== 6. TRAIN   Tue Nov 17 05:38:06 CET 2026
+[config] experiment file: configs/experiments/skeleton_experiments/hpc_exp3.yaml  (run name: ctr_gcn_2d_exp3)
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] train 9200 clips, val 912 clips, skeleton format 2d13, clip shape (2, 64, 13, 2), device cuda
+[resume] found /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/last.pt: 40 epochs already done, best val acc 0.924
+[done] 40 epochs are already trained and this run stops at epoch 40. Raise test_n_epochs (or set it to 0 for the full 40 epochs) to train more.
+
+===== 7. TEST on the NTU test set   Tue Nov 17 05:38:15 CET 2026
+[evaluate] experiment hpc_exp3 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/best.pt | device cuda | test on ntu
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] NTU test set: 4368 clips, 20 performers, 16 classes, skeleton format 2d13
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/4368 clips]  running accuracy 0.922
+  [ 1280/4368 clips]  running accuracy 0.910
+  [ 1920/4368 clips]  running accuracy 0.911
+  [ 2560/4368 clips]  running accuracy 0.900
+  [ 3200/4368 clips]  running accuracy 0.902
+  [ 3840/4368 clips]  running accuracy 0.909
+  [ 4368/4368 clips]  running accuracy 0.909
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp3  (CTR-GCN on NTU, 4368 clips)
+======================================================================
+  accuracy        0.9089   (3970 of 4368 correct)
+  macro F1        0.9090
+
+  per class        correct / clips   accuracy
+  A001 drink          226 / 273      0.828
+  A002 eat            204 / 273      0.747
+  A004 brush_hair     234 / 273      0.857
+  A006 pick           271 / 273      0.993
+  A007 throw          230 / 273      0.842
+  A008 sit            258 / 273      0.945
+  A009 stand          264 / 273      0.967
+  A010 clap           246 / 273      0.901
+  A023 wave           239 / 273      0.875
+  A024 kick_ball      256 / 273      0.938
+  A027 jump           273 / 273      1.000
+  A043 fall_floor     271 / 273      0.993
+  A050 punch          249 / 273      0.912
+  A051 kick           232 / 273      0.850
+  A055 hug            257 / 273      0.941
+  A058 shake_hands    260 / 273      0.952
+
+  most common mistakes (true class -> predicted)
+  A002 eat           -> A001 drink           28 clips
+  A001 drink         -> A002 eat             24 clips
+  A051 kick          -> A050 punch           22 clips
+  A007 throw         -> A023 wave            18 clips
+  A004 brush_hair    -> A001 drink           17 clips
+
+  timing
+  one video sample (batch 1)  17.47 ms median, 17.95 ms for 95% of clips
+  whole test set              3.3 s total, 3.2 s of it in the model
+  throughput                  1374 clips/s in the model (batch 64)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/test_results.json
+
+===== 8. TEST on the HMDB-51 skeletons (cross-dataset)   Tue Nov 17 05:38:28 CET 2026
+[evaluate] experiment hpc_exp3 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/best.pt | device cuda | test on hmdb
+[data] HMDB-51 skeletons: 1157 clips with a good skeleton, 16 classes, from /zhome/88/0/187797/Project_DL/data/external/skeleton_estm/hmdb_skeleton_2d13.npz
+[data] they are 1157 of 2062 HMDB clips (56%); the others had no good skeleton and are NOT counted in the accuracy below
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/1157 clips]  running accuracy 0.392
+  [ 1157/1157 clips]  running accuracy 0.338
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp3  (CTR-GCN on HMDB, 1157 clips)
+======================================================================
+  accuracy        0.3379   (391 of 1157 correct)
+  macro F1        0.2945
+
+  per class        correct / clips   accuracy
+  A001 drink            7 / 17       0.412
+  A002 eat             16 / 18       0.889
+  A004 brush_hair      18 / 48       0.375
+  A006 pick            12 / 74       0.162
+  A007 throw           26 / 79       0.329
+  A008 sit             66 / 105      0.629
+  A009 stand           48 / 103      0.466
+  A010 clap            24 / 74       0.324
+  A023 wave            11 / 50       0.220
+  A024 kick_ball       22 / 61       0.361
+  A027 jump             2 / 68       0.029
+  A043 fall_floor       4 / 44       0.091
+  A050 punch           10 / 71       0.141
+  A051 kick            16 / 102      0.157
+  A055 hug             55 / 95       0.579
+  A058 shake_hands     54 / 148      0.365
+
+  most common mistakes (true class -> predicted)
+  A058 shake_hands   -> A055 hug             51 clips
+  A051 kick          -> A055 hug             46 clips
+  A058 shake_hands   -> A051 kick            29 clips
+  A051 kick          -> A050 punch           24 clips
+  A010 clap          -> A004 brush_hair      23 clips
+
+  timing
+  one video sample (batch 1)  17.69 ms median, 17.96 ms for 95% of clips
+  whole test set              1.2 s total, 1.2 s of it in the model
+  throughput                  988 clips/s in the model (batch 64)
+  pose estimation             493 ms per clip (8.8 ms x 56 frames, yolo11s-pose.pt on Tesla T4)
+  whole skeleton pipeline     about 511 ms per video = pose estimation + CTR-GCN
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/test_results_hmdb.json
+
+===== DONE in 0 minutes. Results: models/hpc_runs/ctr_gcn_2d_exp3   Tue Nov 17 05:38:35 CET 2026
+total 23M
+-rw-r--r-- 1 s225102 s22 5.7M Nov 16 06:39 best.pt
+-rw-r--r-- 1 s225102 s22 8.3K Nov 16 06:40 history.csv
+-rw-r--r-- 1 s225102 s22  12M Nov 16 06:40 last.pt
+-rw-r--r-- 1 s225102 s22  712 Nov 16 06:40 summary.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 17 05:38 test_results.json
+-rw-r--r-- 1 s225102 s22 1.4K Nov 17 05:38 test_results_hmdb.json

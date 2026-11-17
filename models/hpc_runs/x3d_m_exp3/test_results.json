@@ -25,12 +25,12 @@
     "A055 hug": 1.0,
     "A058 shake_hands": 0.9963369963369964
   },
-  "latency_ms_batch1_median": 9.88851604051888,
-  "latency_ms_batch1_p95": 10.079198982566595,
-  "test_total_time_s": 44.56841550511308,
-  "test_model_time_s": 17.083899955032393,
-  "throughput_clips_per_s": 255.67932448078525,
+  "latency_ms_batch1_median": 10.558261070400476,
+  "latency_ms_batch1_p95": 10.57975017465651,
+  "test_total_time_s": 39.855587269878015,
+  "test_model_time_s": 18.350129209225997,
+  "throughput_clips_per_s": 238.03647103497647,
   "batch_size": 8,
-  "video_reading_ms_per_clip": 6.292242570989168,
-  "device": "Tesla V100-PCIE-16GB"
+  "video_reading_ms_per_clip": 4.923410728171249,
+  "device": "Tesla V100-PCIE-32GB"
 }
