@@ -1,0 +1,1631 @@
+===== X3D-M (RGB), experiment exp4 -> models/hpc_runs/x3d_m_exp4   Sun Nov 15 19:38:58 CET 2026
+
+===== 1. Python environment
+environment found: .venv
+
+===== 2. Data
+NTU videos:  15050 clips in data/processed/rgb
+HMDB videos: NOT FOUND (upload data/external/processed.zip) -> the HMDB test will be skipped
+
+===== 3. Pretrained Kinetics weights for X3D-M
+Kinetics weights are available
+
+===== 4. GPU
+Tesla V100-PCIE-16GB, 16384 MiB
+PyTorch 2.6.0+cu124 uses Tesla V100-PCIE-16GB
+
+===== 5. Experiment settings for the cluster
+wrote configs/experiments/RGB_experiments/hpc_exp4.yaml (wandb: offline)
+
+===== 6. TRAIN   Sun Nov 15 19:39:16 CET 2026
+[config] experiment file: configs/experiments/RGB_experiments/hpc_exp4.yaml  (run name: x3d_m_exp4)
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] train 9200 clips, val 912 clips, clip shape (3, 16, 224, 224), device cuda
+[plan] training epochs 1..24 of a 24-epoch schedule
+[stage] 'head': 32,784 of 3,007,458 parameters are trained
+    step 20/1150  loss 2.497
+    step 40/1150  loss 2.210
+    step 60/1150  loss 2.025
+    step 80/1150  loss 1.380
+    step 100/1150  loss 1.350
+    step 120/1150  loss 1.703
+    step 140/1150  loss 1.384
+    step 160/1150  loss 1.295
+    step 180/1150  loss 1.676
+    step 200/1150  loss 1.238
+    step 220/1150  loss 1.162
+    step 240/1150  loss 1.176
+    step 260/1150  loss 1.964
+    step 280/1150  loss 1.335
+    step 300/1150  loss 1.391
+    step 320/1150  loss 1.075
+    step 340/1150  loss 1.321
+    step 360/1150  loss 1.573
+    step 380/1150  loss 1.224
+    step 400/1150  loss 1.181
+    step 420/1150  loss 1.251
+    step 440/1150  loss 1.120
+    step 460/1150  loss 0.983
+    step 480/1150  loss 0.946
+    step 500/1150  loss 1.169
+    step 520/1150  loss 1.699
+    step 540/1150  loss 1.538
+    step 560/1150  loss 1.548
+    step 580/1150  loss 1.134
+    step 600/1150  loss 1.259
+    step 620/1150  loss 0.838
+    step 640/1150  loss 1.202
+    step 660/1150  loss 1.147
+    step 680/1150  loss 1.281
+    step 700/1150  loss 1.209
+    step 720/1150  loss 1.044
+    step 740/1150  loss 1.178
+    step 760/1150  loss 1.932
+    step 780/1150  loss 0.940
+    step 800/1150  loss 1.004
+    step 820/1150  loss 1.718
+    step 840/1150  loss 1.260
+    step 860/1150  loss 1.026
+    step 880/1150  loss 1.471
+    step 900/1150  loss 1.280
+    step 920/1150  loss 1.329
+    step 940/1150  loss 1.187
+    step 960/1150  loss 1.609
+    step 980/1150  loss 1.007
+    step 1000/1150  loss 1.175
+    step 1020/1150  loss 1.340
+    step 1040/1150  loss 1.207
+    step 1060/1150  loss 2.009
+    step 1080/1150  loss 1.180
+    step 1100/1150  loss 1.886
+    step 1120/1150  loss 1.257
+    step 1140/1150  loss 1.503
+epoch  1/24 [head] lr 0.00200 | train loss 1.406 acc 0.673 | val loss 1.181 acc 0.758 f1 0.744 | 90 s (50% waiting for data)
+    step 20/1150  loss 1.075
+    step 40/1150  loss 1.446
+    step 60/1150  loss 1.039
+    step 80/1150  loss 1.136
+    step 100/1150  loss 1.222
+    step 120/1150  loss 0.986
+    step 140/1150  loss 1.499
+    step 160/1150  loss 1.274
+    step 180/1150  loss 1.030
+    step 200/1150  loss 1.412
+    step 220/1150  loss 1.380
+    step 240/1150  loss 0.935
+    step 260/1150  loss 1.348
+    step 280/1150  loss 0.937
+    step 300/1150  loss 1.271
+    step 320/1150  loss 0.870
+    step 340/1150  loss 1.319
+    step 360/1150  loss 1.031
+    step 380/1150  loss 1.872
+    step 400/1150  loss 1.513
+    step 420/1150  loss 1.491
+    step 440/1150  loss 1.452
+    step 460/1150  loss 2.050
+    step 480/1150  loss 0.959
+    step 500/1150  loss 1.292
+    step 520/1150  loss 1.026
+    step 540/1150  loss 1.222
+    step 560/1150  loss 1.221
+    step 580/1150  loss 0.947
+    step 600/1150  loss 1.267
+    step 620/1150  loss 1.609
+    step 640/1150  loss 1.633
+    step 660/1150  loss 1.056
+    step 680/1150  loss 1.709
+    step 700/1150  loss 0.999
+    step 720/1150  loss 1.017
+    step 740/1150  loss 1.380
+    step 760/1150  loss 1.748
+    step 780/1150  loss 1.531
+    step 800/1150  loss 1.041
+    step 820/1150  loss 1.671
+    step 840/1150  loss 1.536
+    step 860/1150  loss 1.518
+    step 880/1150  loss 0.950
+    step 900/1150  loss 1.363
+    step 920/1150  loss 1.199
+    step 940/1150  loss 1.117
+    step 960/1150  loss 0.757
+    step 980/1150  loss 0.924
+    step 1000/1150  loss 0.858
+    step 1020/1150  loss 1.044
+    step 1040/1150  loss 0.931
+    step 1060/1150  loss 1.072
+    step 1080/1150  loss 1.875
+    step 1100/1150  loss 0.978
+    step 1120/1150  loss 1.190
+    step 1140/1150  loss 1.762
+epoch  2/24 [head] lr 0.00171 | train loss 1.253 acc 0.744 | val loss 1.113 acc 0.799 f1 0.795 | 87 s (52% waiting for data)
+    step 20/1150  loss 1.466
+    step 40/1150  loss 1.603
+    step 60/1150  loss 1.058
+    step 80/1150  loss 1.167
+    step 100/1150  loss 1.013
+    step 120/1150  loss 1.205
+    step 140/1150  loss 0.940
+    step 160/1150  loss 1.537
+    step 180/1150  loss 0.812
+    step 200/1150  loss 1.632
+    step 220/1150  loss 0.897
+    step 240/1150  loss 1.166
+    step 260/1150  loss 1.415
+    step 280/1150  loss 1.092
+    step 300/1150  loss 1.138
+    step 320/1150  loss 1.217
+    step 340/1150  loss 0.869
+    step 360/1150  loss 1.245
+    step 380/1150  loss 0.837
+    step 400/1150  loss 0.829
+    step 420/1150  loss 0.893
+    step 440/1150  loss 0.857
+    step 460/1150  loss 0.943
+    step 480/1150  loss 1.138
+    step 500/1150  loss 1.236
+    step 520/1150  loss 1.365
+    step 540/1150  loss 1.075
+    step 560/1150  loss 1.066
+    step 580/1150  loss 1.070
+    step 600/1150  loss 1.080
+    step 620/1150  loss 1.187
+    step 640/1150  loss 1.854
+    step 660/1150  loss 1.128
+    step 680/1150  loss 1.147
+    step 700/1150  loss 1.091
+    step 720/1150  loss 1.063
+    step 740/1150  loss 1.662
+    step 760/1150  loss 1.124
+    step 780/1150  loss 1.220
+    step 800/1150  loss 1.497
+    step 820/1150  loss 0.843
+    step 840/1150  loss 1.225
+    step 860/1150  loss 1.076
+    step 880/1150  loss 1.210
+    step 900/1150  loss 1.181
+    step 920/1150  loss 0.905
+    step 940/1150  loss 1.221
+    step 960/1150  loss 1.326
+    step 980/1150  loss 1.155
+    step 1000/1150  loss 0.976
+    step 1020/1150  loss 1.021
+    step 1040/1150  loss 0.928
+    step 1060/1150  loss 1.099
+    step 1080/1150  loss 0.810
+    step 1100/1150  loss 1.568
+    step 1120/1150  loss 0.953
+    step 1140/1150  loss 1.532
+epoch  3/24 [head] lr 0.00100 | train loss 1.175 acc 0.772 | val loss 1.123 acc 0.795 f1 0.790 | 87 s (51% waiting for data)
+    step 20/1150  loss 1.059
+    step 40/1150  loss 1.057
+    step 60/1150  loss 0.901
+    step 80/1150  loss 1.054
+    step 100/1150  loss 1.296
+    step 120/1150  loss 1.038
+    step 140/1150  loss 0.719
+    step 160/1150  loss 1.344
+    step 180/1150  loss 1.199
+    step 200/1150  loss 0.906
+    step 220/1150  loss 1.224
+    step 240/1150  loss 1.011
+    step 260/1150  loss 1.233
+    step 280/1150  loss 0.999
+    step 300/1150  loss 0.867
+    step 320/1150  loss 1.202
+    step 340/1150  loss 1.011
+    step 360/1150  loss 1.081
+    step 380/1150  loss 1.102
+    step 400/1150  loss 1.022
+    step 420/1150  loss 0.816
+    step 440/1150  loss 1.055
+    step 460/1150  loss 1.454
+    step 480/1150  loss 1.167
+    step 500/1150  loss 1.067
+    step 520/1150  loss 1.191
+    step 540/1150  loss 1.374
+    step 560/1150  loss 0.895
+    step 580/1150  loss 0.866
+    step 600/1150  loss 0.877
+    step 620/1150  loss 1.323
+    step 640/1150  loss 1.508
+    step 660/1150  loss 1.346
+    step 680/1150  loss 0.831
+    step 700/1150  loss 1.210
+    step 720/1150  loss 1.466
+    step 740/1150  loss 1.128
+    step 760/1150  loss 0.932
+    step 780/1150  loss 1.080
+    step 800/1150  loss 1.128
+    step 820/1150  loss 0.838
+    step 840/1150  loss 1.236
+    step 860/1150  loss 1.636
+    step 880/1150  loss 1.061
+    step 900/1150  loss 0.954
+    step 920/1150  loss 1.222
+    step 940/1150  loss 1.066
+    step 960/1150  loss 1.241
+    step 980/1150  loss 1.088
+    step 1000/1150  loss 1.027
+    step 1020/1150  loss 1.119
+    step 1040/1150  loss 1.231
+    step 1060/1150  loss 0.942
+    step 1080/1150  loss 0.986
+    step 1100/1150  loss 1.185
+    step 1120/1150  loss 1.044
+    step 1140/1150  loss 1.148
+epoch  4/24 [head] lr 0.00029 | train loss 1.112 acc 0.800 | val loss 1.071 acc 0.811 f1 0.808 | 87 s (52% waiting for data)
+[stage] 'last_stage': 2,348,768 of 3,007,458 parameters are trained
+    step 20/1150  loss 1.257
+    step 40/1150  loss 1.071
+    step 60/1150  loss 1.705
+    step 80/1150  loss 1.313
+    step 100/1150  loss 1.078
+    step 120/1150  loss 1.420
+    step 140/1150  loss 1.232
+    step 160/1150  loss 0.926
+    step 180/1150  loss 0.898
+    step 200/1150  loss 1.071
+    step 220/1150  loss 1.220
+    step 240/1150  loss 0.955
+    step 260/1150  loss 0.881
+    step 280/1150  loss 1.136
+    step 300/1150  loss 0.895
+    step 320/1150  loss 0.760
+    step 340/1150  loss 1.256
+    step 360/1150  loss 1.412
+    step 380/1150  loss 1.111
+    step 400/1150  loss 0.825
+    step 420/1150  loss 0.835
+    step 440/1150  loss 1.003
+    step 460/1150  loss 0.776
+    step 480/1150  loss 1.039
+    step 500/1150  loss 0.890
+    step 520/1150  loss 1.139
+    step 540/1150  loss 1.055
+    step 560/1150  loss 0.787
+    step 580/1150  loss 0.750
+    step 600/1150  loss 0.983
+    step 620/1150  loss 0.698
+    step 640/1150  loss 0.806
+    step 660/1150  loss 0.799
+    step 680/1150  loss 1.138
+    step 700/1150  loss 0.940
+    step 720/1150  loss 0.814
+    step 740/1150  loss 1.219
+    step 760/1150  loss 0.958
+    step 780/1150  loss 0.849
+    step 800/1150  loss 0.867
+    step 820/1150  loss 0.822
+    step 840/1150  loss 0.691
+    step 860/1150  loss 0.789
+    step 880/1150  loss 0.956
+    step 900/1150  loss 1.029
+    step 920/1150  loss 0.714
+    step 940/1150  loss 0.807
+    step 960/1150  loss 0.684
+    step 980/1150  loss 0.721
+    step 1000/1150  loss 1.163
+    step 1020/1150  loss 0.713
+    step 1040/1150  loss 0.673
+    step 1060/1150  loss 0.882
+    step 1080/1150  loss 0.778
+    step 1100/1150  loss 0.958
+    step 1120/1150  loss 0.767
+    step 1140/1150  loss 0.839
+epoch  5/24 [last_stage] lr 0.00010 | train loss 0.955 acc 0.865 | val loss 0.792 acc 0.939 f1 0.938 | 89 s (35% waiting for data)
+    step 20/1150  loss 0.741
+    step 40/1150  loss 0.671
+    step 60/1150  loss 0.955
+    step 80/1150  loss 0.765
+    step 100/1150  loss 0.770
+    step 120/1150  loss 0.783
+    step 140/1150  loss 0.778
+    step 160/1150  loss 1.019
+    step 180/1150  loss 0.768
+    step 200/1150  loss 0.723
+    step 220/1150  loss 0.669
+    step 240/1150  loss 0.805
+    step 260/1150  loss 0.763
+    step 280/1150  loss 0.711
+    step 300/1150  loss 0.649
+    step 320/1150  loss 0.845
+    step 340/1150  loss 0.803
+    step 360/1150  loss 0.683
+    step 380/1150  loss 0.741
+    step 400/1150  loss 0.659
+    step 420/1150  loss 0.663
+    step 440/1150  loss 0.751
+    step 460/1150  loss 0.646
+    step 480/1150  loss 0.652
+    step 500/1150  loss 0.741
+    step 520/1150  loss 0.858
+    step 540/1150  loss 0.781
+    step 560/1150  loss 0.697
+    step 580/1150  loss 0.835
+    step 600/1150  loss 0.828
+    step 620/1150  loss 0.773
+    step 640/1150  loss 1.251
+    step 660/1150  loss 0.792
+    step 680/1150  loss 0.725
+    step 700/1150  loss 0.622
+    step 720/1150  loss 0.947
+    step 740/1150  loss 0.842
+    step 760/1150  loss 0.727
+    step 780/1150  loss 0.837
+    step 800/1150  loss 0.772
+    step 820/1150  loss 0.646
+    step 840/1150  loss 0.714
+    step 860/1150  loss 0.784
+    step 880/1150  loss 0.758
+    step 900/1150  loss 0.655
+    step 920/1150  loss 0.739
+    step 940/1150  loss 0.671
+    step 960/1150  loss 0.679
+    step 980/1150  loss 0.664
+    step 1000/1150  loss 0.742
+    step 1020/1150  loss 0.691
+    step 1040/1150  loss 0.654
+    step 1060/1150  loss 0.732
+    step 1080/1150  loss 0.868
+    step 1100/1150  loss 0.704
+    step 1120/1150  loss 0.814
+    step 1140/1150  loss 0.643
+epoch  6/24 [last_stage] lr 0.00009 | train loss 0.741 acc 0.964 | val loss 0.727 acc 0.957 f1 0.957 | 91 s (37% waiting for data)
+    step 20/1150  loss 0.661
+    step 40/1150  loss 0.650
+    step 60/1150  loss 0.682
+    step 80/1150  loss 0.744
+    step 100/1150  loss 0.628
+    step 120/1150  loss 0.632
+    step 140/1150  loss 0.737
+    step 160/1150  loss 0.863
+    step 180/1150  loss 0.653
+    step 200/1150  loss 0.661
+    step 220/1150  loss 0.778
+    step 240/1150  loss 0.617
+    step 260/1150  loss 0.624
+    step 280/1150  loss 0.617
+    step 300/1150  loss 0.725
+    step 320/1150  loss 0.708
+    step 340/1150  loss 0.852
+    step 360/1150  loss 0.649
+    step 380/1150  loss 0.620
+    step 400/1150  loss 0.623
+    step 420/1150  loss 0.645
+    step 440/1150  loss 0.668
+    step 460/1150  loss 0.633
+    step 480/1150  loss 0.611
+    step 500/1150  loss 0.707
+    step 520/1150  loss 0.728
+    step 540/1150  loss 0.646
+    step 560/1150  loss 0.639
+    step 580/1150  loss 0.690
+    step 600/1150  loss 0.670
+    step 620/1150  loss 0.634
+    step 640/1150  loss 0.610
+    step 660/1150  loss 0.643
+    step 680/1150  loss 0.637
+    step 700/1150  loss 0.607
+    step 720/1150  loss 0.660
+    step 740/1150  loss 0.666
+    step 760/1150  loss 0.649
+    step 780/1150  loss 0.829
+    step 800/1150  loss 0.653
+    step 820/1150  loss 0.627
+    step 840/1150  loss 0.657
+    step 860/1150  loss 0.664
+    step 880/1150  loss 0.727
+    step 900/1150  loss 0.637
+    step 920/1150  loss 0.636
+    step 940/1150  loss 0.702
+    step 960/1150  loss 0.682
+    step 980/1150  loss 0.606
+    step 1000/1150  loss 0.863
+    step 1020/1150  loss 0.627
+    step 1040/1150  loss 0.653
+    step 1060/1150  loss 0.607
+    step 1080/1150  loss 0.621
+    step 1100/1150  loss 0.598
+    step 1120/1150  loss 0.627
+    step 1140/1150  loss 0.615
+epoch  7/24 [last_stage] lr 0.00008 | train loss 0.680 acc 0.981 | val loss 0.696 acc 0.964 f1 0.963 | 89 s (36% waiting for data)
+    step 20/1150  loss 0.648
+    step 40/1150  loss 0.635
+    step 60/1150  loss 0.655
+    step 80/1150  loss 0.634
+    step 100/1150  loss 0.654
+    step 120/1150  loss 0.651
+    step 140/1150  loss 0.679
+    step 160/1150  loss 0.617
+    step 180/1150  loss 0.640
+    step 200/1150  loss 0.623
+    step 220/1150  loss 0.634
+    step 240/1150  loss 0.633
+    step 260/1150  loss 0.609
+    step 280/1150  loss 0.646
+    step 300/1150  loss 0.611
+    step 320/1150  loss 0.607
+    step 340/1150  loss 0.630
+    step 360/1150  loss 0.636
+    step 380/1150  loss 0.671
+    step 400/1150  loss 0.623
+    step 420/1150  loss 0.681
+    step 440/1150  loss 0.628
+    step 460/1150  loss 0.623
+    step 480/1150  loss 0.648
+    step 500/1150  loss 0.632
+    step 520/1150  loss 0.598
+    step 540/1150  loss 0.652
+    step 560/1150  loss 0.625
+    step 580/1150  loss 0.616
+    step 600/1150  loss 0.625
+    step 620/1150  loss 0.633
+    step 640/1150  loss 0.625
+    step 660/1150  loss 0.619
+    step 680/1150  loss 0.605
+    step 700/1150  loss 0.634
+    step 720/1150  loss 0.616
+    step 740/1150  loss 0.608
+    step 760/1150  loss 0.621
+    step 780/1150  loss 0.622
+    step 800/1150  loss 0.693
+    step 820/1150  loss 0.623
+    step 840/1150  loss 0.614
+    step 860/1150  loss 0.769
+    step 880/1150  loss 0.619
+    step 900/1150  loss 0.664
+    step 920/1150  loss 0.654
+    step 940/1150  loss 0.626
+    step 960/1150  loss 0.624
+    step 980/1150  loss 0.646
+    step 1000/1150  loss 0.628
+    step 1020/1150  loss 0.631
+    step 1040/1150  loss 0.616
+    step 1060/1150  loss 0.735
+    step 1080/1150  loss 0.618
+    step 1100/1150  loss 0.614
+    step 1120/1150  loss 0.608
+    step 1140/1150  loss 0.608
+epoch  8/24 [last_stage] lr 0.00005 | train loss 0.645 acc 0.992 | val loss 0.683 acc 0.966 f1 0.966 | 89 s (36% waiting for data)
+    step 20/1150  loss 0.597
+    step 40/1150  loss 0.596
+    step 60/1150  loss 0.602
+    step 80/1150  loss 0.606
+    step 100/1150  loss 0.621
+    step 120/1150  loss 0.591
+    step 140/1150  loss 0.607
+    step 160/1150  loss 0.655
+    step 180/1150  loss 0.621
+    step 200/1150  loss 0.623
+    step 220/1150  loss 0.606
+    step 240/1150  loss 0.637
+    step 260/1150  loss 0.615
+    step 280/1150  loss 0.598
+    step 300/1150  loss 0.617
+    step 320/1150  loss 0.624
+    step 340/1150  loss 0.628
+    step 360/1150  loss 0.632
+    step 380/1150  loss 0.618
+    step 400/1150  loss 0.591
+    step 420/1150  loss 0.603
+    step 440/1150  loss 0.629
+    step 460/1150  loss 0.604
+    step 480/1150  loss 0.612
+    step 500/1150  loss 0.609
+    step 520/1150  loss 0.609
+    step 540/1150  loss 0.608
+    step 560/1150  loss 0.607
+    step 580/1150  loss 0.639
+    step 600/1150  loss 0.621
+    step 620/1150  loss 0.618
+    step 640/1150  loss 0.604
+    step 660/1150  loss 0.689
+    step 680/1150  loss 0.599
+    step 700/1150  loss 0.632
+    step 720/1150  loss 0.622
+    step 740/1150  loss 0.616
+    step 760/1150  loss 0.624
+    step 780/1150  loss 0.615
+    step 800/1150  loss 0.619
+    step 820/1150  loss 0.614
+    step 840/1150  loss 0.649
+    step 860/1150  loss 0.619
+    step 880/1150  loss 0.626
+    step 900/1150  loss 0.662
+    step 920/1150  loss 0.602
+    step 940/1150  loss 0.657
+    step 960/1150  loss 0.623
+    step 980/1150  loss 0.619
+    step 1000/1150  loss 0.598
+    step 1020/1150  loss 0.632
+    step 1040/1150  loss 0.623
+    step 1060/1150  loss 0.668
+    step 1080/1150  loss 0.593
+    step 1100/1150  loss 0.599
+    step 1120/1150  loss 0.603
+    step 1140/1150  loss 0.645
+epoch  9/24 [last_stage] lr 0.00003 | train loss 0.628 acc 0.995 | val loss 0.676 acc 0.969 f1 0.969 | 89 s (36% waiting for data)
+    step 20/1150  loss 0.610
+    step 40/1150  loss 0.606
+    step 60/1150  loss 0.601
+    step 80/1150  loss 0.609
+    step 100/1150  loss 0.615
+    step 120/1150  loss 0.615
+    step 140/1150  loss 0.602
+    step 160/1150  loss 0.591
+    step 180/1150  loss 0.611
+    step 200/1150  loss 0.820
+    step 220/1150  loss 0.615
+    step 240/1150  loss 0.598
+    step 260/1150  loss 0.666
+    step 280/1150  loss 0.637
+    step 300/1150  loss 0.595
+    step 320/1150  loss 0.634
+    step 340/1150  loss 0.624
+    step 360/1150  loss 0.617
+    step 380/1150  loss 0.603
+    step 400/1150  loss 0.624
+    step 420/1150  loss 0.619
+    step 440/1150  loss 0.621
+    step 460/1150  loss 0.629
+    step 480/1150  loss 0.645
+    step 500/1150  loss 0.587
+    step 520/1150  loss 0.618
+    step 540/1150  loss 0.604
+    step 560/1150  loss 0.648
+    step 580/1150  loss 0.610
+    step 600/1150  loss 0.601
+    step 620/1150  loss 0.607
+    step 640/1150  loss 0.600
+    step 660/1150  loss 0.596
+    step 680/1150  loss 0.633
+    step 700/1150  loss 0.603
+    step 720/1150  loss 0.644
+    step 740/1150  loss 0.610
+    step 760/1150  loss 0.608
+    step 780/1150  loss 0.612
+    step 800/1150  loss 0.614
+    step 820/1150  loss 0.604
+    step 840/1150  loss 0.648
+    step 860/1150  loss 0.598
+    step 880/1150  loss 0.596
+    step 900/1150  loss 0.625
+    step 920/1150  loss 0.617
+    step 940/1150  loss 0.602
+    step 960/1150  loss 0.606
+    step 980/1150  loss 0.606
+    step 1000/1150  loss 0.587
+    step 1020/1150  loss 0.620
+    step 1040/1150  loss 0.621
+    step 1060/1150  loss 0.603
+    step 1080/1150  loss 0.615
+    step 1100/1150  loss 0.603
+    step 1120/1150  loss 0.588
+    step 1140/1150  loss 0.588
+epoch 10/24 [last_stage] lr 0.00001 | train loss 0.620 acc 0.997 | val loss 0.672 acc 0.975 f1 0.975 | 89 s (35% waiting for data)
+[stage] 'all': 3,007,458 of 3,007,458 parameters are trained
+    step 20/1150  loss 0.773
+    step 40/1150  loss 0.832
+    step 60/1150  loss 0.887
+    step 80/1150  loss 0.637
+    step 100/1150  loss 0.613
+    step 120/1150  loss 0.690
+    step 140/1150  loss 0.625
+    step 160/1150  loss 0.737
+    step 180/1150  loss 0.749
+    step 200/1150  loss 0.758
+    step 220/1150  loss 0.626
+    step 240/1150  loss 0.599
+    step 260/1150  loss 0.624
+    step 280/1150  loss 0.910
+    step 300/1150  loss 0.648
+    step 320/1150  loss 1.200
+    step 340/1150  loss 1.185
+    step 360/1150  loss 0.657
+    step 380/1150  loss 0.695
+    step 400/1150  loss 0.745
+    step 420/1150  loss 0.627
+    step 440/1150  loss 0.613
+    step 460/1150  loss 0.768
+    step 480/1150  loss 0.703
+    step 500/1150  loss 0.778
+    step 520/1150  loss 0.631
+    step 540/1150  loss 0.603
+    step 560/1150  loss 0.624
+    step 580/1150  loss 0.621
+    step 600/1150  loss 0.654
+    step 620/1150  loss 0.765
+    step 640/1150  loss 0.645
+    step 660/1150  loss 0.887
+    step 680/1150  loss 0.617
+    step 700/1150  loss 0.634
+    step 720/1150  loss 0.664
+    step 740/1150  loss 0.598
+    step 760/1150  loss 0.733
+    step 780/1150  loss 0.606
+    step 800/1150  loss 0.613
+    step 820/1150  loss 0.887
+    step 840/1150  loss 0.732
+    step 860/1150  loss 0.841
+    step 880/1150  loss 0.705
+    step 900/1150  loss 0.776
+    step 920/1150  loss 0.601
+    step 940/1150  loss 0.633
+    step 960/1150  loss 0.608
+    step 980/1150  loss 0.724
+    step 1000/1150  loss 0.626
+    step 1020/1150  loss 0.612
+    step 1040/1150  loss 0.706
+    step 1060/1150  loss 0.668
+    step 1080/1150  loss 0.782
+    step 1100/1150  loss 0.632
+    step 1120/1150  loss 0.628
+    step 1140/1150  loss 0.596
+epoch 11/24 [all] lr 0.00020 | train loss 0.704 acc 0.967 | val loss 0.675 acc 0.967 f1 0.967 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.602
+    step 40/1150  loss 0.667
+    step 60/1150  loss 0.619
+    step 80/1150  loss 0.661
+    step 100/1150  loss 0.599
+    step 120/1150  loss 0.619
+    step 140/1150  loss 0.666
+    step 160/1150  loss 0.699
+    step 180/1150  loss 0.685
+    step 200/1150  loss 0.627
+    step 220/1150  loss 0.619
+    step 240/1150  loss 0.591
+    step 260/1150  loss 0.641
+    step 280/1150  loss 0.624
+    step 300/1150  loss 0.657
+    step 320/1150  loss 0.597
+    step 340/1150  loss 0.607
+    step 360/1150  loss 0.617
+    step 380/1150  loss 0.615
+    step 400/1150  loss 0.615
+    step 420/1150  loss 0.625
+    step 440/1150  loss 0.597
+    step 460/1150  loss 0.625
+    step 480/1150  loss 0.596
+    step 500/1150  loss 0.588
+    step 520/1150  loss 0.631
+    step 540/1150  loss 0.591
+    step 560/1150  loss 0.613
+    step 580/1150  loss 0.611
+    step 600/1150  loss 0.958
+    step 620/1150  loss 0.636
+    step 640/1150  loss 0.624
+    step 660/1150  loss 0.587
+    step 680/1150  loss 0.631
+    step 700/1150  loss 0.662
+    step 720/1150  loss 0.604
+    step 740/1150  loss 0.709
+    step 760/1150  loss 0.631
+    step 780/1150  loss 0.660
+    step 800/1150  loss 0.595
+    step 820/1150  loss 0.675
+    step 840/1150  loss 0.626
+    step 860/1150  loss 0.592
+    step 880/1150  loss 0.597
+    step 900/1150  loss 0.634
+    step 920/1150  loss 0.594
+    step 940/1150  loss 0.621
+    step 960/1150  loss 0.590
+    step 980/1150  loss 0.610
+    step 1000/1150  loss 0.642
+    step 1020/1150  loss 0.604
+    step 1040/1150  loss 0.643
+    step 1060/1150  loss 0.609
+    step 1080/1150  loss 0.602
+    step 1100/1150  loss 0.599
+    step 1120/1150  loss 0.600
+    step 1140/1150  loss 0.600
+epoch 12/24 [all] lr 0.00020 | train loss 0.642 acc 0.985 | val loss 0.670 acc 0.968 f1 0.968 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.584
+    step 40/1150  loss 0.608
+    step 60/1150  loss 0.584
+    step 80/1150  loss 0.592
+    step 100/1150  loss 0.593
+    step 120/1150  loss 0.778
+    step 140/1150  loss 0.587
+    step 160/1150  loss 0.601
+    step 180/1150  loss 0.582
+    step 200/1150  loss 0.598
+    step 220/1150  loss 0.582
+    step 240/1150  loss 0.625
+    step 260/1150  loss 0.595
+    step 280/1150  loss 0.588
+    step 300/1150  loss 0.949
+    step 320/1150  loss 0.678
+    step 340/1150  loss 0.598
+    step 360/1150  loss 0.586
+    step 380/1150  loss 0.592
+    step 400/1150  loss 0.609
+    step 420/1150  loss 0.626
+    step 440/1150  loss 0.721
+    step 460/1150  loss 0.578
+    step 480/1150  loss 0.581
+    step 500/1150  loss 0.597
+    step 520/1150  loss 0.614
+    step 540/1150  loss 0.587
+    step 560/1150  loss 0.641
+    step 580/1150  loss 0.607
+    step 600/1150  loss 0.688
+    step 620/1150  loss 0.610
+    step 640/1150  loss 0.645
+    step 660/1150  loss 0.585
+    step 680/1150  loss 0.644
+    step 700/1150  loss 0.644
+    step 720/1150  loss 0.598
+    step 740/1150  loss 1.002
+    step 760/1150  loss 0.594
+    step 780/1150  loss 0.610
+    step 800/1150  loss 0.584
+    step 820/1150  loss 0.629
+    step 840/1150  loss 0.629
+    step 860/1150  loss 0.589
+    step 880/1150  loss 0.616
+    step 900/1150  loss 0.599
+    step 920/1150  loss 0.614
+    step 940/1150  loss 0.604
+    step 960/1150  loss 0.682
+    step 980/1150  loss 0.598
+    step 1000/1150  loss 0.594
+    step 1020/1150  loss 0.594
+    step 1040/1150  loss 0.812
+    step 1060/1150  loss 0.594
+    step 1080/1150  loss 0.728
+    step 1100/1150  loss 0.588
+    step 1120/1150  loss 0.602
+    step 1140/1150  loss 0.611
+epoch 13/24 [all] lr 0.00019 | train loss 0.625 acc 0.988 | val loss 0.771 acc 0.930 f1 0.926 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.598
+    step 40/1150  loss 0.600
+    step 60/1150  loss 0.592
+    step 80/1150  loss 0.748
+    step 100/1150  loss 0.584
+    step 120/1150  loss 0.601
+    step 140/1150  loss 0.677
+    step 160/1150  loss 0.677
+    step 180/1150  loss 0.589
+    step 200/1150  loss 0.579
+    step 220/1150  loss 0.630
+    step 240/1150  loss 0.595
+    step 260/1150  loss 0.587
+    step 280/1150  loss 0.587
+    step 300/1150  loss 0.583
+    step 320/1150  loss 0.607
+    step 340/1150  loss 0.767
+    step 360/1150  loss 0.584
+    step 380/1150  loss 0.580
+    step 400/1150  loss 0.593
+    step 420/1150  loss 0.588
+    step 440/1150  loss 0.642
+    step 460/1150  loss 0.590
+    step 480/1150  loss 0.583
+    step 500/1150  loss 0.578
+    step 520/1150  loss 0.606
+    step 540/1150  loss 0.592
+    step 560/1150  loss 0.588
+    step 580/1150  loss 0.659
+    step 600/1150  loss 0.591
+    step 620/1150  loss 0.590
+    step 640/1150  loss 0.597
+    step 660/1150  loss 0.591
+    step 680/1150  loss 0.589
+    step 700/1150  loss 0.596
+    step 720/1150  loss 0.604
+    step 740/1150  loss 0.743
+    step 760/1150  loss 0.580
+    step 780/1150  loss 0.603
+    step 800/1150  loss 0.631
+    step 820/1150  loss 0.581
+    step 840/1150  loss 0.587
+    step 860/1150  loss 0.586
+    step 880/1150  loss 0.577
+    step 900/1150  loss 0.692
+    step 920/1150  loss 0.595
+    step 940/1150  loss 0.605
+    step 960/1150  loss 0.591
+    step 980/1150  loss 0.601
+    step 1000/1150  loss 0.591
+    step 1020/1150  loss 0.591
+    step 1040/1150  loss 0.597
+    step 1060/1150  loss 0.620
+    step 1080/1150  loss 0.641
+    step 1100/1150  loss 0.745
+    step 1120/1150  loss 0.584
+    step 1140/1150  loss 0.698
+epoch 14/24 [all] lr 0.00018 | train loss 0.613 acc 0.991 | val loss 0.668 acc 0.967 f1 0.967 | 182 s (1% waiting for data)
+    step 20/1150  loss 0.590
+    step 40/1150  loss 0.604
+    step 60/1150  loss 0.640
+    step 80/1150  loss 0.646
+    step 100/1150  loss 0.578
+    step 120/1150  loss 0.581
+    step 140/1150  loss 0.657
+    step 160/1150  loss 0.575
+    step 180/1150  loss 0.599
+    step 200/1150  loss 0.598
+    step 220/1150  loss 0.596
+    step 240/1150  loss 0.588
+    step 260/1150  loss 0.584
+    step 280/1150  loss 0.579
+    step 300/1150  loss 0.583
+    step 320/1150  loss 0.578
+    step 340/1150  loss 0.592
+    step 360/1150  loss 0.584
+    step 380/1150  loss 0.632
+    step 400/1150  loss 0.598
+    step 420/1150  loss 0.577
+    step 440/1150  loss 0.583
+    step 460/1150  loss 0.602
+    step 480/1150  loss 0.721
+    step 500/1150  loss 0.608
+    step 520/1150  loss 0.582
+    step 540/1150  loss 0.596
+    step 560/1150  loss 0.593
+    step 580/1150  loss 0.575
+    step 600/1150  loss 0.631
+    step 620/1150  loss 0.581
+    step 640/1150  loss 0.582
+    step 660/1150  loss 0.609
+    step 680/1150  loss 0.588
+    step 700/1150  loss 0.583
+    step 720/1150  loss 0.589
+    step 740/1150  loss 0.595
+    step 760/1150  loss 0.585
+    step 780/1150  loss 0.581
+    step 800/1150  loss 0.582
+    step 820/1150  loss 0.718
+    step 840/1150  loss 0.584
+    step 860/1150  loss 0.599
+    step 880/1150  loss 0.587
+    step 900/1150  loss 0.606
+    step 920/1150  loss 0.723
+    step 940/1150  loss 0.767
+    step 960/1150  loss 0.591
+    step 980/1150  loss 0.609
+    step 1000/1150  loss 0.604
+    step 1020/1150  loss 0.595
+    step 1040/1150  loss 0.885
+    step 1060/1150  loss 0.585
+    step 1080/1150  loss 0.591
+    step 1100/1150  loss 0.627
+    step 1120/1150  loss 0.588
+    step 1140/1150  loss 0.589
+epoch 15/24 [all] lr 0.00016 | train loss 0.597 acc 0.996 | val loss 0.664 acc 0.966 f1 0.966 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.580
+    step 40/1150  loss 0.581
+    step 60/1150  loss 0.577
+    step 80/1150  loss 0.587
+    step 100/1150  loss 0.596
+    step 120/1150  loss 0.587
+    step 140/1150  loss 0.577
+    step 160/1150  loss 0.740
+    step 180/1150  loss 0.579
+    step 200/1150  loss 0.600
+    step 220/1150  loss 0.582
+    step 240/1150  loss 0.584
+    step 260/1150  loss 0.588
+    step 280/1150  loss 0.578
+    step 300/1150  loss 0.576
+    step 320/1150  loss 0.576
+    step 340/1150  loss 0.575
+    step 360/1150  loss 0.592
+    step 380/1150  loss 0.579
+    step 400/1150  loss 0.596
+    step 420/1150  loss 0.585
+    step 440/1150  loss 0.583
+    step 460/1150  loss 0.584
+    step 480/1150  loss 0.578
+    step 500/1150  loss 0.578
+    step 520/1150  loss 0.605
+    step 540/1150  loss 0.578
+    step 560/1150  loss 0.643
+    step 580/1150  loss 0.589
+    step 600/1150  loss 0.581
+    step 620/1150  loss 0.576
+    step 640/1150  loss 0.580
+    step 660/1150  loss 0.575
+    step 680/1150  loss 0.577
+    step 700/1150  loss 0.580
+    step 720/1150  loss 0.593
+    step 740/1150  loss 0.573
+    step 760/1150  loss 0.585
+    step 780/1150  loss 0.580
+    step 800/1150  loss 0.581
+    step 820/1150  loss 0.587
+    step 840/1150  loss 0.589
+    step 860/1150  loss 0.575
+    step 880/1150  loss 0.653
+    step 900/1150  loss 0.649
+    step 920/1150  loss 0.593
+    step 940/1150  loss 0.579
+    step 960/1150  loss 0.590
+    step 980/1150  loss 0.578
+    step 1000/1150  loss 0.607
+    step 1020/1150  loss 0.599
+    step 1040/1150  loss 0.683
+    step 1060/1150  loss 0.575
+    step 1080/1150  loss 0.597
+    step 1100/1150  loss 0.584
+    step 1120/1150  loss 0.589
+    step 1140/1150  loss 0.580
+epoch 16/24 [all] lr 0.00014 | train loss 0.591 acc 0.997 | val loss 0.635 acc 0.977 f1 0.977 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.586
+    step 40/1150  loss 0.578
+    step 60/1150  loss 0.595
+    step 80/1150  loss 0.579
+    step 100/1150  loss 0.584
+    step 120/1150  loss 0.582
+    step 140/1150  loss 0.606
+    step 160/1150  loss 0.591
+    step 180/1150  loss 0.595
+    step 200/1150  loss 0.582
+    step 220/1150  loss 0.573
+    step 240/1150  loss 0.576
+    step 260/1150  loss 0.588
+    step 280/1150  loss 0.579
+    step 300/1150  loss 0.573
+    step 320/1150  loss 0.576
+    step 340/1150  loss 0.576
+    step 360/1150  loss 0.584
+    step 380/1150  loss 0.578
+    step 400/1150  loss 0.584
+    step 420/1150  loss 0.584
+    step 440/1150  loss 0.587
+    step 460/1150  loss 0.583
+    step 480/1150  loss 0.581
+    step 500/1150  loss 0.576
+    step 520/1150  loss 0.579
+    step 540/1150  loss 0.579
+    step 560/1150  loss 0.576
+    step 580/1150  loss 0.574
+    step 600/1150  loss 0.574
+    step 620/1150  loss 0.595
+    step 640/1150  loss 0.579
+    step 660/1150  loss 0.587
+    step 680/1150  loss 0.613
+    step 700/1150  loss 0.580
+    step 720/1150  loss 0.737
+    step 740/1150  loss 0.599
+    step 760/1150  loss 0.576
+    step 780/1150  loss 0.573
+    step 800/1150  loss 0.577
+    step 820/1150  loss 0.589
+    step 840/1150  loss 0.576
+    step 860/1150  loss 0.584
+    step 880/1150  loss 0.578
+    step 900/1150  loss 0.579
+    step 920/1150  loss 0.614
+    step 940/1150  loss 0.594
+    step 960/1150  loss 0.582
+    step 980/1150  loss 0.577
+    step 1000/1150  loss 0.573
+    step 1020/1150  loss 0.575
+    step 1040/1150  loss 0.578
+    step 1060/1150  loss 0.575
+    step 1080/1150  loss 0.573
+    step 1100/1150  loss 0.574
+    step 1120/1150  loss 0.591
+    step 1140/1150  loss 0.574
+epoch 17/24 [all] lr 0.00012 | train loss 0.587 acc 0.998 | val loss 0.637 acc 0.977 f1 0.977 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.571
+    step 40/1150  loss 0.578
+    step 60/1150  loss 0.658
+    step 80/1150  loss 0.578
+    step 100/1150  loss 0.575
+    step 120/1150  loss 0.585
+    step 140/1150  loss 0.576
+    step 160/1150  loss 0.572
+    step 180/1150  loss 0.571
+    step 200/1150  loss 0.574
+    step 220/1150  loss 0.588
+    step 240/1150  loss 0.578
+    step 260/1150  loss 0.577
+    step 280/1150  loss 0.581
+    step 300/1150  loss 0.577
+    step 320/1150  loss 0.590
+    step 340/1150  loss 0.582
+    step 360/1150  loss 0.576
+    step 380/1150  loss 0.604
+    step 400/1150  loss 0.578
+    step 420/1150  loss 0.580
+    step 440/1150  loss 0.577
+    step 460/1150  loss 0.578
+    step 480/1150  loss 0.580
+    step 500/1150  loss 0.582
+    step 520/1150  loss 0.579
+    step 540/1150  loss 0.610
+    step 560/1150  loss 0.591
+    step 580/1150  loss 0.580
+    step 600/1150  loss 0.578
+    step 620/1150  loss 0.575
+    step 640/1150  loss 0.578
+    step 660/1150  loss 0.577
+    step 680/1150  loss 0.586
+    step 700/1150  loss 0.580
+    step 720/1150  loss 0.593
+    step 740/1150  loss 0.576
+    step 760/1150  loss 0.586
+    step 780/1150  loss 0.578
+    step 800/1150  loss 0.579
+    step 820/1150  loss 0.581
+    step 840/1150  loss 0.574
+    step 860/1150  loss 0.592
+    step 880/1150  loss 0.582
+    step 900/1150  loss 0.582
+    step 920/1150  loss 0.570
+    step 940/1150  loss 0.597
+    step 960/1150  loss 0.573
+    step 980/1150  loss 0.620
+    step 1000/1150  loss 0.579
+    step 1020/1150  loss 0.580
+    step 1040/1150  loss 0.582
+    step 1060/1150  loss 0.638
+    step 1080/1150  loss 0.589
+    step 1100/1150  loss 0.574
+    step 1120/1150  loss 0.583
+    step 1140/1150  loss 0.585
+epoch 18/24 [all] lr 0.00010 | train loss 0.585 acc 0.997 | val loss 0.615 acc 0.980 f1 0.980 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.585
+    step 40/1150  loss 0.572
+    step 60/1150  loss 0.574
+    step 80/1150  loss 0.572
+    step 100/1150  loss 0.575
+    step 120/1150  loss 0.575
+    step 140/1150  loss 0.570
+    step 160/1150  loss 0.581
+    step 180/1150  loss 0.585
+    step 200/1150  loss 0.576
+    step 220/1150  loss 0.570
+    step 240/1150  loss 0.574
+    step 260/1150  loss 0.571
+    step 280/1150  loss 0.573
+    step 300/1150  loss 0.653
+    step 320/1150  loss 0.573
+    step 340/1150  loss 0.576
+    step 360/1150  loss 0.570
+    step 380/1150  loss 0.578
+    step 400/1150  loss 0.572
+    step 420/1150  loss 0.572
+    step 440/1150  loss 0.590
+    step 460/1150  loss 0.571
+    step 480/1150  loss 0.576
+    step 500/1150  loss 0.576
+    step 520/1150  loss 0.573
+    step 540/1150  loss 0.575
+    step 560/1150  loss 0.571
+    step 580/1150  loss 0.577
+    step 600/1150  loss 0.584
+    step 620/1150  loss 0.576
+    step 640/1150  loss 0.571
+    step 660/1150  loss 0.574
+    step 680/1150  loss 0.573
+    step 700/1150  loss 0.570
+    step 720/1150  loss 0.576
+    step 740/1150  loss 0.575
+    step 760/1150  loss 0.593
+    step 780/1150  loss 0.571
+    step 800/1150  loss 0.591
+    step 820/1150  loss 0.579
+    step 840/1150  loss 0.578
+    step 860/1150  loss 0.574
+    step 880/1150  loss 0.580
+    step 900/1150  loss 0.573
+    step 920/1150  loss 0.575
+    step 940/1150  loss 0.583
+    step 960/1150  loss 0.576
+    step 980/1150  loss 0.571
+    step 1000/1150  loss 0.574
+    step 1020/1150  loss 0.572
+    step 1040/1150  loss 0.577
+    step 1060/1150  loss 0.578
+    step 1080/1150  loss 0.575
+    step 1100/1150  loss 0.572
+    step 1120/1150  loss 0.578
+    step 1140/1150  loss 0.574
+epoch 19/24 [all] lr 0.00008 | train loss 0.577 acc 1.000 | val loss 0.621 acc 0.980 f1 0.980 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.603
+    step 40/1150  loss 0.571
+    step 60/1150  loss 0.576
+    step 80/1150  loss 0.577
+    step 100/1150  loss 0.576
+    step 120/1150  loss 0.575
+    step 140/1150  loss 0.576
+    step 160/1150  loss 0.570
+    step 180/1150  loss 0.574
+    step 200/1150  loss 0.574
+    step 220/1150  loss 0.574
+    step 240/1150  loss 0.576
+    step 260/1150  loss 0.575
+    step 280/1150  loss 0.570
+    step 300/1150  loss 0.573
+    step 320/1150  loss 0.579
+    step 340/1150  loss 0.574
+    step 360/1150  loss 0.571
+    step 380/1150  loss 0.579
+    step 400/1150  loss 0.573
+    step 420/1150  loss 0.573
+    step 440/1150  loss 0.574
+    step 460/1150  loss 0.582
+    step 480/1150  loss 0.575
+    step 500/1150  loss 0.573
+    step 520/1150  loss 0.569
+    step 540/1150  loss 0.572
+    step 560/1150  loss 0.575
+    step 580/1150  loss 0.573
+    step 600/1150  loss 0.572
+    step 620/1150  loss 0.578
+    step 640/1150  loss 0.574
+    step 660/1150  loss 0.571
+    step 680/1150  loss 0.573
+    step 700/1150  loss 0.573
+    step 720/1150  loss 0.574
+    step 740/1150  loss 0.569
+    step 760/1150  loss 0.578
+    step 780/1150  loss 0.569
+    step 800/1150  loss 0.576
+    step 820/1150  loss 0.576
+    step 840/1150  loss 0.573
+    step 860/1150  loss 0.587
+    step 880/1150  loss 0.569
+    step 900/1150  loss 0.570
+    step 920/1150  loss 0.574
+    step 940/1150  loss 0.572
+    step 960/1150  loss 0.573
+    step 980/1150  loss 0.577
+    step 1000/1150  loss 0.576
+    step 1020/1150  loss 0.573
+    step 1040/1150  loss 0.578
+    step 1060/1150  loss 0.582
+    step 1080/1150  loss 0.572
+    step 1100/1150  loss 0.572
+    step 1120/1150  loss 0.573
+    step 1140/1150  loss 0.579
+epoch 20/24 [all] lr 0.00006 | train loss 0.576 acc 1.000 | val loss 0.615 acc 0.980 f1 0.980 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.573
+    step 40/1150  loss 0.582
+    step 60/1150  loss 0.571
+    step 80/1150  loss 0.575
+    step 100/1150  loss 0.572
+    step 120/1150  loss 0.571
+    step 140/1150  loss 0.574
+    step 160/1150  loss 0.580
+    step 180/1150  loss 0.575
+    step 200/1150  loss 0.574
+    step 220/1150  loss 0.572
+    step 240/1150  loss 0.577
+    step 260/1150  loss 0.577
+    step 280/1150  loss 0.574
+    step 300/1150  loss 0.578
+    step 320/1150  loss 0.571
+    step 340/1150  loss 0.575
+    step 360/1150  loss 0.571
+    step 380/1150  loss 0.574
+    step 400/1150  loss 0.572
+    step 420/1150  loss 0.574
+    step 440/1150  loss 0.571
+    step 460/1150  loss 0.576
+    step 480/1150  loss 0.570
+    step 500/1150  loss 0.574
+    step 520/1150  loss 0.572
+    step 540/1150  loss 0.574
+    step 560/1150  loss 0.597
+    step 580/1150  loss 0.572
+    step 600/1150  loss 0.573
+    step 620/1150  loss 0.574
+    step 640/1150  loss 0.571
+    step 660/1150  loss 0.579
+    step 680/1150  loss 0.572
+    step 700/1150  loss 0.573
+    step 720/1150  loss 0.575
+    step 740/1150  loss 0.575
+    step 760/1150  loss 0.570
+    step 780/1150  loss 0.571
+    step 800/1150  loss 0.577
+    step 820/1150  loss 0.572
+    step 840/1150  loss 0.572
+    step 860/1150  loss 0.574
+    step 880/1150  loss 0.573
+    step 900/1150  loss 0.571
+    step 920/1150  loss 0.578
+    step 940/1150  loss 0.573
+    step 960/1150  loss 0.573
+    step 980/1150  loss 0.575
+    step 1000/1150  loss 0.573
+    step 1020/1150  loss 0.572
+    step 1040/1150  loss 0.569
+    step 1060/1150  loss 0.574
+    step 1080/1150  loss 0.572
+    step 1100/1150  loss 0.576
+    step 1120/1150  loss 0.572
+    step 1140/1150  loss 0.572
+epoch 21/24 [all] lr 0.00004 | train loss 0.574 acc 1.000 | val loss 0.609 acc 0.982 f1 0.982 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.575
+    step 40/1150  loss 0.574
+    step 60/1150  loss 0.572
+    step 80/1150  loss 0.574
+    step 100/1150  loss 0.572
+    step 120/1150  loss 0.573
+    step 140/1150  loss 0.573
+    step 160/1150  loss 0.573
+    step 180/1150  loss 0.573
+    step 200/1150  loss 0.576
+    step 220/1150  loss 0.573
+    step 240/1150  loss 0.570
+    step 260/1150  loss 0.569
+    step 280/1150  loss 0.573
+    step 300/1150  loss 0.571
+    step 320/1150  loss 0.572
+    step 340/1150  loss 0.573
+    step 360/1150  loss 0.571
+    step 380/1150  loss 0.580
+    step 400/1150  loss 0.570
+    step 420/1150  loss 0.574
+    step 440/1150  loss 0.572
+    step 460/1150  loss 0.573
+    step 480/1150  loss 0.571
+    step 500/1150  loss 0.578
+    step 520/1150  loss 0.577
+    step 540/1150  loss 0.572
+    step 560/1150  loss 0.575
+    step 580/1150  loss 0.574
+    step 600/1150  loss 0.569
+    step 620/1150  loss 0.569
+    step 640/1150  loss 0.573
+    step 660/1150  loss 0.574
+    step 680/1150  loss 0.576
+    step 700/1150  loss 0.570
+    step 720/1150  loss 0.579
+    step 740/1150  loss 0.574
+    step 760/1150  loss 0.576
+    step 780/1150  loss 0.572
+    step 800/1150  loss 0.570
+    step 820/1150  loss 0.576
+    step 840/1150  loss 0.571
+    step 860/1150  loss 0.576
+    step 880/1150  loss 0.573
+    step 900/1150  loss 0.574
+    step 920/1150  loss 0.572
+    step 940/1150  loss 0.572
+    step 960/1150  loss 0.575
+    step 980/1150  loss 0.574
+    step 1000/1150  loss 0.571
+    step 1020/1150  loss 0.572
+    step 1040/1150  loss 0.577
+    step 1060/1150  loss 0.572
+    step 1080/1150  loss 0.572
+    step 1100/1150  loss 0.573
+    step 1120/1150  loss 0.574
+    step 1140/1150  loss 0.572
+epoch 22/24 [all] lr 0.00002 | train loss 0.573 acc 1.000 | val loss 0.607 acc 0.982 f1 0.982 | 181 s (1% waiting for data)
+    step 20/1150  loss 0.574
+    step 40/1150  loss 0.571
+    step 60/1150  loss 0.572
+    step 80/1150  loss 0.573
+    step 100/1150  loss 0.572
+    step 120/1150  loss 0.577
+    step 140/1150  loss 0.571
+    step 160/1150  loss 0.569
+    step 180/1150  loss 0.576
+    step 200/1150  loss 0.575
+    step 220/1150  loss 0.571
+    step 240/1150  loss 0.569
+    step 260/1150  loss 0.572
+    step 280/1150  loss 0.571
+    step 300/1150  loss 0.570
+    step 320/1150  loss 0.571
+    step 340/1150  loss 0.571
+    step 360/1150  loss 0.577
+    step 380/1150  loss 0.572
+    step 400/1150  loss 0.569
+    step 420/1150  loss 0.572
+    step 440/1150  loss 0.571
+    step 460/1150  loss 0.585
+    step 480/1150  loss 0.571
+    step 500/1150  loss 0.570
+    step 520/1150  loss 0.577
+    step 540/1150  loss 0.572
+    step 560/1150  loss 0.572
+    step 580/1150  loss 0.570
+    step 600/1150  loss 0.575
+    step 620/1150  loss 0.573
+    step 640/1150  loss 0.570
+    step 660/1150  loss 0.575
+    step 680/1150  loss 0.570
+    step 700/1150  loss 0.573
+    step 720/1150  loss 0.574
+    step 740/1150  loss 0.570
+    step 760/1150  loss 0.576
+    step 780/1150  loss 0.571
+    step 800/1150  loss 0.572
+    step 820/1150  loss 0.574
+    step 840/1150  loss 0.570
+    step 860/1150  loss 0.570
+    step 880/1150  loss 0.569
+    step 900/1150  loss 0.572
+    step 920/1150  loss 0.573
+    step 940/1150  loss 0.570
+    step 960/1150  loss 0.570
+    step 980/1150  loss 0.570
+    step 1000/1150  loss 0.576
+    step 1020/1150  loss 0.572
+    step 1040/1150  loss 0.571
+    step 1060/1150  loss 0.569
+    step 1080/1150  loss 0.571
+    step 1100/1150  loss 0.575
+    step 1120/1150  loss 0.570
+    step 1140/1150  loss 0.577
+epoch 23/24 [all] lr 0.00001 | train loss 0.572 acc 1.000 | val loss 0.605 acc 0.986 f1 0.986 | 182 s (1% waiting for data)
+    step 20/1150  loss 0.570
+    step 40/1150  loss 0.571
+    step 60/1150  loss 0.573
+    step 80/1150  loss 0.577
+    step 100/1150  loss 0.570
+    step 120/1150  loss 0.570
+    step 140/1150  loss 0.571
+    step 160/1150  loss 0.571
+    step 180/1150  loss 0.570
+    step 200/1150  loss 0.574
+    step 220/1150  loss 0.571
+    step 240/1150  loss 0.571
+    step 260/1150  loss 0.574
+    step 280/1150  loss 0.571
+    step 300/1150  loss 0.573
+    step 320/1150  loss 0.573
+    step 340/1150  loss 0.572
+    step 360/1150  loss 0.570
+    step 380/1150  loss 0.571
+    step 400/1150  loss 0.590
+    step 420/1150  loss 0.571
+    step 440/1150  loss 0.574
+    step 460/1150  loss 0.571
+    step 480/1150  loss 0.575
+    step 500/1150  loss 0.570
+    step 520/1150  loss 0.575
+    step 540/1150  loss 0.574
+    step 560/1150  loss 0.570
+    step 580/1150  loss 0.573
+    step 600/1150  loss 0.573
+    step 620/1150  loss 0.577
+    step 640/1150  loss 0.575
+    step 660/1150  loss 0.573
+    step 680/1150  loss 0.570
+    step 700/1150  loss 0.572
+    step 720/1150  loss 0.575
+    step 740/1150  loss 0.572
+    step 760/1150  loss 0.570
+    step 780/1150  loss 0.572
+    step 800/1150  loss 0.576
+    step 820/1150  loss 0.574
+    step 840/1150  loss 0.572
+    step 860/1150  loss 0.572
+    step 880/1150  loss 0.572
+    step 900/1150  loss 0.580
+    step 920/1150  loss 0.573
+    step 940/1150  loss 0.571
+    step 960/1150  loss 0.570
+    step 980/1150  loss 0.572
+    step 1000/1150  loss 0.571
+    step 1020/1150  loss 0.582
+    step 1040/1150  loss 0.571
+    step 1060/1150  loss 0.573
+    step 1080/1150  loss 0.571
+    step 1100/1150  loss 0.570
+    step 1120/1150  loss 0.570
+    step 1140/1150  loss 0.570
+epoch 24/24 [all] lr 0.00000 | train loss 0.572 acc 1.000 | val loss 0.604 acc 0.986 f1 0.986 | 181 s (1% waiting for data)
+
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4: last.pt, best.pt, history.csv, summary.json
+[result] best val acc 0.986 at epoch 23 | training time 57.0 min | 72.9 clips/s
+
+===== 7. TEST on the NTU test set   Sun Nov 15 20:40:25 CET 2026
+[evaluate] experiment hpc_exp4 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/best.pt | device cuda | test on ntu
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] NTU test set: 4368 clips, 20 performers, videos from /zhome/88/0/187797/Project_DL/data/processed/rgb
+[model] 3,007,458 parameters | trained 24 epochs
+
+[1/2] predicting the test set ...
+  [   80/4368 clips]  running accuracy 1.000
+  [  160/4368 clips]  running accuracy 0.994
+  [  240/4368 clips]  running accuracy 0.992
+  [  320/4368 clips]  running accuracy 0.994
+  [  400/4368 clips]  running accuracy 0.995
+  [  480/4368 clips]  running accuracy 0.992
+  [  560/4368 clips]  running accuracy 0.991
+  [  640/4368 clips]  running accuracy 0.989
+  [  720/4368 clips]  running accuracy 0.990
+  [  800/4368 clips]  running accuracy 0.989
+  [  880/4368 clips]  running accuracy 0.986
+  [  960/4368 clips]  running accuracy 0.984
+  [ 1040/4368 clips]  running accuracy 0.984
+  [ 1120/4368 clips]  running accuracy 0.982
+  [ 1200/4368 clips]  running accuracy 0.981
+  [ 1280/4368 clips]  running accuracy 0.979
+  [ 1360/4368 clips]  running accuracy 0.979
+  [ 1440/4368 clips]  running accuracy 0.978
+  [ 1520/4368 clips]  running accuracy 0.977
+  [ 1600/4368 clips]  running accuracy 0.978
+  [ 1680/4368 clips]  running accuracy 0.977
+  [ 1760/4368 clips]  running accuracy 0.978
+  [ 1840/4368 clips]  running accuracy 0.978
+  [ 1920/4368 clips]  running accuracy 0.979
+  [ 2000/4368 clips]  running accuracy 0.979
+  [ 2080/4368 clips]  running accuracy 0.978
+  [ 2160/4368 clips]  running accuracy 0.978
+  [ 2240/4368 clips]  running accuracy 0.978
+  [ 2320/4368 clips]  running accuracy 0.979
+  [ 2400/4368 clips]  running accuracy 0.978
+  [ 2480/4368 clips]  running accuracy 0.977
+  [ 2560/4368 clips]  running accuracy 0.977
+  [ 2640/4368 clips]  running accuracy 0.978
+  [ 2720/4368 clips]  running accuracy 0.978
+  [ 2800/4368 clips]  running accuracy 0.979
+  [ 2880/4368 clips]  running accuracy 0.979
+  [ 2960/4368 clips]  running accuracy 0.980
+  [ 3040/4368 clips]  running accuracy 0.980
+  [ 3120/4368 clips]  running accuracy 0.979
+  [ 3200/4368 clips]  running accuracy 0.978
+  [ 3280/4368 clips]  running accuracy 0.978
+  [ 3360/4368 clips]  running accuracy 0.978
+  [ 3440/4368 clips]  running accuracy 0.978
+  [ 3520/4368 clips]  running accuracy 0.978
+  [ 3600/4368 clips]  running accuracy 0.979
+  [ 3680/4368 clips]  running accuracy 0.979
+  [ 3760/4368 clips]  running accuracy 0.979
+  [ 3840/4368 clips]  running accuracy 0.979
+  [ 3920/4368 clips]  running accuracy 0.978
+  [ 4000/4368 clips]  running accuracy 0.978
+  [ 4080/4368 clips]  running accuracy 0.979
+  [ 4160/4368 clips]  running accuracy 0.979
+  [ 4240/4368 clips]  running accuracy 0.979
+  [ 4320/4368 clips]  running accuracy 0.978
+  [ 4368/4368 clips]  running accuracy 0.978
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  x3d_m_exp4  (X3D-M on NTU, 4368 clips)
+======================================================================
+  accuracy        0.9783   (4273 of 4368 correct)
+  macro F1        0.9782
+
+  per class        correct / clips   accuracy
+  A001 drink          260 / 273      0.952
+  A002 eat            253 / 273      0.927
+  A004 brush_hair     269 / 273      0.985
+  A006 pick           273 / 273      1.000
+  A007 throw          263 / 273      0.963
+  A008 sit            273 / 273      1.000
+  A009 stand          269 / 273      0.985
+  A010 clap           264 / 273      0.967
+  A023 wave           262 / 273      0.960
+  A024 kick_ball      270 / 273      0.989
+  A027 jump           273 / 273      1.000
+  A043 fall_floor     270 / 273      0.989
+  A050 punch          265 / 273      0.971
+  A051 kick           266 / 273      0.974
+  A055 hug            271 / 273      0.993
+  A058 shake_hands    272 / 273      0.996
+
+  most common mistakes (true class -> predicted)
+  A002 eat           -> A001 drink           15 clips
+  A001 drink         -> A002 eat             11 clips
+  A023 wave          -> A010 clap             6 clips
+  A051 kick          -> A050 punch            5 clips
+  A007 throw         -> A006 pick             5 clips
+
+  timing
+  one video sample (batch 1)  10.06 ms median, 10.31 ms for 95% of clips   (model only)
+  whole test set              44.5 s total, 16.9 s of it in the model
+  throughput                  258 clips/s in the model (batch 8)
+  reading the videos          about 6 ms per clip (decoding and resizing, 8 workers)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/test_results.json
+
+===== 8. TEST on HMDB-51 (cross-dataset)   Sun Nov 15 20:41:23 CET 2026
+skipped: no HMDB videos in data/external/processed
+
+===== DONE in 62 minutes. Results: models/hpc_runs/x3d_m_exp4   Sun Nov 15 20:41:23 CET 2026
+total 63M
+-rw-r--r-- 1 s225102 s22  12M Nov 15 20:37 best.pt
+-rw-r--r-- 1 s225102 s22 5.1K Nov 15 20:40 history.csv
+-rw-r--r-- 1 s225102 s22  35M Nov 15 20:40 last.pt
+-rw-r--r-- 1 s225102 s22  660 Nov 15 20:40 summary.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 15 20:41 test_results.json
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 30062123: <x3d_m_rgb> in cluster <dcc> Done
+
+Job <x3d_m_rgb> was submitted from host <n-62-27-18> by user <s225102> in cluster <dcc> at Sun Nov 15 19:35:08 2026
+Job was executed on host(s) <8*n-62-20-5>, in queue <gpuv100>, as user <s225102> in cluster <dcc> at Sun Nov 15 19:38:56 2026
+</zhome/88/0/187797> was used as the home directory.
+</zhome/88/0/187797/Project_DL> was used as the working directory.
+Started at Sun Nov 15 19:38:56 2026
+Terminated at Sun Nov 15 20:41:23 2026
+Results reported at Sun Nov 15 20:41:23 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+# =========================================================================================================
+# Train and test X3D-M (RGB) on the DTU HPC cluster.
+#
+# Always start it from the project root (the folder that holds configs/, src/ and notebooks/):
+#     bash notebooks/train_RGB.sh setup          FIRST TIME, on a login node: builds the Python environment,
+#                                                unpacks the data, downloads the pretrained weights. No training.
+#     bsub < notebooks/train_RGB.sh              submit the job for experiment exp1
+#     EXP=exp2 bsub < notebooks/train_RGB.sh     submit the job for another experiment yaml
+#
+# While it runs:   bstat                   is the job waiting or running?
+#                  tail -f hpc_rgb_<JOBID>.out      what the script prints
+#                  bnvtop <JOBID>          is the GPU really used?        bkill <JOBID>   stop the job
+# Results:         models/hpc_runs/x3d_m_<EXP>/   (best.pt, history.csv, summary.json, test_results*.json)
+# If the job is stopped (time limit, crash), submit it again: training continues from the last finished epoch.
+# =========================================================================================================
+#BSUB -q gpuv100                               # Tesla V100 queue.  A100 instead: gpua100
+#BSUB -J x3d_m_rgb                             # job name
+#BSUB -gpu "num=1:mode=exclusive_process"      # one GPU, for this job alone
+#BSUB -n 8                                     # 8 CPU cores: they decode the videos for the GPU
+#BSUB -R "span[hosts=1]"                       # all cores on the same machine
+#BSUB -R "rusage[mem=8GB]"                     # memory PER CORE -> 8 x 8 GB = 64 GB
+#BSUB -W 12:00                                 # time limit hh:mm (the queue allows at most 24:00)
+#BSUB -o hpc_rgb_%J.out                        # what the script prints   (%J = job number)
+#BSUB -e hpc_rgb_%J.err                        # error messages
+
+set -e                                         # stop at the first step that fails
+
+EXP="${EXP:-exp4}"                             # which yaml in configs/experiments/RGB_experiments/
+RUN_NAME="x3d_m_${EXP}"                        # results go to models/hpc_runs/<RUN_NAME>/
+EXP_DIR="configs/experiments/RGB_experiments"
+HPC_EXP="hpc_${EXP}"                           # copy of the experiment yaml with the cluster settings
+SRC="src/rgb_vs_skeleton"
+PYTHON=".venv/bin/python"                      # on the cluster ALWAYS use this python, never "uv run" (see step 1)
+export PATH="$HOME/.local/bin:$PATH"           # where uv is installed
+
+if [ ! -f configs/main_config.yaml ]; then echo "Start this script from the project root folder."; exit 1; fi
+if [ ! -f "$EXP_DIR/$EXP.yaml" ]; then echo "Experiment file $EXP_DIR/$EXP.yaml does not exist."; exit 1; fi
+echo "===== X3D-M (RGB), experiment $EXP -> models/hpc_runs/$RUN_NAME   $(date)"
+
+
+echo; echo "===== 1. Python environment"
+# The project's uv.lock installs the CPU-only PyTorch (right for a laptop, useless on a GPU node). So: install
+# everything from uv.lock EXCEPT torch, then add the same torch version built for the GPU (CUDA 12.4).
+# "uv run" would put the CPU version back, which is why this script calls .venv/bin/python directly.
+if ! command -v uv > /dev/null; then
+    echo "installing uv into ~/.local/bin"
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+fi
+if [ ! -f .venv/hpc_ready ]; then
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   22642.00 sec.
+    Max Memory :                                 11544 MB
+    Average Memory :                             6127.08 MB
+    Total Requested Memory :                     65536.00 MB
+    Delta Memory :                               53992.00 MB
+    Max Swap :                                   -
+    Max Processes :                              14
+    Max Threads :                                169
+    Run time :                                   3747 sec.
+    Turnaround time :                            3975 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <hpc_rgb_30062123.err> for stderr output of this job.
+

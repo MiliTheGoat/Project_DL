@@ -1,0 +1,34 @@
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /zhome/88/0/187797/Project_DL/wandb/offline-run-20261115_193923-ukaucf4j
+wandb: View this run in the terminal with `wandb leet`
+wandb: 
+wandb: Run history:
+wandb:                  epoch ▁▁▂▂▂▃▃▃▃▄▄▄▅▅▅▆▆▆▆▇▇▇██
+wandb:          gpu_memory_mb ▁▁▁▁▁▁▁▁▁▁██████████████
+wandb:                     lr █▇▄▂▁▁▁▁▁▁▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb:       time/data_wait_s ████▆▆▆▆▆▆▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: time/train_clips_per_s █████▇████▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:     time/train_epoch_s ▁▁▁▁▁▁▁▁▁▁██████████████
+wandb:              train/acc ▁▃▃▄▅▇████▇█████████████
+wandb:             train/loss █▇▆▆▄▂▂▂▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/step_loss ▆▄▄▅▅█▄▄▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                val/acc ▁▂▂▃▇▇▇▇▇█▇▇▆▇▇█████████
+wandb:                     +2 ...
+wandb: 
+wandb: Run summary:
+wandb:      best_epoch 23
+wandb:    best_val_acc 0.98575
+wandb:     best_val_f1 0.98569
+wandb: data_wait_share 0.11309
+wandb:          device Tesla V100-PCIE-16GB...
+wandb:           epoch 24
+wandb:  epochs_trained 24
+wandb: final_train_acc 1
+wandb:   final_val_acc 0.98575
+wandb: gflops_per_clip 9.46336
+wandb:             +22 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /zhome/88/0/187797/Project_DL/wandb/offline-run-20261115_193923-ukaucf4j
+wandb: Find logs at: ./wandb/offline-run-20261115_193923-ukaucf4j/logs

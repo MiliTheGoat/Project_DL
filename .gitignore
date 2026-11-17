@@ -13,8 +13,8 @@ wandb/
 .DS_Store
 
 # Hpc runs
-hpc_*.out
-hpc_*.err
+#hpc_*.out
+#hpc_*.err
 models/hpc_runs/**/*.pt
 
 # vim

@@ -1,0 +1,384 @@
+===== CTR-GCN (2D skeletons), experiment exp4 -> models/hpc_runs/ctr_gcn_2d_exp4   Sun Nov 15 19:44:39 CET 2026
+
+===== 1. Python environment
+environment found: .venv
+
+===== 2. Data
+NTU skeletons:  data/processed/skeleton_cache_2d13.npz (149M)
+HMDB skeletons: data/external/skeleton_estm/hmdb_skeleton_2d13.npz found, pose estimation will be skipped
+
+===== 3. GPU
+Tesla V100-SXM2-32GB, 32768 MiB
+PyTorch 2.6.0+cu124 uses Tesla V100-SXM2-32GB
+
+===== 4. Experiment settings for the cluster
+wrote configs/experiments/skeleton_experiments/hpc_exp4.yaml (wandb: offline)
+
+===== 5. HMDB skeletons (pose estimation)   Sun Nov 15 19:44:47 CET 2026
+nothing to do
+
+===== 6. TRAIN   Sun Nov 15 19:44:47 CET 2026
+[config] experiment file: configs/experiments/skeleton_experiments/hpc_exp4.yaml  (run name: ctr_gcn_2d_exp4)
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] train 9200 clips, val 912 clips, skeleton format 2d13, clip shape (2, 64, 13, 2), device cuda
+[resume] found /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4/last.pt: 22 epochs already done, best val acc 0.905
+[plan] training epochs 23..40 of a 40-epoch schedule | 1,421,184 parameters, all trained from scratch
+    step 20/143  loss 0.295
+    step 40/143  loss 0.517
+    step 60/143  loss 0.371
+    step 80/143  loss 0.403
+    step 100/143  loss 0.262
+    step 120/143  loss 0.353
+    step 140/143  loss 0.321
+epoch 23/40 lr 0.0052 | train loss 0.373 acc 0.878 | val loss 0.351 acc 0.894 f1 0.893 | 23 s
+    step 20/143  loss 0.370
+    step 40/143  loss 0.345
+    step 60/143  loss 0.529
+    step 80/143  loss 0.560
+    step 100/143  loss 0.458
+    step 120/143  loss 0.156
+    step 140/143  loss 0.446
+epoch 24/40 lr 0.0048 | train loss 0.367 acc 0.878 | val loss 0.329 acc 0.895 f1 0.894 | 21 s
+    step 20/143  loss 0.397
+    step 40/143  loss 0.355
+    step 60/143  loss 0.383
+    step 80/143  loss 0.513
+    step 100/143  loss 0.327
+    step 120/143  loss 0.415
+    step 140/143  loss 0.382
+epoch 25/40 lr 0.0043 | train loss 0.360 acc 0.882 | val loss 0.336 acc 0.897 f1 0.897 | 21 s
+    step 20/143  loss 0.467
+    step 40/143  loss 0.347
+    step 60/143  loss 0.478
+    step 80/143  loss 0.137
+    step 100/143  loss 0.464
+    step 120/143  loss 0.212
+    step 140/143  loss 0.470
+epoch 26/40 lr 0.0039 | train loss 0.349 acc 0.887 | val loss 0.319 acc 0.906 f1 0.906 | 21 s
+    step 20/143  loss 0.359
+    step 40/143  loss 0.340
+    step 60/143  loss 0.212
+    step 80/143  loss 0.254
+    step 100/143  loss 0.422
+    step 120/143  loss 0.275
+    step 140/143  loss 0.508
+epoch 27/40 lr 0.0035 | train loss 0.341 acc 0.890 | val loss 0.319 acc 0.905 f1 0.905 | 21 s
+    step 20/143  loss 0.200
+    step 40/143  loss 0.371
+    step 60/143  loss 0.374
+    step 80/143  loss 0.280
+    step 100/143  loss 0.437
+    step 120/143  loss 0.177
+    step 140/143  loss 0.342
+epoch 28/40 lr 0.0030 | train loss 0.335 acc 0.893 | val loss 0.307 acc 0.907 f1 0.907 | 21 s
+    step 20/143  loss 0.307
+    step 40/143  loss 0.374
+    step 60/143  loss 0.283
+    step 80/143  loss 0.395
+    step 100/143  loss 0.268
+    step 120/143  loss 0.271
+    step 140/143  loss 0.243
+epoch 29/40 lr 0.0026 | train loss 0.333 acc 0.893 | val loss 0.316 acc 0.907 f1 0.908 | 21 s
+    step 20/143  loss 0.342
+    step 40/143  loss 0.390
+    step 60/143  loss 0.310
+    step 80/143  loss 0.352
+    step 100/143  loss 0.265
+    step 120/143  loss 0.227
+    step 140/143  loss 0.205
+epoch 30/40 lr 0.0022 | train loss 0.332 acc 0.891 | val loss 0.323 acc 0.900 f1 0.900 | 21 s
+    step 20/143  loss 0.465
+    step 40/143  loss 0.456
+    step 60/143  loss 0.296
+    step 80/143  loss 0.221
+    step 100/143  loss 0.420
+    step 120/143  loss 0.313
+    step 140/143  loss 0.273
+epoch 31/40 lr 0.0019 | train loss 0.322 acc 0.897 | val loss 0.311 acc 0.905 f1 0.905 | 21 s
+    step 20/143  loss 0.292
+    step 40/143  loss 0.248
+    step 60/143  loss 0.241
+    step 80/143  loss 0.295
+    step 100/143  loss 0.361
+    step 120/143  loss 0.491
+    step 140/143  loss 0.279
+epoch 32/40 lr 0.0015 | train loss 0.319 acc 0.898 | val loss 0.307 acc 0.909 f1 0.909 | 21 s
+    step 20/143  loss 0.291
+    step 40/143  loss 0.210
+    step 60/143  loss 0.230
+    step 80/143  loss 0.291
+    step 100/143  loss 0.426
+    step 120/143  loss 0.320
+    step 140/143  loss 0.361
+epoch 33/40 lr 0.0012 | train loss 0.319 acc 0.895 | val loss 0.314 acc 0.904 f1 0.903 | 21 s
+    step 20/143  loss 0.367
+    step 40/143  loss 0.363
+    step 60/143  loss 0.203
+    step 80/143  loss 0.621
+    step 100/143  loss 0.313
+    step 120/143  loss 0.405
+    step 140/143  loss 0.224
+epoch 34/40 lr 0.0010 | train loss 0.306 acc 0.902 | val loss 0.301 acc 0.910 f1 0.910 | 22 s
+    step 20/143  loss 0.253
+    step 40/143  loss 0.257
+    step 60/143  loss 0.239
+    step 80/143  loss 0.320
+    step 100/143  loss 0.323
+    step 120/143  loss 0.280
+    step 140/143  loss 0.320
+epoch 35/40 lr 0.0007 | train loss 0.302 acc 0.903 | val loss 0.295 acc 0.914 f1 0.915 | 21 s
+    step 20/143  loss 0.160
+    step 40/143  loss 0.352
+    step 60/143  loss 0.344
+    step 80/143  loss 0.359
+    step 100/143  loss 0.322
+    step 120/143  loss 0.307
+    step 140/143  loss 0.240
+epoch 36/40 lr 0.0005 | train loss 0.311 acc 0.898 | val loss 0.300 acc 0.916 f1 0.915 | 21 s
+    step 20/143  loss 0.366
+    step 40/143  loss 0.389
+    step 60/143  loss 0.299
+    step 80/143  loss 0.164
+    step 100/143  loss 0.404
+    step 120/143  loss 0.219
+    step 140/143  loss 0.338
+epoch 37/40 lr 0.0003 | train loss 0.307 acc 0.901 | val loss 0.300 acc 0.914 f1 0.914 | 21 s
+    step 20/143  loss 0.195
+    step 40/143  loss 0.197
+    step 60/143  loss 0.205
+    step 80/143  loss 0.363
+    step 100/143  loss 0.314
+    step 120/143  loss 0.348
+    step 140/143  loss 0.342
+epoch 38/40 lr 0.0002 | train loss 0.308 acc 0.903 | val loss 0.294 acc 0.916 f1 0.916 | 22 s
+    step 20/143  loss 0.252
+    step 40/143  loss 0.247
+    step 60/143  loss 0.507
+    step 80/143  loss 0.360
+    step 100/143  loss 0.177
+    step 120/143  loss 0.322
+    step 140/143  loss 0.392
+epoch 39/40 lr 0.0001 | train loss 0.308 acc 0.899 | val loss 0.298 acc 0.910 f1 0.910 | 21 s
+    step 20/143  loss 0.436
+    step 40/143  loss 0.298
+    step 60/143  loss 0.429
+    step 80/143  loss 0.102
+    step 100/143  loss 0.401
+    step 120/143  loss 0.328
+    step 140/143  loss 0.146
+epoch 40/40 lr 0.0000 | train loss 0.303 acc 0.902 | val loss 0.298 acc 0.916 f1 0.916 | 21 s
+
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4: last.pt, best.pt, history.csv, summary.json
+[result] best val acc 0.916 at epoch 36 | training time 14.4 min | 423.4 clips/s
+
+===== 7. TEST on the NTU test set   Sun Nov 15 19:51:46 CET 2026
+[evaluate] experiment hpc_exp4 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4/best.pt | device cuda | test on ntu
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] NTU test set: 4368 clips, 20 performers, 16 classes, skeleton format 2d13
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/4368 clips]  running accuracy 0.908
+  [ 1280/4368 clips]  running accuracy 0.905
+  [ 1920/4368 clips]  running accuracy 0.901
+  [ 2560/4368 clips]  running accuracy 0.884
+  [ 3200/4368 clips]  running accuracy 0.888
+  [ 3840/4368 clips]  running accuracy 0.891
+  [ 4368/4368 clips]  running accuracy 0.891
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp4  (CTR-GCN on NTU, 4368 clips)
+======================================================================
+  accuracy        0.8906   (3890 of 4368 correct)
+  macro F1        0.8906
+
+  per class        correct / clips   accuracy
+  A001 drink          223 / 273      0.817
+  A002 eat            200 / 273      0.733
+  A004 brush_hair     231 / 273      0.846
+  A006 pick           272 / 273      0.996
+  A007 throw          230 / 273      0.842
+  A008 sit            258 / 273      0.945
+  A009 stand          263 / 273      0.963
+  A010 clap           239 / 273      0.875
+  A023 wave           226 / 273      0.828
+  A024 kick_ball      250 / 273      0.916
+  A027 jump           273 / 273      1.000
+  A043 fall_floor     269 / 273      0.985
+  A050 punch          239 / 273      0.875
+  A051 kick           222 / 273      0.813
+  A055 hug            254 / 273      0.930
+  A058 shake_hands    241 / 273      0.883
+
+  most common mistakes (true class -> predicted)
+  A002 eat           -> A010 clap            27 clips
+  A002 eat           -> A001 drink           27 clips
+  A051 kick          -> A050 punch           23 clips
+  A001 drink         -> A002 eat             22 clips
+  A007 throw         -> A023 wave            20 clips
+
+  timing
+  one video sample (batch 1)  17.70 ms median, 18.45 ms for 95% of clips
+  whole test set              3.3 s total, 3.2 s of it in the model
+  throughput                  1363 clips/s in the model (batch 64)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4/test_results.json
+
+===== 8. TEST on the HMDB-51 skeletons (cross-dataset)   Sun Nov 15 19:51:59 CET 2026
+[evaluate] experiment hpc_exp4 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4/best.pt | device cuda | test on hmdb
+[data] HMDB-51 skeletons: 917 clips with a good skeleton, 16 classes, from /zhome/88/0/187797/Project_DL/data/external/skeleton_estm/hmdb_skeleton_2d13.npz
+[data] they are 917 of 2062 HMDB clips (44%); the others had no good skeleton and are NOT counted in the accuracy below
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/917 clips]  running accuracy 0.347
+  [  917/917 clips]  running accuracy 0.341
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp4  (CTR-GCN on HMDB, 917 clips)
+======================================================================
+  accuracy        0.3413   (313 of 917 correct)
+  macro F1        0.2944
+
+  per class        correct / clips   accuracy
+  A001 drink            3 / 12       0.250
+  A002 eat              8 / 13       0.615
+  A004 brush_hair       6 / 23       0.261
+  A006 pick            20 / 68       0.294
+  A007 throw           12 / 57       0.211
+  A008 sit             56 / 87       0.644
+  A009 stand           45 / 84       0.536
+  A010 clap            23 / 47       0.489
+  A023 wave             9 / 40       0.225
+  A024 kick_ball       27 / 60       0.450
+  A027 jump             2 / 64       0.031
+  A043 fall_floor       4 / 41       0.098
+  A050 punch            8 / 45       0.178
+  A051 kick             9 / 94       0.096
+  A055 hug             43 / 62       0.694
+  A058 shake_hands     38 / 120      0.317
+
+  most common mistakes (true class -> predicted)
+  A051 kick          -> A055 hug             50 clips
+  A058 shake_hands   -> A055 hug             42 clips
+  A027 jump          -> A009 stand           26 clips
+  A058 shake_hands   -> A051 kick            26 clips
+  A051 kick          -> A050 punch           23 clips
+
+  timing
+  one video sample (batch 1)  17.52 ms median, 18.00 ms for 95% of clips
+  whole test set              1.0 s total, 1.0 s of it in the model
+  throughput                  935 clips/s in the model (batch 64)
+  pose estimation             493 ms per clip (8.8 ms x 56 frames, yolo11s-pose.pt on Tesla T4)
+  whole skeleton pipeline     about 511 ms per video = pose estimation + CTR-GCN
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp4/test_results_hmdb.json
+
+===== DONE in 7 minutes. Results: models/hpc_runs/ctr_gcn_2d_exp4   Sun Nov 15 19:52:06 CET 2026
+total 23M
+-rw-r--r-- 1 s225102 s22 5.7M Nov 15 19:50 best.pt
+-rw-r--r-- 1 s225102 s22 8.6K Nov 15 19:51 history.csv
+-rw-r--r-- 1 s225102 s22  12M Nov 15 19:51 last.pt
+-rw-r--r-- 1 s225102 s22  710 Nov 15 19:51 summary.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 15 19:51 test_results.json
+-rw-r--r-- 1 s225102 s22 1.4K Nov 15 19:52 test_results_hmdb.json
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 30062138: <ctr_gcn_skeleton> in cluster <dcc> Done
+
+Job <ctr_gcn_skeleton> was submitted from host <n-62-27-18> by user <s225102> in cluster <dcc> at Sun Nov 15 19:40:27 2026
+Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s225102> in cluster <dcc> at Sun Nov 15 19:44:37 2026
+</zhome/88/0/187797> was used as the home directory.
+</zhome/88/0/187797/Project_DL> was used as the working directory.
+Started at Sun Nov 15 19:44:37 2026
+Terminated at Sun Nov 15 19:52:06 2026
+Results reported at Sun Nov 15 19:52:06 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+# =========================================================================================================
+# Train and test CTR-GCN (2D skeletons) on the DTU HPC cluster.
+#
+# Always start it from the project root (the folder that holds configs/, src/ and notebooks/):
+#     bash notebooks/train_skeleton.sh setup          FIRST TIME, on a login node: builds the Python environment,
+#                                                     unpacks HMDB, downloads the pose model. No training.
+#     bsub < notebooks/train_skeleton.sh              submit the job for experiment exp1
+#     EXP=exp2 bsub < notebooks/train_skeleton.sh     submit the job for another experiment yaml
+#
+# While it runs:   bstat                   is the job waiting or running?
+#                  tail -f hpc_skeleton_<JOBID>.out      what the script prints
+#                  bnvtop <JOBID>          is the GPU really used?        bkill <JOBID>   stop the job
+# Results:         models/hpc_runs/ctr_gcn_2d_<EXP>/   (best.pt, history.csv, summary.json, test_results*.json)
+# If the job is stopped (time limit, crash), submit it again: training continues from the last finished epoch.
+# =========================================================================================================
+#BSUB -q gpuv100                               # Tesla V100 queue.  A100 instead: gpua100
+#BSUB -J ctr_gcn_skeleton                      # job name
+#BSUB -gpu "num=1:mode=exclusive_process"      # one GPU, for this job alone
+#BSUB -n 4                                     # 4 CPU cores (the minimum the GPU queues accept)
+#BSUB -R "span[hosts=1]"                       # all cores on the same machine
+#BSUB -R "rusage[mem=8GB]"                     # memory PER CORE -> 4 x 8 GB = 32 GB
+#BSUB -W 6:00                                  # time limit hh:mm (the queue allows at most 24:00)
+#BSUB -o hpc_skeleton_%J.out                   # what the script prints   (%J = job number)
+#BSUB -e hpc_skeleton_%J.err                   # error messages
+
+set -e                                         # stop at the first step that fails
+
+EXP="${EXP:-exp4}"                             # which yaml in configs/experiments/skeleton_experiments/
+RUN_NAME="ctr_gcn_2d_${EXP}"                   # results go to models/hpc_runs/<RUN_NAME>/
+EXP_DIR="configs/experiments/skeleton_experiments"
+HPC_EXP="hpc_${EXP}"                           # copy of the experiment yaml with the cluster settings
+SRC="src/rgb_vs_skeleton"
+PYTHON=".venv/bin/python"                      # on the cluster ALWAYS use this python, never "uv run" (see step 1)
+NTU_SKELETONS="data/processed/skeleton_cache_2d13.npz"                  # made on your PC, upload it
+HMDB_SKELETONS="data/external/skeleton_estm/hmdb_skeleton_2d13.npz"     # made in step 5 if it is not there
+POSE_MODEL="yolo11s-pose.pt"                   # same as pose_model in configs/main_config.yaml
+export PATH="$HOME/.local/bin:$PATH"           # where uv is installed
+
+if [ ! -f configs/main_config.yaml ]; then echo "Start this script from the project root folder."; exit 1; fi
+if [ ! -f "$EXP_DIR/$EXP.yaml" ]; then echo "Experiment file $EXP_DIR/$EXP.yaml does not exist."; exit 1; fi
+echo "===== CTR-GCN (2D skeletons), experiment $EXP -> models/hpc_runs/$RUN_NAME   $(date)"
+
+
+echo; echo "===== 1. Python environment"
+# The project's uv.lock installs the CPU-only PyTorch (right for a laptop, useless on a GPU node). So: install
+# everything from uv.lock EXCEPT torch, then add the same torch version built for the GPU (CUDA 12.4).
+# "uv run" would put the CPU version back, which is why this script calls .venv/bin/python directly.
+if ! command -v uv > /dev/null; then
+    echo "installing uv into ~/.local/bin"
+
+(... more ...)
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   502.00 sec.
+    Max Memory :                                 1175 MB
+    Average Memory :                             537.60 MB
+    Total Requested Memory :                     32768.00 MB
+    Delta Memory :                               31593.00 MB
+    Max Swap :                                   -
+    Max Processes :                              10
+    Max Threads :                                54
+    Run time :                                   449 sec.
+    Turnaround time :                            699 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <hpc_skeleton_30062138.err> for stderr output of this job.
+

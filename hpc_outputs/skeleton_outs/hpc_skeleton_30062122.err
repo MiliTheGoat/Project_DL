@@ -1,0 +1,34 @@
+wandb: Tracking run with wandb version 0.31.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /zhome/88/0/187797/Project_DL/wandb/offline-run-20261115_193615-t29edsm2
+wandb: View this run in the terminal with `wandb leet`
+wandb: 
+wandb: Run history:
+wandb:                  epoch ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▄▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:          gpu_memory_mb ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:                     lr ▂▄▅▇████████▇▇▇▇▆▆▆▆▅▅▅▄▄▄▃▃▃▃▂▂▂▂▁▁▁▁▁▁
+wandb:       time/data_wait_s ▅▆▄▄▇▁▂▂▆▂▅▂▂▅▃▄▃▁▃▂▂█▅▃▃▄▃▃▃▃▃▃▄▂▆▅▃▃▁▂
+wandb: time/train_clips_per_s ▁█████▇███▇████▇████████▇███▇████▇███▇██
+wandb:     time/train_epoch_s █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:              train/acc ▁▂▃▄▅▆▆▆▇▇▇▇▇▇▇▇▇███████████████████████
+wandb:             train/loss █▅▄▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train/step_loss ██▆▆▆▅▃▄▃▃▂▄▃▂▂▂▂▂▂▁▂▁▁▂▂▂▂▁▂▂▂▂▂▂▁▂▁▂▂▁
+wandb:                val/acc ▁▃▄▅▆▆▆▇▇▇▇▇▇▇▇▇▇███████████████████████
+wandb:                     +2 ...
+wandb: 
+wandb: Run summary:
+wandb:      best_epoch 36
+wandb:    best_val_acc 0.91557
+wandb:     best_val_f1 0.91572
+wandb: data_wait_share 0.00488
+wandb:          device Tesla V100-PCIE-16GB...
+wandb:           epoch 40
+wandb:  epochs_trained 40
+wandb: final_train_acc 0.90308
+wandb:   final_val_acc 0.91228
+wandb: gflops_per_clip 1.87194
+wandb:             +23 ...
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /zhome/88/0/187797/Project_DL/wandb/offline-run-20261115_193615-t29edsm2
+wandb: Find logs at: ./wandb/offline-run-20261115_193615-t29edsm2/logs

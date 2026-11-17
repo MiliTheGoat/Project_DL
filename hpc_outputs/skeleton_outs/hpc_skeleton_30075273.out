@@ -1,0 +1,465 @@
+===== CTR-GCN (2D skeletons), experiment exp3 -> models/hpc_runs/ctr_gcn_2d_exp3   Mon Nov 16 06:24:53 CET 2026
+
+===== 1. Python environment
+environment found: .venv
+
+===== 2. Data
+NTU skeletons:  data/processed/skeleton_cache_2d13.npz (149M)
+HMDB skeletons: data/external/skeleton_estm/hmdb_skeleton_2d13.npz found, pose estimation will be skipped
+
+===== 3. GPU
+Tesla V100-PCIE-16GB, 16384 MiB
+PyTorch 2.6.0+cu124 uses Tesla V100-PCIE-16GB
+
+===== 4. Experiment settings for the cluster
+wrote configs/experiments/skeleton_experiments/hpc_exp3.yaml (wandb: offline)
+
+===== 5. HMDB skeletons (pose estimation)   Mon Nov 16 06:24:57 CET 2026
+nothing to do
+
+===== 6. TRAIN   Mon Nov 16 06:24:57 CET 2026
+[config] experiment file: configs/experiments/skeleton_experiments/hpc_exp3.yaml  (run name: ctr_gcn_2d_exp3)
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] train 9200 clips, val 912 clips, skeleton format 2d13, clip shape (2, 64, 13, 2), device cuda
+[plan] training epochs 1..40 of a 40-epoch schedule | 1,421,184 parameters, all trained from scratch
+    step 20/143  loss 3.832
+    step 40/143  loss 3.834
+    step 60/143  loss 3.505
+    step 80/143  loss 3.166
+    step 100/143  loss 2.519
+    step 120/143  loss 2.614
+    step 140/143  loss 2.808
+epoch  1/40 lr 0.0100 | train loss 3.375 acc 0.249 | val loss 1.513 acc 0.500 f1 0.484 | 23 s
+    step 20/143  loss 2.540
+    step 40/143  loss 2.089
+    step 60/143  loss 1.696
+    step 80/143  loss 2.032
+    step 100/143  loss 1.736
+    step 120/143  loss 1.335
+    step 140/143  loss 1.529
+epoch  2/40 lr 0.0200 | train loss 1.876 acc 0.431 | val loss 1.036 acc 0.668 f1 0.657 | 22 s
+    step 20/143  loss 1.926
+    step 40/143  loss 1.445
+    step 60/143  loss 1.197
+    step 80/143  loss 1.454
+    step 100/143  loss 1.030
+    step 120/143  loss 1.179
+    step 140/143  loss 1.233
+epoch  3/40 lr 0.0300 | train loss 1.300 acc 0.569 | val loss 0.813 acc 0.717 f1 0.717 | 21 s
+    step 20/143  loss 1.130
+    step 40/143  loss 0.765
+    step 60/143  loss 1.135
+    step 80/143  loss 0.906
+    step 100/143  loss 1.238
+    step 120/143  loss 0.696
+    step 140/143  loss 0.981
+epoch  4/40 lr 0.0400 | train loss 0.987 acc 0.667 | val loss 0.678 acc 0.785 f1 0.785 | 21 s
+    step 20/143  loss 0.833
+    step 40/143  loss 0.615
+    step 60/143  loss 0.685
+    step 80/143  loss 0.745
+    step 100/143  loss 0.796
+    step 120/143  loss 0.465
+    step 140/143  loss 0.925
+epoch  5/40 lr 0.0500 | train loss 0.813 acc 0.734 | val loss 0.745 acc 0.757 f1 0.750 | 21 s
+    step 20/143  loss 0.452
+    step 40/143  loss 0.710
+    step 60/143  loss 0.762
+    step 80/143  loss 0.606
+    step 100/143  loss 0.889
+    step 120/143  loss 0.452
+    step 140/143  loss 0.864
+epoch  6/40 lr 0.0500 | train loss 0.686 acc 0.777 | val loss 0.492 acc 0.828 f1 0.828 | 21 s
+    step 20/143  loss 0.479
+    step 40/143  loss 0.871
+    step 60/143  loss 0.580
+    step 80/143  loss 0.894
+    step 100/143  loss 0.491
+    step 120/143  loss 0.527
+    step 140/143  loss 0.602
+epoch  7/40 lr 0.0500 | train loss 0.614 acc 0.799 | val loss 0.479 acc 0.843 f1 0.839 | 22 s
+    step 20/143  loss 0.547
+    step 40/143  loss 0.822
+    step 60/143  loss 0.581
+    step 80/143  loss 0.525
+    step 100/143  loss 0.563
+    step 120/143  loss 0.448
+    step 140/143  loss 0.461
+epoch  8/40 lr 0.0500 | train loss 0.565 acc 0.815 | val loss 0.495 acc 0.841 f1 0.840 | 21 s
+    step 20/143  loss 0.612
+    step 40/143  loss 0.452
+    step 60/143  loss 0.635
+    step 80/143  loss 0.402
+    step 100/143  loss 0.511
+    step 120/143  loss 0.582
+    step 140/143  loss 0.453
+epoch  9/40 lr 0.0500 | train loss 0.514 acc 0.834 | val loss 0.398 acc 0.866 f1 0.866 | 21 s
+    step 20/143  loss 0.448
+    step 40/143  loss 0.447
+    step 60/143  loss 0.400
+    step 80/143  loss 0.526
+    step 100/143  loss 0.553
+    step 120/143  loss 0.606
+    step 140/143  loss 0.376
+epoch 10/40 lr 0.0500 | train loss 0.478 acc 0.844 | val loss 0.410 acc 0.865 f1 0.866 | 21 s
+    step 20/143  loss 0.463
+    step 40/143  loss 0.217
+    step 60/143  loss 0.406
+    step 80/143  loss 0.376
+    step 100/143  loss 0.490
+    step 120/143  loss 0.397
+    step 140/143  loss 0.525
+epoch 11/40 lr 0.0500 | train loss 0.456 acc 0.852 | val loss 0.466 acc 0.850 f1 0.846 | 21 s
+    step 20/143  loss 0.699
+    step 40/143  loss 0.657
+    step 60/143  loss 0.411
+    step 80/143  loss 0.693
+    step 100/143  loss 0.458
+    step 120/143  loss 0.789
+    step 140/143  loss 0.319
+epoch 12/40 lr 0.0500 | train loss 0.414 acc 0.866 | val loss 0.365 acc 0.887 f1 0.887 | 22 s
+    step 20/143  loss 0.317
+    step 40/143  loss 0.344
+    step 60/143  loss 0.261
+    step 80/143  loss 0.360
+    step 100/143  loss 0.559
+    step 120/143  loss 0.272
+    step 140/143  loss 0.399
+epoch 13/40 lr 0.0500 | train loss 0.395 acc 0.874 | val loss 0.300 acc 0.904 f1 0.904 | 21 s
+    step 20/143  loss 0.250
+    step 40/143  loss 0.420
+    step 60/143  loss 0.408
+    step 80/143  loss 0.435
+    step 100/143  loss 0.401
+    step 120/143  loss 0.348
+    step 140/143  loss 0.221
+epoch 14/40 lr 0.0500 | train loss 0.384 acc 0.873 | val loss 0.375 acc 0.877 f1 0.876 | 21 s
+    step 20/143  loss 0.366
+    step 40/143  loss 0.289
+    step 60/143  loss 0.298
+    step 80/143  loss 0.299
+    step 100/143  loss 0.401
+    step 120/143  loss 0.368
+    step 140/143  loss 0.272
+epoch 15/40 lr 0.0500 | train loss 0.363 acc 0.882 | val loss 0.350 acc 0.891 f1 0.891 | 21 s
+    step 20/143  loss 0.279
+    step 40/143  loss 0.282
+    step 60/143  loss 0.323
+    step 80/143  loss 0.382
+    step 100/143  loss 0.250
+    step 120/143  loss 0.581
+    step 140/143  loss 0.371
+epoch 16/40 lr 0.0500 | train loss 0.364 acc 0.883 | val loss 0.458 acc 0.862 f1 0.861 | 22 s
+    step 20/143  loss 0.340
+    step 40/143  loss 0.309
+    step 60/143  loss 0.610
+    step 80/143  loss 0.393
+    step 100/143  loss 0.237
+    step 120/143  loss 0.450
+    step 140/143  loss 0.349
+epoch 17/40 lr 0.0500 | train loss 0.345 acc 0.883 | val loss 0.322 acc 0.899 f1 0.899 | 21 s
+    step 20/143  loss 0.638
+    step 40/143  loss 0.339
+    step 60/143  loss 0.346
+    step 80/143  loss 0.075
+    step 100/143  loss 0.346
+    step 120/143  loss 0.312
+    step 140/143  loss 0.166
+epoch 18/40 lr 0.0500 | train loss 0.324 acc 0.894 | val loss 0.341 acc 0.889 f1 0.890 | 21 s
+    step 20/143  loss 0.244
+    step 40/143  loss 0.223
+    step 60/143  loss 0.403
+    step 80/143  loss 0.278
+    step 100/143  loss 0.317
+    step 120/143  loss 0.238
+    step 140/143  loss 0.391
+epoch 19/40 lr 0.0500 | train loss 0.307 acc 0.897 | val loss 0.315 acc 0.906 f1 0.906 | 21 s
+    step 20/143  loss 0.210
+    step 40/143  loss 0.273
+    step 60/143  loss 0.161
+    step 80/143  loss 0.217
+    step 100/143  loss 0.256
+    step 120/143  loss 0.415
+    step 140/143  loss 0.242
+epoch 20/40 lr 0.0500 | train loss 0.295 acc 0.905 | val loss 0.362 acc 0.887 f1 0.887 | 21 s
+    step 20/143  loss 0.205
+    step 40/143  loss 0.234
+    step 60/143  loss 0.273
+    step 80/143  loss 0.258
+    step 100/143  loss 0.296
+    step 120/143  loss 0.377
+    step 140/143  loss 0.209
+epoch 21/40 lr 0.0500 | train loss 0.291 acc 0.906 | val loss 0.274 acc 0.917 f1 0.917 | 22 s
+    step 20/143  loss 0.275
+    step 40/143  loss 0.289
+    step 60/143  loss 0.574
+    step 80/143  loss 0.182
+    step 100/143  loss 0.349
+    step 120/143  loss 0.396
+    step 140/143  loss 0.114
+epoch 22/40 lr 0.0500 | train loss 0.277 acc 0.909 | val loss 0.288 acc 0.917 f1 0.916 | 21 s
+    step 20/143  loss 0.274
+    step 40/143  loss 0.359
+    step 60/143  loss 0.137
+    step 80/143  loss 0.348
+    step 100/143  loss 0.443
+    step 120/143  loss 0.194
+    step 140/143  loss 0.218
+epoch 23/40 lr 0.0500 | train loss 0.263 acc 0.913 | val loss 0.285 acc 0.913 f1 0.913 | 21 s
+    step 20/143  loss 0.219
+    step 40/143  loss 0.245
+    step 60/143  loss 0.218
+    step 80/143  loss 0.214
+    step 100/143  loss 0.233
+    step 120/143  loss 0.192
+    step 140/143  loss 0.274
+epoch 24/40 lr 0.0500 | train loss 0.266 acc 0.910 | val loss 0.269 acc 0.914 f1 0.915 | 21 s
+    step 20/143  loss 0.277
+    step 40/143  loss 0.134
+    step 60/143  loss 0.107
+    step 80/143  loss 0.156
+    step 100/143  loss 0.275
+    step 120/143  loss 0.344
+    step 140/143  loss 0.274
+epoch 25/40 lr 0.0500 | train loss 0.247 acc 0.918 | val loss 0.285 acc 0.913 f1 0.914 | 22 s
+    step 20/143  loss 0.110
+    step 40/143  loss 0.194
+    step 60/143  loss 0.238
+    step 80/143  loss 0.282
+    step 100/143  loss 0.059
+    step 120/143  loss 0.248
+    step 140/143  loss 0.266
+epoch 26/40 lr 0.0050 | train loss 0.207 acc 0.932 | val loss 0.245 acc 0.919 f1 0.919 | 21 s
+    step 20/143  loss 0.287
+    step 40/143  loss 0.200
+    step 60/143  loss 0.171
+    step 80/143  loss 0.087
+    step 100/143  loss 0.128
+    step 120/143  loss 0.184
+    step 140/143  loss 0.216
+epoch 27/40 lr 0.0050 | train loss 0.193 acc 0.938 | val loss 0.247 acc 0.919 f1 0.919 | 21 s
+    step 20/143  loss 0.147
+    step 40/143  loss 0.181
+    step 60/143  loss 0.130
+    step 80/143  loss 0.221
+    step 100/143  loss 0.169
+    step 120/143  loss 0.175
+    step 140/143  loss 0.269
+epoch 28/40 lr 0.0050 | train loss 0.192 acc 0.940 | val loss 0.243 acc 0.916 f1 0.916 | 21 s
+    step 20/143  loss 0.282
+    step 40/143  loss 0.178
+    step 60/143  loss 0.238
+    step 80/143  loss 0.095
+    step 100/143  loss 0.233
+    step 120/143  loss 0.165
+    step 140/143  loss 0.073
+epoch 29/40 lr 0.0050 | train loss 0.178 acc 0.944 | val loss 0.242 acc 0.921 f1 0.921 | 21 s
+    step 20/143  loss 0.086
+    step 40/143  loss 0.155
+    step 60/143  loss 0.195
+    step 80/143  loss 0.324
+    step 100/143  loss 0.182
+    step 120/143  loss 0.258
+    step 140/143  loss 0.128
+epoch 30/40 lr 0.0050 | train loss 0.182 acc 0.942 | val loss 0.242 acc 0.923 f1 0.923 | 22 s
+    step 20/143  loss 0.050
+    step 40/143  loss 0.216
+    step 60/143  loss 0.145
+    step 80/143  loss 0.269
+    step 100/143  loss 0.206
+    step 120/143  loss 0.259
+    step 140/143  loss 0.365
+epoch 31/40 lr 0.0050 | train loss 0.179 acc 0.943 | val loss 0.249 acc 0.920 f1 0.920 | 21 s
+    step 20/143  loss 0.299
+    step 40/143  loss 0.089
+    step 60/143  loss 0.098
+    step 80/143  loss 0.114
+    step 100/143  loss 0.206
+    step 120/143  loss 0.132
+    step 140/143  loss 0.171
+epoch 32/40 lr 0.0050 | train loss 0.181 acc 0.943 | val loss 0.249 acc 0.918 f1 0.918 | 21 s
+    step 20/143  loss 0.126
+    step 40/143  loss 0.224
+    step 60/143  loss 0.197
+    step 80/143  loss 0.184
+    step 100/143  loss 0.221
+    step 120/143  loss 0.280
+    step 140/143  loss 0.133
+epoch 33/40 lr 0.0050 | train loss 0.172 acc 0.946 | val loss 0.248 acc 0.919 f1 0.919 | 21 s
+    step 20/143  loss 0.134
+    step 40/143  loss 0.207
+    step 60/143  loss 0.350
+    step 80/143  loss 0.224
+    step 100/143  loss 0.152
+    step 120/143  loss 0.124
+    step 140/143  loss 0.096
+epoch 34/40 lr 0.0050 | train loss 0.178 acc 0.945 | val loss 0.243 acc 0.920 f1 0.920 | 22 s
+    step 20/143  loss 0.225
+    step 40/143  loss 0.071
+    step 60/143  loss 0.131
+    step 80/143  loss 0.049
+    step 100/143  loss 0.242
+    step 120/143  loss 0.131
+    step 140/143  loss 0.225
+epoch 35/40 lr 0.0050 | train loss 0.173 acc 0.945 | val loss 0.242 acc 0.922 f1 0.922 | 21 s
+    step 20/143  loss 0.109
+    step 40/143  loss 0.262
+    step 60/143  loss 0.267
+    step 80/143  loss 0.218
+    step 100/143  loss 0.125
+    step 120/143  loss 0.143
+    step 140/143  loss 0.111
+epoch 36/40 lr 0.0005 | train loss 0.173 acc 0.945 | val loss 0.244 acc 0.921 f1 0.921 | 21 s
+    step 20/143  loss 0.123
+    step 40/143  loss 0.170
+    step 60/143  loss 0.190
+    step 80/143  loss 0.170
+    step 100/143  loss 0.165
+    step 120/143  loss 0.125
+    step 140/143  loss 0.202
+epoch 37/40 lr 0.0005 | train loss 0.172 acc 0.946 | val loss 0.248 acc 0.920 f1 0.920 | 21 s
+    step 20/143  loss 0.169
+    step 40/143  loss 0.164
+    step 60/143  loss 0.091
+    step 80/143  loss 0.147
+    step 100/143  loss 0.175
+    step 120/143  loss 0.187
+    step 140/143  loss 0.095
+epoch 38/40 lr 0.0005 | train loss 0.168 acc 0.948 | val loss 0.244 acc 0.922 f1 0.922 | 21 s
+    step 20/143  loss 0.138
+    step 40/143  loss 0.199
+    step 60/143  loss 0.139
+    step 80/143  loss 0.123
+    step 100/143  loss 0.163
+    step 120/143  loss 0.091
+    step 140/143  loss 0.129
+epoch 39/40 lr 0.0005 | train loss 0.165 acc 0.948 | val loss 0.249 acc 0.924 f1 0.924 | 22 s
+    step 20/143  loss 0.171
+    step 40/143  loss 0.175
+    step 60/143  loss 0.082
+    step 80/143  loss 0.103
+    step 100/143  loss 0.138
+    step 120/143  loss 0.202
+    step 140/143  loss 0.101
+epoch 40/40 lr 0.0005 | train loss 0.165 acc 0.949 | val loss 0.242 acc 0.924 f1 0.925 | 21 s
+
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3: last.pt, best.pt, history.csv, summary.json
+[result] best val acc 0.924 at epoch 39 | training time 14.3 min | 425.9 clips/s
+
+===== 7. TEST on the NTU test set   Mon Nov 16 06:40:10 CET 2026
+[evaluate] experiment hpc_exp3 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/best.pt | device cuda | test on ntu
+[skeleton] no .skeleton text files here - using the existing cache /zhome/88/0/187797/Project_DL/data/processed/skeleton_cache_2d13.npz
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] NTU test set: 4368 clips, 20 performers, 16 classes, skeleton format 2d13
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/4368 clips]  running accuracy 0.922
+  [ 1280/4368 clips]  running accuracy 0.910
+  [ 1920/4368 clips]  running accuracy 0.911
+  [ 2560/4368 clips]  running accuracy 0.900
+  [ 3200/4368 clips]  running accuracy 0.902
+  [ 3840/4368 clips]  running accuracy 0.909
+  [ 4368/4368 clips]  running accuracy 0.909
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp3  (CTR-GCN on NTU, 4368 clips)
+======================================================================
+  accuracy        0.9089   (3970 of 4368 correct)
+  macro F1        0.9090
+
+  per class        correct / clips   accuracy
+  A001 drink          226 / 273      0.828
+  A002 eat            204 / 273      0.747
+  A004 brush_hair     234 / 273      0.857
+  A006 pick           271 / 273      0.993
+  A007 throw          230 / 273      0.842
+  A008 sit            258 / 273      0.945
+  A009 stand          264 / 273      0.967
+  A010 clap           246 / 273      0.901
+  A023 wave           239 / 273      0.875
+  A024 kick_ball      256 / 273      0.938
+  A027 jump           273 / 273      1.000
+  A043 fall_floor     271 / 273      0.993
+  A050 punch          249 / 273      0.912
+  A051 kick           232 / 273      0.850
+  A055 hug            257 / 273      0.941
+  A058 shake_hands    260 / 273      0.952
+
+  most common mistakes (true class -> predicted)
+  A002 eat           -> A001 drink           28 clips
+  A001 drink         -> A002 eat             24 clips
+  A051 kick          -> A050 punch           22 clips
+  A007 throw         -> A023 wave            18 clips
+  A004 brush_hair    -> A001 drink           17 clips
+
+  timing
+  one video sample (batch 1)  17.24 ms median, 17.66 ms for 95% of clips
+  whole test set              3.3 s total, 3.3 s of it in the model
+  throughput                  1337 clips/s in the model (batch 64)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/test_results.json
+
+===== 8. TEST on the HMDB-51 skeletons (cross-dataset)   Mon Nov 16 06:40:23 CET 2026
+[evaluate] experiment hpc_exp3 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/best.pt | device cuda | test on hmdb
+[data] HMDB-51 skeletons: 917 clips with a good skeleton, 16 classes, from /zhome/88/0/187797/Project_DL/data/external/skeleton_estm/hmdb_skeleton_2d13.npz
+[data] they are 917 of 2062 HMDB clips (44%); the others had no good skeleton and are NOT counted in the accuracy below
+[model] 1,421,184 parameters | trained 40 epochs
+
+[1/2] predicting the test set ...
+  [  640/917 clips]  running accuracy 0.319
+  [  917/917 clips]  running accuracy 0.327
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  ctr_gcn_2d_exp3  (CTR-GCN on HMDB, 917 clips)
+======================================================================
+  accuracy        0.3272   (300 of 917 correct)
+  macro F1        0.2814
+
+  per class        correct / clips   accuracy
+  A001 drink            5 / 12       0.417
+  A002 eat             11 / 13       0.846
+  A004 brush_hair       6 / 23       0.261
+  A006 pick            12 / 68       0.176
+  A007 throw           16 / 57       0.281
+  A008 sit             58 / 87       0.667
+  A009 stand           41 / 84       0.488
+  A010 clap            14 / 47       0.298
+  A023 wave            10 / 40       0.250
+  A024 kick_ball       21 / 60       0.350
+  A027 jump             2 / 64       0.031
+  A043 fall_floor       4 / 41       0.098
+  A050 punch            4 / 45       0.089
+  A051 kick            15 / 94       0.160
+  A055 hug             38 / 62       0.613
+  A058 shake_hands     43 / 120      0.358
+
+  most common mistakes (true class -> predicted)
+  A051 kick          -> A055 hug             43 clips
+  A058 shake_hands   -> A055 hug             40 clips
+  A058 shake_hands   -> A051 kick            25 clips
+  A051 kick          -> A050 punch           21 clips
+  A027 jump          -> A009 stand           20 clips
+
+  timing
+  one video sample (batch 1)  17.11 ms median, 17.39 ms for 95% of clips
+  whole test set              1.0 s total, 1.0 s of it in the model
+  throughput                  928 clips/s in the model (batch 64)
+  pose estimation             493 ms per clip (8.8 ms x 56 frames, yolo11s-pose.pt on Tesla T4)
+  whole skeleton pipeline     about 511 ms per video = pose estimation + CTR-GCN
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/ctr_gcn_2d_exp3/test_results_hmdb.json
+
+===== DONE in 15 minutes. Results: models/hpc_runs/ctr_gcn_2d_exp3   Mon Nov 16 06:40:30 CET 2026
+total 23M
+-rw-r--r-- 1 s225102 s22 5.7M Nov 16 06:39 best.pt
+-rw-r--r-- 1 s225102 s22 8.3K Nov 16 06:40 history.csv
+-rw-r--r-- 1 s225102 s22  12M Nov 16 06:40 last.pt
+-rw-r--r-- 1 s225102 s22  712 Nov 16 06:40 summary.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 16 06:40 test_results.json
+-rw-r--r-- 1 s225102 s22 1.4K Nov 16 06:40 test_results_hmdb.json
