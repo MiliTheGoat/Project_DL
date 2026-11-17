@@ -28,7 +28,7 @@
 
 set -e                                         # stop at the first step that fails
 
-EXP="${EXP:-exp3}"                             # which yaml in configs/experiments/RGB_experiments/
+EXP="${EXP:-exp4}"                             # which yaml in configs/experiments/RGB_experiments/
 RUN_NAME="x3d_m_${EXP}"                        # results go to models/hpc_runs/<RUN_NAME>/
 EXP_DIR="configs/experiments/RGB_experiments"
 HPC_EXP="hpc_${EXP}"                           # copy of the experiment yaml with the cluster settings
