@@ -72,6 +72,16 @@ shrunk_RGB_ZIP: data/processed/rgb.zip          # the one file to upload for RGB
 shrink_short_side: 256                          # height of the small videos in pixels
 shrink_workers: 4                               # videos converted at the same time
 
+
+
+#Reporting and results
+reports_HMDB1_FOLDER: reports/HMDB1
+reports_results_FOLDER: reports/results
+results_rgb_exp: exp1           
+results_skeleton_exp: exp1
+results_seed: 1
+
+
 # Keep Hydra from creating an outputs/<date>/ folder and log files on every run
 defaults:
   - _self_
