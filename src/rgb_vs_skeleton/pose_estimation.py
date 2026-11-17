@@ -37,7 +37,7 @@ from omegaconf import DictConfig
 
 from skeleton_format import COCO17_TO_13, L_HIP, L_SHOULDER, R_HIP, R_SHOULDER, normalize_2d
 
-MIN_GOOD_SHARE_TO_PRUNE = 0.6        # pruning is refused if fewer than half of all clips have a good skeleton
+MIN_GOOD_SHARE_TO_PRUNE = 0.4        # pruning is refused if fewer than half of all clips have a good skeleton
 
 
 # ------------------------------------------------------------------------------------------------ step 1: estimate

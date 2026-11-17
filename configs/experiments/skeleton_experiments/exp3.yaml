@@ -8,7 +8,7 @@ seed:  21430557
 # ---- how far to train (the run always continues from <output_dir>/<name>/last.pt)
 #   test_n_epochs: 5 -> stop after epoch 5 | raise it and run again to continue | 0 -> train all `epochs`
 test_n_epochs: 0
-restart: true            # true = ignore the checkpoint and start again from epoch 1
+restart: false            # true = ignore the checkpoint and start again from epoch 1
 
 # ---- learning-rate schedule (defaults = the CTR-GCN paper)
 epochs: 40

@@ -208,6 +208,7 @@ data/external/skeleton_estm/**
 # outputs
 outputs/
 reports/figures/
+reports/
 reports/visualization_clips/
 
 #Tests

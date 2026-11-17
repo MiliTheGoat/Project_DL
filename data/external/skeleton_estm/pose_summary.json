@@ -2,72 +2,72 @@
   "pose_model": "yolo11s-pose.pt",
   "device": "Tesla T4",
   "clips": 2062,
-  "good_clips": 917,
-  "good_share": 0.44471387002909796,
+  "good_clips": 1157,
+  "good_share": 0.561105722599418,
   "per_class": {
     "drink": {
       "clips": 164,
-      "good": 12
+      "good": 17
     },
     "eat": {
       "clips": 108,
-      "good": 13
+      "good": 18
     },
     "brush_hair": {
       "clips": 103,
-      "good": 23
+      "good": 48
     },
     "pick": {
       "clips": 106,
-      "good": 68
+      "good": 74
     },
     "throw": {
       "clips": 102,
-      "good": 57
+      "good": 79
     },
     "sit": {
       "clips": 142,
-      "good": 87
+      "good": 105
     },
     "stand": {
       "clips": 154,
-      "good": 84
+      "good": 103
     },
     "clap": {
       "clips": 130,
-      "good": 47
+      "good": 74
     },
     "wave": {
       "clips": 104,
-      "good": 40
+      "good": 50
     },
     "kick_ball": {
       "clips": 126,
-      "good": 60
+      "good": 61
     },
     "jump": {
       "clips": 151,
-      "good": 64
+      "good": 68
     },
     "fall_floor": {
       "clips": 136,
-      "good": 41
+      "good": 44
     },
     "punch": {
       "clips": 126,
-      "good": 45
+      "good": 71
     },
     "kick": {
       "clips": 130,
-      "good": 94
+      "good": 102
     },
     "hug": {
       "clips": 118,
-      "good": 62
+      "good": 95
     },
     "shake_hands": {
       "clips": 162,
-      "good": 120
+      "good": 148
     }
   },
   "pose_ms_per_frame": 8.751917767517249,
@@ -76,7 +76,7 @@
   "thresholds": {
     "joint_confidence": 0.3,
     "min_detect_rate": 0.7,
-    "min_joints": 9,
+    "min_joints": 7,
     "min_torso_rate": 0.5
   }
 }
