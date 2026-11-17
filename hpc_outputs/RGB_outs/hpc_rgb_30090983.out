@@ -1,0 +1,201 @@
+===== X3D-M (RGB), experiment exp4 -> models/hpc_runs/x3d_m_exp4   Tue Nov 17 05:40:18 CET 2026
+
+===== 1. Python environment
+environment found: .venv
+
+===== 2. Data
+NTU videos:  15050 clips in data/processed/rgb
+HMDB videos: 1157 clips in data/external/processed
+
+===== 3. Pretrained Kinetics weights for X3D-M
+Kinetics weights are available
+
+===== 4. GPU
+Tesla V100-SXM2-32GB, 32768 MiB
+PyTorch 2.6.0+cu124 uses Tesla V100-SXM2-32GB
+
+===== 5. Experiment settings for the cluster
+wrote configs/experiments/RGB_experiments/hpc_exp4.yaml (wandb: offline)
+
+===== 6. TRAIN   Tue Nov 17 05:40:30 CET 2026
+[config] experiment file: configs/experiments/RGB_experiments/hpc_exp4.yaml  (run name: x3d_m_exp4)
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] train 9200 clips, val 912 clips, clip shape (3, 16, 224, 224), device cuda
+[resume] found /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/last.pt: 24 epochs already done, best val acc 0.986
+[done] 24 epochs are already trained and this run stops at epoch 24. Raise test_n_epochs (or set it to 0 for the full 24 epochs) to train more.
+
+===== 7. TEST on the NTU test set   Tue Nov 17 05:40:40 CET 2026
+[evaluate] experiment hpc_exp4 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/best.pt | device cuda | test on ntu
+[split] loaded /zhome/88/0/187797/Project_DL/data/processed/splits.csv
+[data] NTU test set: 4368 clips, 20 performers, videos from /zhome/88/0/187797/Project_DL/data/processed/rgb
+[model] 3,007,458 parameters | trained 24 epochs
+
+[1/2] predicting the test set ...
+  [   80/4368 clips]  running accuracy 1.000
+  [  160/4368 clips]  running accuracy 0.994
+  [  240/4368 clips]  running accuracy 0.992
+  [  320/4368 clips]  running accuracy 0.994
+  [  400/4368 clips]  running accuracy 0.995
+  [  480/4368 clips]  running accuracy 0.992
+  [  560/4368 clips]  running accuracy 0.991
+  [  640/4368 clips]  running accuracy 0.989
+  [  720/4368 clips]  running accuracy 0.990
+  [  800/4368 clips]  running accuracy 0.989
+  [  880/4368 clips]  running accuracy 0.986
+  [  960/4368 clips]  running accuracy 0.984
+  [ 1040/4368 clips]  running accuracy 0.984
+  [ 1120/4368 clips]  running accuracy 0.982
+  [ 1200/4368 clips]  running accuracy 0.981
+  [ 1280/4368 clips]  running accuracy 0.979
+  [ 1360/4368 clips]  running accuracy 0.979
+  [ 1440/4368 clips]  running accuracy 0.978
+  [ 1520/4368 clips]  running accuracy 0.977
+  [ 1600/4368 clips]  running accuracy 0.978
+  [ 1680/4368 clips]  running accuracy 0.977
+  [ 1760/4368 clips]  running accuracy 0.978
+  [ 1840/4368 clips]  running accuracy 0.978
+  [ 1920/4368 clips]  running accuracy 0.979
+  [ 2000/4368 clips]  running accuracy 0.979
+  [ 2080/4368 clips]  running accuracy 0.978
+  [ 2160/4368 clips]  running accuracy 0.978
+  [ 2240/4368 clips]  running accuracy 0.978
+  [ 2320/4368 clips]  running accuracy 0.979
+  [ 2400/4368 clips]  running accuracy 0.978
+  [ 2480/4368 clips]  running accuracy 0.977
+  [ 2560/4368 clips]  running accuracy 0.977
+  [ 2640/4368 clips]  running accuracy 0.978
+  [ 2720/4368 clips]  running accuracy 0.978
+  [ 2800/4368 clips]  running accuracy 0.979
+  [ 2880/4368 clips]  running accuracy 0.979
+  [ 2960/4368 clips]  running accuracy 0.980
+  [ 3040/4368 clips]  running accuracy 0.980
+  [ 3120/4368 clips]  running accuracy 0.979
+  [ 3200/4368 clips]  running accuracy 0.978
+  [ 3280/4368 clips]  running accuracy 0.978
+  [ 3360/4368 clips]  running accuracy 0.978
+  [ 3440/4368 clips]  running accuracy 0.978
+  [ 3520/4368 clips]  running accuracy 0.978
+  [ 3600/4368 clips]  running accuracy 0.979
+  [ 3680/4368 clips]  running accuracy 0.979
+  [ 3760/4368 clips]  running accuracy 0.979
+  [ 3840/4368 clips]  running accuracy 0.979
+  [ 3920/4368 clips]  running accuracy 0.978
+  [ 4000/4368 clips]  running accuracy 0.978
+  [ 4080/4368 clips]  running accuracy 0.979
+  [ 4160/4368 clips]  running accuracy 0.979
+  [ 4240/4368 clips]  running accuracy 0.979
+  [ 4320/4368 clips]  running accuracy 0.978
+  [ 4368/4368 clips]  running accuracy 0.978
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  x3d_m_exp4  (X3D-M on NTU, 4368 clips)
+======================================================================
+  accuracy        0.9783   (4273 of 4368 correct)
+  macro F1        0.9782
+
+  per class        correct / clips   accuracy
+  A001 drink          260 / 273      0.952
+  A002 eat            253 / 273      0.927
+  A004 brush_hair     269 / 273      0.985
+  A006 pick           273 / 273      1.000
+  A007 throw          263 / 273      0.963
+  A008 sit            273 / 273      1.000
+  A009 stand          269 / 273      0.985
+  A010 clap           264 / 273      0.967
+  A023 wave           262 / 273      0.960
+  A024 kick_ball      270 / 273      0.989
+  A027 jump           273 / 273      1.000
+  A043 fall_floor     270 / 273      0.989
+  A050 punch          265 / 273      0.971
+  A051 kick           266 / 273      0.974
+  A055 hug            271 / 273      0.993
+  A058 shake_hands    272 / 273      0.996
+
+  most common mistakes (true class -> predicted)
+  A002 eat           -> A001 drink           15 clips
+  A001 drink         -> A002 eat             11 clips
+  A023 wave          -> A010 clap             6 clips
+  A051 kick          -> A050 punch            5 clips
+  A007 throw         -> A006 pick             5 clips
+
+  timing
+  one video sample (batch 1)  9.87 ms median, 10.89 ms for 95% of clips   (model only)
+  whole test set              45.0 s total, 17.1 s of it in the model
+  throughput                  256 clips/s in the model (batch 8)
+  reading the videos          about 6 ms per clip (decoding and resizing, 8 workers)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/test_results.json
+
+===== 8. TEST on HMDB-51 (cross-dataset)   Tue Nov 17 05:41:38 CET 2026
+[evaluate] experiment hpc_exp4 -> /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/best.pt | device cuda | test on hmdb
+[data] HMDB-51: 1157 clips of our 16 classes, videos from /zhome/88/0/187797/Project_DL/data/external/processed
+[model] 3,007,458 parameters | trained 24 epochs
+
+[1/2] predicting the test set ...
+  [   80/1157 clips]  running accuracy 0.062
+  [  160/1157 clips]  running accuracy 0.125
+  [  240/1157 clips]  running accuracy 0.125
+  [  320/1157 clips]  running accuracy 0.113
+  [  400/1157 clips]  running accuracy 0.117
+  [  480/1157 clips]  running accuracy 0.146
+  [  560/1157 clips]  running accuracy 0.155
+  [  640/1157 clips]  running accuracy 0.169
+  [  720/1157 clips]  running accuracy 0.176
+  [  800/1157 clips]  running accuracy 0.176
+  [  880/1157 clips]  running accuracy 0.217
+  [  960/1157 clips]  running accuracy 0.259
+  [ 1040/1157 clips]  running accuracy 0.285
+  [ 1120/1157 clips]  running accuracy 0.298
+  [ 1157/1157 clips]  running accuracy 0.305
+
+[2/2] timing one video sample at a time (batch size 1) ...
+
+======================================================================
+TEST RESULTS  x3d_m_exp4  (X3D-M on HMDB, 1157 clips)
+======================================================================
+  accuracy        0.3051   (353 of 1157 correct)
+  macro F1        0.2498
+
+  per class        correct / clips   accuracy
+  A001 drink            2 / 17       0.118
+  A002 eat              0 / 18       0.000
+  A004 brush_hair       3 / 48       0.062
+  A006 pick            15 / 74       0.203
+  A007 throw           10 / 79       0.127
+  A008 sit              8 / 105      0.076
+  A009 stand           16 / 103      0.155
+  A010 clap            26 / 74       0.351
+  A023 wave             8 / 50       0.160
+  A024 kick_ball       19 / 61       0.311
+  A027 jump             6 / 68       0.088
+  A043 fall_floor      22 / 44       0.500
+  A050 punch            9 / 71       0.127
+  A051 kick            77 / 102      0.755
+  A055 hug             57 / 95       0.600
+  A058 shake_hands     75 / 148      0.507
+
+  most common mistakes (true class -> predicted)
+  A058 shake_hands   -> A051 kick            53 clips
+  A008 sit           -> A051 kick            48 clips
+  A009 stand         -> A051 kick            45 clips
+  A024 kick_ball     -> A051 kick            33 clips
+  A050 punch         -> A055 hug             32 clips
+
+  timing
+  one video sample (batch 1)  9.92 ms median, 10.03 ms for 95% of clips   (model only)
+  whole test set              13.9 s total, 5.4 s of it in the model
+  throughput                  212 clips/s in the model (batch 8)
+  reading the videos          about 7 ms per clip (decoding and resizing, 8 workers)
+======================================================================
+[saved] /zhome/88/0/187797/Project_DL/models/hpc_runs/x3d_m_exp4/test_results_hmdb.json
+
+===== DONE in 1 minutes. Results: models/hpc_runs/x3d_m_exp4   Tue Nov 17 05:42:06 CET 2026
+total 63M
+-rw-r--r-- 1 s225102 s22  12M Nov 15 20:37 best.pt
+-rw-r--r-- 1 s225102 s22 5.1K Nov 15 20:40 history.csv
+-rw-r--r-- 1 s225102 s22  35M Nov 15 20:40 last.pt
+-rw-r--r-- 1 s225102 s22  660 Nov 15 20:40 summary.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 17 05:41 test_results.json
+-rw-r--r-- 1 s225102 s22 1.2K Nov 17 05:42 test_results_hmdb.json
